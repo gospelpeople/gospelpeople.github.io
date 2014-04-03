@@ -35,27 +35,12 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
-                <!--<a class="navbar-brand" href="{{ HOME_PATH }}">-->
+                <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
             </div>
 
-            <!--<div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    {% assign pages_list = site.pages %} {% assign group = 'navigation' %} {% include JB/pages_list %}
-                </ul>
-            </div>-->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll"><a href="#about">Unser Chor</a>
-                    </li>
-                    <li class="page-scroll"><a href="#dates">Termine</a>
-                    </li>
-                    <li class="page-scroll"><a href="#contact">Kontakte</a>
-                    </li>
+            <div class="collapse navbar-collapse navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/aktuelles">Aktuelles</a></li>
                 </ul>
             </div>
         </div>
