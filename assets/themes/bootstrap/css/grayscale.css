@@ -34,7 +34,7 @@ p {
   }
 }
 a {
-  color: #28c3ab;
+  color: #ff0069;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -42,7 +42,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #176e61;
+  color: #99003f;
 }
 .light {
   font-weight: 400;
@@ -215,6 +215,18 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+.news-section {
+  width: 100%;
+  padding: 100px 0;
+  height: auto;
+  color: #ffffff;
+  background: url(../img/blurred_lines.jpg) no-repeat center center scroll;
+  background-color: #000000;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .contact-section {
   padding-top: 100px;
 }
@@ -230,6 +242,9 @@ a:focus {
   .dates-section {
     padding: 100px 0;
   }
+  .news-section {
+    height: 100%;
+  }
   #map {
     height: 400px;
     margin-top: 250px;
@@ -244,16 +259,16 @@ a:focus {
   transition: all 0.3s ease-in-out;
 }
 .btn-default {
-  border: 1px solid #28c3ab;
-  color: #28c3ab;
+  border: 1px solid #ff0069;
+  color: #ff0069;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #28c3ab;
+  border: 1px solid #ff0069;
   outline: none;
   color: #000000;
-  background-color: #28c3ab;
+  background-color: #ff0069;
 }
 .btn-huge {
   padding: 25px;
