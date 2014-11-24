@@ -1,0 +1,945 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wp_",
+				"wp_register_script"
+			],
+			[
+				"app",
+				"apprenticeship"
+			],
+			[
+				"Dien",
+				"Dienstag"
+			],
+			[
+				"Donn",
+				"Donnerstag"
+			],
+			[
+				"Mon",
+				"Montag-Nachmittag"
+			],
+			[
+				"Dienst",
+				"Dienstag-Nachmittag"
+			],
+			[
+				"or",
+				"original_option_values"
+			],
+			[
+				"toggle",
+				"toggleNormalFields"
+			],
+			[
+				"pho",
+				"phoneFaxArray"
+			],
+			[
+				"ph",
+				"phoneNumber"
+			],
+			[
+				"formatte",
+				"formatted_date_value"
+			],
+			[
+				"valu",
+				"valuesInPostSet"
+			],
+			[
+				"final",
+				"final_key"
+			],
+			[
+				"notifi",
+				"notificationOptions"
+			],
+			[
+				"fin",
+				"finalKeySet"
+			],
+			[
+				"mysql",
+				"mysqlbackup"
+			],
+			[
+				"tabl",
+				"table	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 7418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 1458,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"puppet",
+				"Set Syntax: Puppet"
+			],
+			[
+				"pupp",
+				"Set Syntax: Puppet"
+			],
+			[
+				"set syn ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"format",
+				"Format Code"
+			],
+			[
+				"php snif",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"php sni",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Sniff this file"
+			],
+			[
+				"php",
+				"PHP Code Sniffer: Turn Execute On Save On"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"Snippet: bs3-ta",
+				"Snippet: bs3-table"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"lin",
+				"Line Ending: Unix"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax pro",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"preview ",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"packa insta",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"package control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/workspace/gospelpeople.github.io",
+		"/D/workspace/gospelpeople.github.io/.tmp",
+		"/D/workspace/gospelpeople.github.io/.tmp/styles",
+		"/D/workspace/gospelpeople.github.io/app",
+		"/D/workspace/gospelpeople.github.io/app/images",
+		"/D/workspace/gospelpeople.github.io/app/scripts",
+		"/D/workspace/gospelpeople.github.io/app/styles",
+		"/D/workspace/gospelpeople.github.io/test",
+		"/D/workspace/gospelpeople.github.io/test/spec"
+	],
+	"file_history":
+	[
+		"/D/workspace/gospelpeople.github.io/app/styles/main.scss",
+		"/D/workspace/gospelpeople.github.io/bower.json",
+		"/C/Users/janma_000/AppData/Roaming/npm/node_modules/yo/package.json",
+		"/C/Users/janma_000/AppData/Roaming/npm/node_modules/yo/yoyo.js",
+		"/D/workspace/intranet/plugins/notification/notification.php",
+		"/D/workspace/whatsapp-history/src/test/resources/schatz.txt",
+		"/D/workspace/whatsapp-history/src/test/resources/andre.txt",
+		"/D/workspace/intranet/vagrant/Vagrantfile",
+		"/D/workspace/intranet/plugins/bookingcalendar-autofill/js/arrive.js",
+		"/D/workspace/intranet/plugins/bookingcalendar-autofill/js/jquery-waituntilexists.js",
+		"/D/workspace/intranet/plugins/bookingcalendar-autofill/js/jquery-watch.js",
+		"/D/workspace/intranet/plugins/simple-ajax-insert-comments/simple-ajax-insert-comments.php",
+		"/D/workspace/whatsapp-history/output.html",
+		"/D/workspace/whatsapp-history/src/test/resources/schatz3.txt",
+		"/D/workspace/intranet/themes/klein-child/header.php",
+		"/D/workspace/intranet/plugins/upme/js/upme-datepicker.js",
+		"/D/workspace/intranet/plugins/upme/classes/class-upme-admin.php",
+		"/C/Users/janma_000/AppData/Local/Temp/tmp35AB.tmp.php",
+		"/D/workspace/intranet/plugins/upme/classes/class-upme.php",
+		"/D/workspace/intranet/plugins/dopbsp/includes/class-update.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/class-IXR.php",
+		"/D/workspace/intranet/plugins/akismet/class.akismet.php",
+		"/D/workspace/intranet/plugins/akismet/class.akismet-admin.php",
+		"/D/workspace/intranet/themes/twentyfourteen/content-link.php",
+		"/D/workspace/intranet/plugins/checklist/checklist.php",
+		"/D/workspace/intranet/plugins/dopbsp/assets/js/jquery.dop.backend.BSPCalendar.alpha.js",
+		"/D/workspace/intranet/plugins/dopbsp/assets/js/jquery.dop.frontend.BSPCalendar.js",
+		"/D/workspace/intranet/themes/klein-child/style.css",
+		"/D/workspace/intranet/plugins/upme/modules/class-upme-verify-site-restrictions.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/hoverIntent.js",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/version.php",
+		"/D/workspace/intranet/plugins/dopbsp/views/emails/views-backend-email.php",
+		"/D/workspace/scripts/scripts/WhatsAppConverter Standart.app/Contents/Resources/convert.sh",
+		"/D/workspace/intranet/plugins/profile/profile-buddypress.php",
+		"/D/workspace/intranet/plugins/profile/js/profile-buddypress.js",
+		"/D/workspace/intranet/plugins/profile/profile.php",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/inc/template-tags.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-groups/bp-groups-loader.php",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/buddypress/bp-groups/bp-groups-loader.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-messages/bp-messages-loader.php",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/functions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-messages/bp-messages-actions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-messages/bp-messages-cache.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-members/bp-members-admin.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-buddybar.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-notifications/bp-notifications-actions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-adminbar.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-dependency.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/inc/template-tags.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/template.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/theme-editor.php",
+		"/D/workspace/intranet/themes/twentyfourteen/tag.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/buddypress/groups/groups-loop.php",
+		"/D/workspace/intranet/themes/twentyfourteen/genericons/Genericons-Regular.otf",
+		"/D/workspace/intranet/plugins/gears/gears.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/buddypress/members/single/home.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-members/bp-members-template.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-template.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-themes/bp-default/members/single/plugins.php",
+		"/D/workspace/intranet/plugins/profile/js/profile.js",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/buddypress/members/single/profile/profile-loop.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/profile.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/profile.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/network/profile.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/user/profile.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/buddypress/members/single/profile.php",
+		"/D/workspace/intranet/vagrant/puppet/modules/wordpress/files/import-mysql-backups.sh",
+		"/D/workspace/intranet/vagrant/puppet/modules/wordpress/files/mysqlbackup/wordpress.sql",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/profile-base.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/profile-edit.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/bb-templates/kakumei/profile.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-themes/bp-default/members/single/profile.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/bb-includes/js/profile-edit.js",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/bb-templates/kakumei/profile-base.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/bb-templates/kakumei/profile-edit.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-templates/bp-legacy/buddypress/members/single/profile.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-themes/bp-default/members/single/settings/profile.php",
+		"/D/workspace/intranet/plugins/upme/profile/upme-profile.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/buddypress/members/single/profile/profile-loop.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/buddypress/members/single/profile/profile-wp.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-templates/bp-legacy/buddypress/members/single/settings/profile.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-members/bp-members-adminbar.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-groups/bp-groups-actions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-forums/bbpress/bb-post.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/bbpress.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-activity/bp-activity-loader.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-component.php",
+		"/D/workspace/intranet/plugins/download-manager/functions.php",
+		"/D/workspace/intranet/themes/klein-2.0.8/functions.php",
+		"/D/workspace/intranet/themes/twentyfourteen/functions.php",
+		"/D/workspace/intranet/themes/twentythirteen/functions.php",
+		"/D/workspace/intranet/themes/twentytwelve/functions.php",
+		"/D/workspace/intranet/plugins/upme/function/functions.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-content/debug.log",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-admin.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-loader.php",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/buddypress/members/single/profile/edit.php",
+		"/D/workspace/intranet/plugins/hide-user-profile-fields/hide-user-fields.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-functions.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/admin-bar.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/class-wp-admin-bar.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/edit-tags.php",
+		"/D/workspace/intranet/plugins/download-manager/editor_plugin.js",
+		"/D/workspace/intranet/vagrant/wordpress/wp-admin/js/user-profile.min.js",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-classes.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-xprofile/bp-xprofile-functions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-activity/bp-activity-functions.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-core/bp-core-options.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-notifications/bp-notifications-buddybar.php",
+		"/D/workspace/intranet/plugins/buddypress/bp-notifications/bp-notifications-adminbar.php",
+		"/D/workspace/intranet/vagrant/puppet/modules/augeas/spec/hosts/simple_debian_wheezy_spec.rb",
+		"/D/workspace/intranet/plugins/buddypress/bp-notifications/bp-notifications-screens.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css",
+		"/D/workspace/intranet/plugins/buddypress/bp-activity/bp-activity-notifications.php",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/skin.min.css",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/content.min.css",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce-small.woff",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce-small.svg",
+		"/D/workspace/intranet/plugins/debug-my-plugin/languages/csa-dmp-nl_NL.po",
+		"/D/workspace/intranet/plugins/debug-my-plugin/languages/csa-dmp-nl_NL.mo",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff",
+		"/D/workspace/intranet/vagrant/wordpress/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.svg",
+		"/D/workspace/intranet/themes/twentytwelve/content-none.php",
+		"/D/workspace/intranet/themes/twentythirteen/content-none.php",
+		"/D/workspace/intranet/themes/twentyfourteen/content-none.php",
+		"/D/workspace/intranet/themes/klein-child-2.0.8/dynamic.css",
+		"/D/workspace/intranet/plugins/buddypress/bp-notifications/bp-notifications-classes.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.php,*.js",
+			"*.php",
+			"",
+			"D:\\workspace\\intranet\\plugins\\upme",
+			"",
+			"D:\\workspace\\intranet\\plugins\\cimy-user-extra-fields",
+			"cimy\\-user\\-extra\\-fields",
+			"cimy-user-extra-fields",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"red",
+			");\n",
+			"wp_localize_script",
+			"get_user_meta",
+			"wp_localize",
+			"AUdio",
+			"jquery-waituntilexists",
+			"\"\\\\u([A-Z0-9]{5})\"",
+			"\"\\\\u([A-Z0-9]){5}\"",
+			"\"\\\\u[A-Z0-9]{5}\"",
+			"add_submenu_page",
+			"has_cap",
+			"logo.png",
+			"datepicker-reset",
+			"site_lockd",
+			"<label",
+			"<h4>",
+			"dogbsp-input-wr",
+			"field.",
+			"form",
+			"form name=\"DOPBSPCalendar",
+			"DOPBSPCalendar-form",
+			"worktime",
+			"groups_setup_nav",
+			"bp_setup_components",
+			"do_action*bp_setup_components",
+			"bp_setup_groups",
+			"BP_Groups_Component",
+			"create",
+			"bp_get_displayed_user_nav",
+			"object-nav",
+			"bp_get_options_nav",
+			"object-nav",
+			"item-list-tabs no-ajax id\\=\\\"object-nav",
+			"item-list-tabs no-ajax id=\\\"object-nav",
+			"item-list-tabs no-ajax id=\"object-nav",
+			"item-list-tabs no-ajax id\\=\"object-nav",
+			"item-list-tabs no-ajax",
+			"item-list-tabs",
+			"fachbereich",
+			"slug",
+			"trailingslashit",
+			"setup_admin_bar",
+			"bp_get_options_nav",
+			"\\/profile\\/",
+			"public\\-",
+			"public-",
+			"break-row",
+			"die",
+			"template-tags",
+			"klein-top-updates",
+			"setup_admin_bar",
+			"bp_setup_admin_bar",
+			"BP_USE_WP_ADMIN_BAR",
+			"menupop",
+			"bp_adminbar_account_menu",
+			"bp_adminbar_menus",
+			"BP_DISABLE_ADMIN_BAR",
+			"my-account-xprofile",
+			"wp-admin-bar-my-account-xprofile",
+			"bp_get_options_nav_",
+			"bp_get_options_nav",
+			"wp_admin_bar_render",
+			"_render",
+			"wpadminbar",
+			"wp_admin_bar_header",
+			"wpadminbar",
+			"wp-admin-bar",
+			"bp_use_wp_admin_bar",
+			"bp_core_admin_bar",
+			"‘BP_DISABLE_ADMIN_BAR’",
+			"profile-fields",
+			"get_user_meta",
+			"sync",
+			"upme\\-custom",
+			"wp_enqueue.*admin\\-bar",
+			"admin-bar",
+			"js",
+			"wp_enqueue_script",
+			"admin.js",
+			"xprofile_screen_edit_profile",
+			"xprofile_set_field_data",
+			"bp_get_the_profile_field_value",
+			"edit_field_html",
+			"edit_html",
+			"xprofile_screen_edit_profile",
+			"_day",
+			"xprofile_set_field_data",
+			"->save()",
+			"$_POST['field_'",
+			"xprofile_set_field_data",
+			"->save()",
+			" _log",
+			"_log",
+			"save",
+			"bp_profile_fields",
+			"edit_field_html",
+			"bp_get_the_profile_field_options",
+			"edit_field_options_html",
+			"Date",
+			"set_format",
+			"get_edit_field_html_elements",
+			"render_admin_form",
+			"render_admin_form_children",
+			"admin_new_field_html",
+			"show_options",
+			"fieldtype",
+			"bp-options-box",
+			"admin_new_field_html",
+			"bp_xprofile_field_type_multiselectbox",
+			"bp-xprofile-classes.php",
+			"bp_x",
+			"require\\(",
+			"require (",
+			"require(",
+			"require",
+			"require_",
+			"BP_XProfile_Field_Type",
+			"bp_xprofile_field_type_radiobutton",
+			"bp_xprofile_field_type_",
+			"bp_xprofile_field_type_worktime",
+			"Multi Fields",
+			"xprofile_field_types",
+			"upme_fields_by_user_role",
+			"case 'text':",
+			"input ",
+			"can_edit",
+			"$(\"select[name='upme[fachbereich]']\")"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"arrive",
+			"new String(new int[]{ 0x$1 }, 0 ,1)",
+			"getSelect(\"fachbereich\")",
+			"getSelect(\"telefonfax\")",
+			"getSelect(\"geschäftsbereich\")",
+			"notification",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4799,
+								4799
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 990.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"encoding_helper_encoding": "UTF-8",
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"project": "gospelpeople.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"class-upme-admin",
+				"plugins\\upme\\classes\\class-upme-admin.php"
+			],
+			[
+				"verify",
+				"plugins\\upme\\modules\\class-upme-verify-site-restrictions.php"
+			],
+			[
+				"profile-buddy",
+				"plugins\\profile\\js\\profile-buddypress.js"
+			],
+			[
+				"bp-messages-loader",
+				"plugins\\buddypress\\bp-messages\\bp-messages-loader.php"
+			],
+			[
+				"template-tags",
+				"themes\\klein-child-2.0.8\\inc\\template-tags.php"
+			],
+			[
+				"functions.php",
+				"themes\\klein-child-2.0.8\\functions.php"
+			],
+			[
+				"groups-loader",
+				"plugins\\buddypress\\bp-groups\\bp-groups-loader.php"
+			],
+			[
+				"profile.php",
+				"plugins\\profile\\profile.php"
+			],
+			[
+				"bp-groups-loader",
+				"plugins\\buddypress\\bp-groups\\bp-groups-loader.php"
+			],
+			[
+				"bp-core-budd",
+				"plugins\\buddypress\\bp-core\\bp-core-buddybar.php"
+			],
+			[
+				"bp-core-admin",
+				"plugins\\buddypress\\bp-core\\bp-core-adminbar.php"
+			],
+			[
+				"edit.php",
+				"themes\\klein-child-2.0.8\\buddypress\\members\\single\\profile\\edit.php"
+			],
+			[
+				"profile-bud",
+				"plugins\\profile\\js\\profile-buddypress.js"
+			],
+			[
+				"profile.js",
+				"plugins\\profile\\js\\profile.js"
+			],
+			[
+				"admin.js",
+				"plugins\\buddypress\\bp-xprofile\\admin\\js\\admin.js"
+			],
+			[
+				"bp-xprof-clas",
+				"plugins\\buddypress\\bp-xprofile\\bp-xprofile-classes.php"
+			],
+			[
+				"profile",
+				"plugins\\profile\\profile.php"
+			],
+			[
+				"checklist.js",
+				"plugins\\checklist\\js\\checklist.js"
+			],
+			[
+				"check",
+				"plugins\\checklist\\checklist.php"
+			],
+			[
+				"noti",
+				"plugins\\notification\\notification.php"
+			],
+			[
+				"upme",
+				"plugins\\upme\\upme.php"
+			],
+			[
+				"notifica",
+				"plugins\\notification\\notification.php"
+			],
+			[
+				"checkli",
+				"plugins\\checklist\\checklist.php"
+			],
+			[
+				"user-new.php",
+				"vagrant\\wordpress\\wp-admin\\user-new.php"
+			],
+			[
+				"checkjs",
+				"plugins\\checklist\\js\\checklist.js"
+			],
+			[
+				"checklist",
+				"plugins\\checklist\\checklist.php"
+			],
+			[
+				"hide",
+				"plugins\\hide-user-profile-fields\\hide-user-fields.php"
+			],
+			[
+				"user-edit",
+				"vagrant\\wordpress\\wp-admin\\user-edit.php"
+			],
+			[
+				"edit-form-ad",
+				"vagrant\\wordpress\\wp-admin\\edit-form-advanced.php"
+			],
+			[
+				"bp-members-admin",
+				"plugins\\buddypress\\bp-members\\bp-members-admin.php"
+			],
+			[
+				"register.php",
+				"themes\\klein-2.0.8\\buddypress\\members\\register.php"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"grays",
+				"assets\\themes\\bootstrap\\css\\grayscale.less"
+			],
+			[
+				"default",
+				"_includes\\themes\\bootstrap\\default.html"
+			],
+			[
+				"archi",
+				"archive.html"
+			],
+			[
+				"intro",
+				"_includes\\themes\\bootstrap\\intro.html"
+			],
+			[
+				"inde",
+				"index.md"
+			],
+			[
+				"grales",
+				"assets\\themes\\bootstrap\\css\\grayscale.less"
+			],
+			[
+				"gr.les",
+				"assets\\themes\\bootstrap\\css\\grayscale.less"
+			],
+			[
+				"index",
+				"index.md"
+			],
+			[
+				"page.",
+				"_layouts\\page.html"
+			],
+			[
+				"defau",
+				"_includes\\themes\\bootstrap\\default.html"
+			],
+			[
+				"index.html",
+				"_site\\index.html"
+			],
+			[
+				"19",
+				"_posts\\navigation\\1901-01-01-About.md"
+			],
+			[
+				"defa",
+				"_layouts\\default.html"
+			],
+			[
+				"pages_list",
+				"_includes\\JB\\pages_list"
+			],
+			[
+				"index.",
+				"index.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"intr",
+				"D:\\workspace\\intranet\\intranet.sublime-project"
+			],
+			[
+				"jh",
+				"D:\\workspace\\jhipster.sublime-project"
+			],
+			[
+				"",
+				"D:\\workspace\\jhipster.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 848.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
