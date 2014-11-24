@@ -28,6 +28,14 @@ module.exports = function (grunt) {
     // Project settings
     config: config,
 
+    bake: {
+      build: {
+        files: {
+          "app/index.html": "app/base.html"
+        }
+      }
+    },
+
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -55,6 +63,10 @@ module.exports = function (grunt) {
       styles: {
         files: ['<%= config.app %>/styles/{,*/}*.css'],
         tasks: ['newer:copy:styles', 'autoprefixer']
+      },
+      bake: {
+        files: [ "<%= config.app %>/includes/**" ],
+        tasks: "bake:build"
       },
       livereload: {
         options: {
@@ -374,6 +386,7 @@ module.exports = function (grunt) {
 
     grunt.task.run([
       'clean:server',
+      'bake:build',
       'wiredep',
       'concurrent:server',
       'autoprefixer',
@@ -404,6 +417,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
+    'bake:build',
     'wiredep',
     'useminPrepare',
     'concurrent:dist',
