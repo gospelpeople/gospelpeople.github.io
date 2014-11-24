@@ -30,8 +30,12 @@ module.exports = function (grunt) {
 
     bake: {
       build: {
+        options: {
+          basePath: 'app/includes'
+        },
         files: {
-          "app/index.html": "app/base.html"
+          'app/index.html': 'app/templates/index.html',
+          'app/songs.html': 'app/templates/songs.html'
         }
       }
     },
@@ -65,7 +69,7 @@ module.exports = function (grunt) {
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
       bake: {
-        files: ['<%= config.app %>/includes/*.html','<%= config.app %>/base.html'],
+        files: ['<%= config.app %>/includes/*.html','<%= config.app %>/templates/*.html'],
         tasks: 'bake:build'
       },
       livereload: {
@@ -73,7 +77,7 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= config.app %>/index.html',
+          '<%= config.app %>/*.html',
           '.tmp/styles/{,*/}*.css',
           '<%= config.app %>/images/{,*/}*'
         ]
