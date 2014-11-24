@@ -65,8 +65,8 @@ module.exports = function (grunt) {
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
       bake: {
-        files: [ "<%= config.app %>/includes/**" ],
-        tasks: "bake:build"
+        files: ['<%= config.app %>/includes/*.html','<%= config.app %>/base.html'],
+        tasks: 'bake:build'
       },
       livereload: {
         options: {
