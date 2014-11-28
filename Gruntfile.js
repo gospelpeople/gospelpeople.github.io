@@ -38,6 +38,7 @@ module.exports = function (grunt) {
           'app/songs.html': 'app/templates/songs.html',
           'app/history.html': 'app/templates/history.html',
           'app/cds.html': 'app/templates/cds.html',
+          'app/contact.html': 'app/templates/contact.html',
           'app/gallery.html': 'app/templates/gallery.html'
         }
       }
