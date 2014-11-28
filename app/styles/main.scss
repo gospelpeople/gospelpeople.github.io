@@ -19,14 +19,21 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-.image-bg-fluid-height {
+.image-bg-main {
     background-image: url('../images/chorstartseite.jpg');
     background-position: center 18%;
-    padding: 100px 0;
+}
+.image-bg-songs {
+    background-image: url('../images/chor2008.jpg');
+    background-position: center center;
+}
+.image-bg-gallery {
+    background-image: url('../images/sopran.jpg');
+    background-position: center center;
 }
 .image-bg-fixed-height {
-    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
-    height: 450px;
+    padding: 100px 0;
+    height: 400px;
 }
 .img-center {
     margin: 0 auto;
