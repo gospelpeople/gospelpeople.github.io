@@ -35,7 +35,8 @@ module.exports = function (grunt) {
         },
         files: {
           'app/index.html': 'app/templates/index.html',
-          'app/songs.html': 'app/templates/songs.html'
+          'app/songs.html': 'app/templates/songs.html',
+          'app/gallery.html': 'app/templates/gallery.html'
         }
       }
     },
