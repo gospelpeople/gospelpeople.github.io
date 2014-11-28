@@ -138,6 +138,7 @@ module.exports = function (grunt) {
           dot: true,
           src: [
             '.tmp',
+            '<%= config.app %>/*.html',
             '<%= config.dist %>/*',
             '!<%= config.dist %>/.git*'
           ]
