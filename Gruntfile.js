@@ -36,6 +36,7 @@ module.exports = function (grunt) {
         files: {
           'app/index.html': 'app/templates/index.html',
           'app/songs.html': 'app/templates/songs.html',
+          'app/history.html': 'app/templates/history.html',
           'app/gallery.html': 'app/templates/gallery.html'
         }
       }
