@@ -94,6 +94,16 @@ module.exports = function(grunt) {
                 }
             }
         },
+        image_resize: {
+            resize: {
+                options: {
+                    height: 180,
+                    overwrite: true
+                },
+                src: '<%= config.app %>/images/gallery/*.jpg',
+                dest: '<%= config.app %>/images/thumbnails/'
+            },
+        },
 
         // The actual grunt server settings
         connect: {
@@ -394,6 +404,7 @@ module.exports = function(grunt) {
         grunt.task.run([
             'clean:server',
             'bake:build',
+            'image_resize',
             'wiredep',
             'concurrent:server',
             'autoprefixer',
@@ -426,6 +437,7 @@ module.exports = function(grunt) {
         'clean:dist',
         'bake:build',
         'wiredep',
+        'image_resize',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
