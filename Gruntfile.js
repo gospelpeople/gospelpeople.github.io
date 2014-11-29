@@ -54,9 +54,6 @@ module.exports = function (grunt) {
       js: {
         files: ['<%= config.app %>/scripts/{,*/}*.js'],
         tasks: ['jshint'],
-        options: {
-          livereload: true
-        }
       },
       jstest: {
         files: ['test/spec/{,*/}*.js'],
@@ -76,18 +73,27 @@ module.exports = function (grunt) {
       bake: {
         files: ['<%= config.app %>/includes/*.html','<%= config.app %>/templates/*.html'],
         tasks: 'bake:build'
-      },
-      livereload: {
-        options: {
-          livereload: '<%= connect.options.livereload %>'
-        },
-        files: [
-          '<%= config.app %>/*.html',
-          '.tmp/styles/{,*/}*.css',
-          '<%= config.app %>/images/{,*/}*'
-        ]
       }
     },
+    browserSync: {
+        bsFiles: {
+          src : [
+            '<%= config.app %>/*.html',
+            '.tmp/styles/{,*/}*.css',
+            '{.tmp,<%= config.app %>}/scripts/{,*/}*.js',
+            '<%= config.app %>/images/{,*/}*.{gif,jpeg,jpg,png,svg,webp}'
+          ],
+        },
+        options: {
+          watchTask: true,
+          server: {
+            baseDir: ['.tmp','<%= config.app %>'],
+            routes: {
+                '/bower_components': './bower_components'
+            }
+          }
+        }
+      },
 
     // The actual grunt server settings
     connect: {
@@ -97,17 +103,6 @@ module.exports = function (grunt) {
         livereload: 35729,
         // Change this to '0.0.0.0' to access the server from outside
         hostname: 'localhost'
-      },
-      livereload: {
-        options: {
-          middleware: function(connect) {
-            return [
-              connect.static('.tmp'),
-              connect().use('/bower_components', connect.static('./bower_components')),
-              connect.static(config.app)
-            ];
-          }
-        }
       },
       test: {
         options: {
@@ -402,7 +397,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'autoprefixer',
-      'connect:livereload',
+      'browserSync',
       'watch'
     ]);
   });
