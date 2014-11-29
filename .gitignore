@@ -6,3 +6,4 @@ bower_components
 app/*.html
 *.sublime-workspace
 *.sublime-project
+app/images/thumbnails/
