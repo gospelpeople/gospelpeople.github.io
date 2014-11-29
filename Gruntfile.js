@@ -94,7 +94,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-        image_resize: {
+        'image_resize': {
             resize: {
                 options: {
                     height: 180,
