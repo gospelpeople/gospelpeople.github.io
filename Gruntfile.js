@@ -44,6 +44,13 @@ module.exports = function(grunt) {
                 }
             }
         },
+        'gh-pages': {
+            options: {
+                base: 'dist',
+                branch: 'master'
+            },
+            src: ['**']
+        },
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
