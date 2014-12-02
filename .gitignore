@@ -7,3 +7,4 @@ app/*.html
 *.sublime-workspace
 *.sublime-project
 app/images/thumbnails/
+app/images/gallery/thumbnails/

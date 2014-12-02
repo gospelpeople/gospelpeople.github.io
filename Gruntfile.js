@@ -102,13 +102,13 @@ module.exports = function(grunt) {
             }
         },
         'image_resize': {
-            resize: {
+            resizeGallery: {
                 options: {
                     height: 180,
                     overwrite: true
                 },
                 src: '<%= config.app %>/images/gallery/*.jpg',
-                dest: '<%= config.app %>/images/thumbnails/'
+                dest: '<%= config.app %>/images/gallery/thumbnails/'
             },
         },
 
@@ -151,7 +151,7 @@ module.exports = function(grunt) {
                     src: [
                         '.tmp',
                         '<%= config.app %>/*.html',
-                        '<%= config.app %>/images/thumbnails/*',
+                        '<%= config.app %>/images/gallery/thumbnails/*',
                         '<%= config.dist %>/*',
                         '!<%= config.dist %>/.git*'
                     ]
