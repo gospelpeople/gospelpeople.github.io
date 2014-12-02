@@ -110,6 +110,14 @@ module.exports = function(grunt) {
                 src: '<%= config.app %>/images/gallery/*.jpg',
                 dest: '<%= config.app %>/images/gallery/thumbnails/'
             },
+            resizeCds: {
+                options: {
+                    width: 180,
+                    overwrite: true
+                },
+                src: '<%= config.app %>/images/cds/*.jpg',
+                dest: '<%= config.app %>/images/cds/thumbnails/'
+            },
         },
 
         // The actual grunt server settings
@@ -152,6 +160,7 @@ module.exports = function(grunt) {
                         '.tmp',
                         '<%= config.app %>/*.html',
                         '<%= config.app %>/images/gallery/thumbnails/*',
+                        '<%= config.app %>/images/cds/thumbnails/*',
                         '<%= config.dist %>/*',
                         '!<%= config.dist %>/.git*'
                     ]
