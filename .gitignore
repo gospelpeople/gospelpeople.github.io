@@ -8,3 +8,4 @@ app/*.html
 *.sublime-project
 app/images/thumbnails/
 app/images/gallery/thumbnails/
+app/images/cds/thumbnails/
