@@ -242,7 +242,8 @@ module.exports = function(grunt) {
                   'bower_components/bootstrap/dist/js/bootstrap.js',
                   'bower_components/bootstrap/dist/css/bootstrap.css',
                   'bower_components/TimelineJS/build/js/storyjs-embed-generator.js',
-                  'bower_components/TimelineJS/build/js/storyjs-embed-cdn.js']
+                  'bower_components/TimelineJS/build/js/storyjs-embed-cdn.js',
+                  'bower_components/TimelineJS/build/js/timeline.js']
             },
             sass: {
                 src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
@@ -384,6 +385,12 @@ module.exports = function(grunt) {
                     dot: true,
                     cwd: '.',
                     src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
+                    dest: '<%= config.dist %>'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: '.',
+                    src: 'bower_components/TimelineJS/build/{js,css}/**/*',
                     dest: '<%= config.dist %>'
                 }, {
                     expand: true,
