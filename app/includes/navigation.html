@@ -21,19 +21,44 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
+                <!--(bake-start _if="navsongs")-->
+                <li class="active">
+                <!--(bake-end)-->
+                <!--(bake-start _if="!navsongs")-->
                 <li>
+                <!--(bake-end)-->
                     <a href="songs.html">Repertoire &amp; Hörproben</a>
                 </li>
+                <!--(bake-start _if="navgallery")-->
+                <li class="active">
+                <!--(bake-end)-->
+                <!--(bake-start _if="!navgallery")-->
                 <li>
+                <!--(bake-end)-->
                     <a href="gallery.html">Galerie</a>
                 </li>
+                <!--(bake-start _if="navhistory")-->
+                <li class="active">
+                <!--(bake-end)-->
+                <!--(bake-start _if="!navhistory")-->
                 <li>
+                <!--(bake-end)-->
                     <a href="history.html">Chorchronik</a>
                 </li>
+                <!--(bake-start _if="navcds")-->
+                <li class="active">
+                <!--(bake-end)-->
+                <!--(bake-start _if="!navcds")-->
                 <li>
+                <!--(bake-end)-->
                     <a href="cds.html">CDs</a>
                 </li>
+                <!--(bake-start _if="navcontact")-->
+                <li class="active">
+                <!--(bake-end)-->
+                <!--(bake-start _if="!navcontact")-->
                 <li>
+                <!--(bake-end)-->
                     <a href="contact.html">Kontakt</a>
                 </li>
             </ul>
