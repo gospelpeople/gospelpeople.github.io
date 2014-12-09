@@ -432,6 +432,14 @@ module.exports = function(grunt) {
                 homepage: 'https://gospelpeople.github.io',
                 changefreq: 'weekly'
             }
+        },
+        validation: {
+            options: {
+                stoponerror: true
+            },
+            files: {
+                src: '<%= config.dist %>/*.html'
+            }
         }
     });
 
