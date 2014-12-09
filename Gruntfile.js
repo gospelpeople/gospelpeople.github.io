@@ -424,6 +424,13 @@ module.exports = function(grunt) {
                 'imagemin',
                 'svgmin'
             ]
+        },
+        sitemap: {
+            dist: {
+                siteRoot: '<%= config.dist %>',
+                homepage: 'https://gospelpeople.github.io',
+                changefreq: 'weekly'
+            }
         }
     });
 
