@@ -435,7 +435,10 @@ module.exports = function(grunt) {
         },
         validation: {
             options: {
-                stoponerror: true
+                stoponerror: true,
+                reset: true,
+                path: '.tmp/validation-status.json',
+                reportpath: '.tmp/validation-report.json'
             },
             files: {
                 src: '<%= config.dist %>/*.html'
