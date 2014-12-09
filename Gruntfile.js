@@ -499,7 +499,8 @@ module.exports = function(grunt) {
         'rev',
         'usemin',
         'htmlmin',
-        'sitemap'
+        'sitemap',
+        'validation'
     ]);
 
     grunt.registerTask('default', [
