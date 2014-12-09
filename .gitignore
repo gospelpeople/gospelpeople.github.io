@@ -9,3 +9,5 @@ app/*.html
 app/images/thumbnails/
 app/images/gallery/thumbnails/
 app/images/cds/thumbnails/
+validation-report.json
+validation-status.json
