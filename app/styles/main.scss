@@ -4,7 +4,6 @@ $body-bg: #eee;
 $navbar-height: 80px;
 $gray-base: #000;
 $gray-lighter: lighten($gray-base, 87%);
-
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -86,9 +85,9 @@ footer {
         font-size: 2em;
     }
 }
-.zocial:hover {
+.zocial:hover, .zocial:active, .zocial:visited, .zocial:focus {
     color: white;
-    text-decoration: inherit;
+    text-decoration: initial;
 }
 .cds img {
     max-height: 180px;
