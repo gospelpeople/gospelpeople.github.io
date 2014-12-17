@@ -2,7 +2,9 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 $font-size-base: 16px;
 $body-bg: #eee;
 $navbar-height: 80px;
-$hr-border: #ddd;
+$gray-base: #000;
+$gray-lighter: lighten($gray-base, 87%);
+
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
