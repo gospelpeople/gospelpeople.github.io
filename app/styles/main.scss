@@ -4,6 +4,7 @@ $body-bg: #eee;
 $navbar-height: 80px;
 $gray-base: #000;
 $gray-lighter: lighten($gray-base, 87%);
+$grid-float-breakpoint: 992px;
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
