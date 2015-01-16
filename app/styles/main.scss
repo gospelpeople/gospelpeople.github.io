@@ -111,9 +111,22 @@ footer {
         display: none;
     }
 }
-
 .gallery-links {
-  a:hover, a:focus, a:visited {
-    text-decoration: none;
-  }
+    a:hover, a:focus, a:visited {
+        text-decoration: none;
+    }
+}
+.gallery-thumbnails {
+    .row {
+        @media(min-width: $screen-md-min) {
+            .col-md-3:nth-child(4n+1) {
+                clear: both;
+            }
+        }
+        @media(max-width:$screen-md-min) {
+            .col-xs-6:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+    }
 }
