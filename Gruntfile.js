@@ -107,8 +107,12 @@ module.exports = function(grunt) {
                     height: 180,
                     overwrite: true
                 },
-                src: '<%= config.app %>/images/gallery/*.jpg',
-                dest: '<%= config.app %>/images/gallery/thumbnails/'
+                files: [{
+                    cwd: '<%= config.app %>/images/gallery/',
+                    src: ['**/*.{jpg,png}'],
+                    dest: '<%= config.app %>/images/gallery/thumbnails/',
+                    expand: true
+                }]
             },
             resizeCds: {
                 options: {
