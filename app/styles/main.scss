@@ -111,3 +111,9 @@ footer {
         display: none;
     }
 }
+
+.gallery-links {
+  a:hover, a:focus, a:visited {
+    text-decoration: none;
+  }
+}
