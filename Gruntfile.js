@@ -33,15 +33,12 @@ module.exports = function(grunt) {
                 options: {
                     basePath: 'app/includes'
                 },
-                files: {
-                    'app/index.html': 'app/templates/index.html',
-                    'app/songs.html': 'app/templates/songs.html',
-                    'app/history.html': 'app/templates/history.html',
-                    'app/cds.html': 'app/templates/cds.html',
-                    'app/contact.html': 'app/templates/contact.html',
-                    'app/imprint.html': 'app/templates/imprint.html',
-                    'app/gallery.html': 'app/templates/gallery.html'
-                }
+                files: [{
+                    cwd: '<%= config.app %>/templates/',
+                    src: ['*.html'],
+                    dest: '<%= config.app %>',
+                    expand: true
+                }]
             }
         },
         'gh-pages': {
