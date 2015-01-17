@@ -260,7 +260,7 @@ module.exports = function(grunt) {
                     src: [
                         '<%= config.dist %>/scripts/{,*/}*.js',
                         '<%= config.dist %>/styles/{,*/}*.css',
-                        '<%= config.dist %>/images/{,*/}*.*',
+                        '<%= config.dist %>/images/**/*.*',
                         '<%= config.dist %>/styles/fonts/{,*/}*.*',
                         '<%= config.dist %>/*.{ico,png}',
                         '!<%= config.dist %>/favicon.ico'
@@ -284,7 +284,7 @@ module.exports = function(grunt) {
             options: {
                 assetsDirs: [
                     '<%= config.dist %>',
-                    '<%= config.dist %>/images',
+                    '<%= config.dist %>/images/**/',
                     '<%= config.dist %>/styles'
                 ]
             },
@@ -298,7 +298,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/images',
-                    src: '{,*/,*/*/}*.{gif,jpeg,jpg,png}',
+                    src: ['**/*.{gif,jpeg,jpg,png}', '!gallery/**/*'],
                     dest: '<%= config.dist %>/images'
                 }]
             }
@@ -408,6 +408,12 @@ module.exports = function(grunt) {
                 cwd: '<%= config.app %>/styles',
                 dest: '.tmp/styles/',
                 src: '{,*/}*.css'
+            },
+            gallery: {
+                cwd: '<%= config.app %>/images/gallery/',
+                src: '**/*.{jpg,png,jpeg}',
+                dest: '<%= config.dist %>/images/gallery/',
+                expand: true
             }
         },
 
@@ -415,14 +421,17 @@ module.exports = function(grunt) {
         concurrent: {
             server: [
                 'sass:server',
-                'copy:styles'
+                'copy:styles',
+                'copy:gallery'
             ],
             test: [
-                'copy:styles'
+                'copy:styles',
+                'copy:gallery'
             ],
             dist: [
                 'sass',
                 'copy:styles',
+                'copy:gallery',
                 'imagemin',
                 'svgmin'
             ]
