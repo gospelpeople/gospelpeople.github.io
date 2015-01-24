@@ -187,6 +187,7 @@ module.exports = function(grunt) {
                         '<%= config.app %>/*.html',
                         '<%= config.app %>/images/gallery/thumbnails/*',
                         '<%= config.app %>/images/cds/thumbnails/*',
+                        '<%= config.app %>/images/poster/thumbnails/*',
                         '<%= config.dist %>/*',
                         '!<%= config.dist %>/.git*'
                     ]
