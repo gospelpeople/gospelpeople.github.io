@@ -111,6 +111,18 @@ module.exports = function(grunt) {
                     expand: true
                 }]
             },
+            resizePosters: {
+                options: {
+                    height: 180,
+                    overwrite: true
+                },
+                files: [{
+                    cwd: '<%= config.app %>/images/poster/',
+                    src: ['**/*.{jpg,png}'],
+                    dest: '<%= config.app %>/images/poster/thumbnails/',
+                    expand: true
+                }]
+            },
             resizeGallery: {
                 options: {
                     width: 1920,
