@@ -436,7 +436,10 @@ module.exports = function(grunt) {
             },
             gallery: {
                 cwd: '<%= config.app %>/images/gallery/',
-                src: '**/*.{jpg,png,jpeg}',
+                src: [
+                  '**/*.{jpg,png,jpeg}',
+                  '!originals/**/*.*'
+                ],
                 dest: '<%= config.dist %>/images/gallery/',
                 expand: true
             }
