@@ -111,6 +111,19 @@ module.exports = function(grunt) {
                     expand: true
                 }]
             },
+            resizeGallery: {
+                options: {
+                    width: 1920,
+                    height: 1080,
+                    overwrite: true
+                },
+                files: [{
+                    cwd: '<%= config.app %>/images/gallery/originals/',
+                    src: ['**/*.{jpg,png}'],
+                    dest: '<%= config.app %>/images/gallery/resized/',
+                    expand: true
+                }]
+            },
             resizeCds: {
                 options: {
                     width: 180,
