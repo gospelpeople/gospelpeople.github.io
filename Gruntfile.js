@@ -99,13 +99,13 @@ module.exports = function(grunt) {
             }
         },
         'image_resize': {
-            resizeGallery: {
+            resizeGalleryThumbnails: {
                 options: {
                     height: 180,
                     overwrite: true
                 },
                 files: [{
-                    cwd: '<%= config.app %>/images/gallery/',
+                    cwd: '<%= config.app %>/images/gallery/originals/',
                     src: ['**/*.{jpg,png}'],
                     dest: '<%= config.app %>/images/gallery/thumbnails/',
                     expand: true
