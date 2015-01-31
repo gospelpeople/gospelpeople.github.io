@@ -144,6 +144,15 @@ module.exports = function(grunt) {
                 src: '<%= config.app %>/images/cds/*.jpg',
                 dest: '<%= config.app %>/images/cds/thumbnails/'
             },
+            resizeHistory: {
+                options: {
+                    width: 32,
+                    height: 32,
+                    overwrite: true
+                },
+                src: '<%= config.app %>/images/history/*.jpg',
+                dest: '<%= config.app %>/images/history/thumbnails/'
+            },
         },
 
         // The actual grunt server settings
