@@ -413,7 +413,8 @@ module.exports = function(grunt) {
                         '{,*/}*.html',
                         '!templates/*.html',
                         '!includes/*.html',
-                        'styles/fonts/{,*/}*.*'
+                        'styles/fonts/{,*/}*.*',
+                        'history/*.json'
                     ]
                 }, {
                     src: 'node_modules/apache-server-configs/dist/.htaccess',
