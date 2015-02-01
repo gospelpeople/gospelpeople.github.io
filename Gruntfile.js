@@ -298,6 +298,7 @@ module.exports = function(grunt) {
                         '<%= config.dist %>/styles/fonts/{,*/}*.*',
                         '<%= config.dist %>/*.{ico,png}',
                         '!<%= config.dist %>/favicon.ico',
+                        '!<%= config.dist %>/favicon*.png',
                         '!<%= config.dist %>/images/history/**/*.*'
                     ]
                 }
