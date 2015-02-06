@@ -40,6 +40,7 @@ body {
 .image-bg-history {
     background-image: url('../images/gospelpeople.jpg');
     background-position: center center;
+    height: 350px !important;
 }
 .image-bg-cds {
     background-image: url('../images/obererteil2008.jpg');
@@ -54,14 +55,13 @@ body {
     background-position: center 18%;
 }
 .image-bg-fixed-height {
-    padding: 100px 0;
     height: 400px;
 }
 .img-center {
     margin: 0 auto;
 }
 section {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 .section-heading {
     margin: 30px 0;
@@ -71,7 +71,7 @@ section {
     margin: 30px 0;
 }
 .section-paragraph {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 footer {
     margin: 50px 0;
@@ -116,21 +116,23 @@ footer {
         text-decoration: none;
     }
     h3 {
-      text-align: center;
+        text-align: center;
     }
 }
 .gallery-thumbnails {
     .row {
         @media(min-width: $screen-md-min) {
-            .col-md-3:nth-child(4n+1) {
+            .col-md-3: nth-child(4n+1) {
                 clear: both;
             }
         }
         @media(max-width:$screen-md-min) {
-            .col-xs-6:nth-child(2n+1) {
+            .col-xs-6: nth-child(2n+1) {
                 clear: both;
             }
         }
     }
 }
-.fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] { width: 100% !important; }
+.fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] {
+    width: 100% !important;
+}
