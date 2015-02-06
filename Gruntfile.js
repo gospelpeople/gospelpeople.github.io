@@ -150,7 +150,7 @@ module.exports = function(grunt) {
                     height: 32,
                     overwrite: true
                 },
-                src: '<%= config.app %>/images/history/*.jpg',
+                src: '<%= config.app %>/images/history/*.{jpg,gif}',
                 dest: '<%= config.app %>/images/history/thumbnails/'
             },
         },
