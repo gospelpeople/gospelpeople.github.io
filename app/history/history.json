@@ -45,6 +45,51 @@
                     "media":"images/history/2014-03-02-probenworkshop.jpg",
                     "thumbnail":"images/history/thumbnails/2014-03-02-probenworkshop.jpg"
                 }
+            },
+            {
+                "startDate":"2013,3,17",
+                "headline":"Misereor Sonntag in St. Antonius",
+                "text":"Musikalische Untermalung des Gottesdienstes zum diesjährigen Misereor  Sonntag in unserer Heimatgemeinde St. Antonius, im Rahmen der Fastenaktion: \"Wir haben den Hunger satt\"",
+                "asset": {
+                    "media":"images/history/2013-03-17-misereor.jpg",
+                    "thumbnail":"images/history/thumbnails/2013-03-17-misereor.jpg"
+                }
+            },
+            {
+                "startDate":"2013,4,14",
+                "headline":"Konfirmationsgottesdienst am Lauerhaas",
+                "text":"In einem festlichen Gottesdienst in der evangelischen Kirche am Lauerhaas präsentierten wir einige neue Lieder unseres Repertoires.",
+                "asset": {
+                    "media":"images/history/2013-04-14-konfirmationsgottesdienst.jpg",
+                    "thumbnail":"images/history/thumbnails/2013-04-14-konfirmationsgottesdienst.jpg"
+                }
+            },
+            {
+                "startDate":"2013,5,20",
+                "headline":"Pfingsmontag in St. Antonius",
+                "text":"Am heutigen Pfingstmontag sang unser Chor im Rahmen eines ökumenischen Gottesdienstes, nach der gestrigen Zusammenlegung der vier Kirchengemeinden Sankt Antonius, Sankt Johannes, Sankt Martini und Sankt Mariä-Himmelfahrt zu der neuen Pfarrei \"Sankt Nikolaus, Wesel\".",
+                "asset": {
+                    "media":"images/history/2013-05-20-st-nikolaus.gif",
+                    "thumbnail":"images/history/thumbnails/2013-05-20-st-nikolaus.gif"
+                }
+            },
+            {
+                "startDate":"2013,7,13",
+                "headline":"Hochzeitsgottesdienst in Mülheim an der Ruhr",
+                "text":"Wir freuen uns sehr, dass dem Brautpaar unsere musikalische Gestaltung ihres Hochzeitsgottesdienst in der Residenz Uhlenhorst gefallen hat.",
+                "asset": {
+                    "media":"images/history/2013-07-13-hochzeit.jpg",
+                    "thumbnail":"images/history/thumbnails/2013-07-13-hochzeit.jpg"
+                }
+            },
+            {
+                "startDate":"2013,7,20",
+                "headline":"Traugottesdienst in Veen (Alpen)",
+                "text":"Ebenfalls in Juli begleiteten wir einen stimmungsvollen Hochzeitsgottesdienst in der katholischen Kirche St. Nikolaus.",
+                "asset": {
+                    "media":"images/history/2013-07-20-hochzeitsgottesdienst.jpg",
+                    "thumbnail":"images/history/thumbnails/2013-07-20-hochzeitsgottesdienst.jpg"
+                }
             }
         ]
     }
