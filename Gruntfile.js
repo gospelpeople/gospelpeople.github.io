@@ -493,6 +493,11 @@ module.exports = function(grunt) {
             files: {
                 src: '<%= config.dist %>/*.html'
             }
+        },
+        'json-minify': {
+          build: {
+            files: '<%= config.dist %>/history/**/*.json'
+          }
         }
     });
 
@@ -553,6 +558,7 @@ module.exports = function(grunt) {
         'usemin',
         'htmlmin',
         'sitemap',
+        'json-minify',
         'validation'
     ]);
 
