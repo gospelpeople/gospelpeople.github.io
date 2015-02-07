@@ -158,4 +158,11 @@ footer {
         border: none;
     }
 }
+.mfp-zoom-out-cur {
+    .mfp-image-holder {
+        .mfp-close {
+            cursor: pointer;
+        }
+    }
+    cursor: auto;
 }
