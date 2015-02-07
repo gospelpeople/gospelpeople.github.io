@@ -5,6 +5,8 @@
     "bootstrap-sass-official": "~3.3.1",
     "blueimp-gallery": "~2.15.2",
     "css-social-buttons": "*",
-    "TimelineJS": "NUKnightLab/TimelineJS#~2.35.2"
+    "TimelineJS": "NUKnightLab/TimelineJS#~2.35.2",
+    "magnific-popup": "~1.0.0",
+    "arrive": "~2.0.0"
   }
 }
