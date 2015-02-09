@@ -144,6 +144,9 @@ footer {
     max-width: 100%;
     border: none;
 }
+.embed-container {
+    border: none;
+}
 .embed-container iframe, .embed-container object, .embed-container embed {
     position: absolute;
     top: 0;
