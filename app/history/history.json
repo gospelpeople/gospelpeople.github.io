@@ -133,6 +133,21 @@
         "media": "images/history/2013-10-12-ausflug.jpg",
         "thumbnail": "images/history/thumbnails/2013-10-12-ausflug.jpg"
       }
+    }, {
+      "startDate": "2014,12,18",
+      "headline": "Auftritt bei der Evangelischen Stiftung in Lühlerheim",
+      "text": "Seit mehreren Jahren folgen wir gerne der Einladung des Schermbecker Lühlerheims, die musikalische Gestaltung der Weihnachtsfeier im zu übernehmen. An diesem Nachmittag werden vom Landrat des Kreises Wesel, in gemütlicher Runde, gespendete Weihnachtsgeschenke an die Bewohner verteilt.",
+      "asset": {
+        "media": "images/history/2014-12-18-luehlerheim.jpg",
+        "thumbnail": "images/history/thumbnails/2014-12-18-luehlerheim.jpg"
+      }
+    }, {
+      "startDate": "2012,3,31",
+      "headline": "20 Jahre Gospel People – Großes Jubiläumskonzert",
+      "text": "Zum 20. Geburtstag unseres Chores starteten wir im städtischen Bühnenhaus Wesel ein mitreißendes Konzert, mit den befreundeten Gospelchören QuintusSense und Confidence Menzelen, zu Gunsten des Frauen-und Kinderhilfeprojektes SEKA (<a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a>)",
+      "asset": {
+        "media": "https://www.youtube.com/watch?v=u3oVeJrMM6Y"
+      }
     }]
   }
 }
