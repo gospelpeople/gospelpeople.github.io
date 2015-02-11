@@ -2,7 +2,7 @@
   "name": "gospelpeople-github-io",
   "private": true,
   "dependencies": {
-    "bootstrap-sass-official": "~3.3.1",
+    "bootstrap-sass-official": "~3.3.3",
     "blueimp-gallery": "~2.15.2",
     "css-social-buttons": "*",
     "TimelineJS": "NUKnightLab/TimelineJS#~2.35.2",
