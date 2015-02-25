@@ -480,7 +480,7 @@ module.exports = function (grunt) {
     sitemap: {
       dist: {
         siteRoot: '<%= config.dist %>',
-        homepage: 'https://gospelpeople.github.io',
+        homepage: 'http://www.gospel-people.de',
         changefreq: 'weekly'
       }
     },
