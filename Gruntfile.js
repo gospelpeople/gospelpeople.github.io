@@ -273,7 +273,7 @@ module.exports = function (grunt) {
       app: {
         ignorePath: /^\/|(\.\.\/){1,2}/,
         src: ['<%= config.app %>/includes/*.html'],
-        exclude: ['bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+        exclude: [
           'bower_components/bootstrap/dist/js/bootstrap.js',
           'bower_components/bootstrap/dist/css/bootstrap.css',
           'bower_components/TimelineJS/build/js/storyjs-embed-generator.js',
