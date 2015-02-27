@@ -172,3 +172,10 @@ footer {
     }
     cursor: auto;
 }
+.contact-success {
+    padding: 15px;
+    display:none;
+}
+#success:target .contact-success {
+  display: inherit;
+}
