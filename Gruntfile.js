@@ -482,7 +482,7 @@ module.exports = function (grunt) {
         siteRoot: '<%= config.dist %>',
         homepage: 'http://www.gospel-people.de',
         changefreq: 'weekly',
-        pattern: ['<%= config.dist %>/**/*.html','!<%= config.dist %>/**/imprint.html']
+        pattern: ['<%= config.dist %>/**/*.html', '!<%= config.dist %>/**/imprint.html']
       }
     },
     validation: {
