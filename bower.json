@@ -7,6 +7,6 @@
     "css-social-buttons": "*",
     "TimelineJS": "NUKnightLab/TimelineJS#~2.35.4",
     "magnific-popup": "~1.0.0",
-    "arrive": "~2.0.0"
+    "arrive": "~2.1.0"
   }
 }
