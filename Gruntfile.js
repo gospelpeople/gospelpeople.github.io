@@ -183,6 +183,18 @@ module.exports = function (grunt) {
           base: '<%= config.dist %>',
           livereload: false
         }
+      },
+      screenshot: {
+        options: {
+          base: '<%= config.dist %>',
+          livereload: false,
+          open: false
+        }
+      },
+      photobox: {
+        options: {
+          base: 'photobox'
+        }
       }
     },
 
@@ -500,6 +512,14 @@ module.exports = function (grunt) {
       build: {
         files: '<%= config.dist %>/history/**/*.json'
       }
+    },
+    photobox: {
+      task: {
+        options: {
+          screenSizes: ['1024', '1920', '480'],
+          urls: ['http://localhost:9000']
+        }
+      }
     }
   });
 
@@ -564,6 +584,20 @@ module.exports = function (grunt) {
     ]);
   });
 
+  grunt.registerTask('diff', 'start the server and show screenshot diffs, --allow-remote for remote access', function (target) {
+    if (grunt.option('allow-remote')) {
+      grunt.config.set('connect.options.hostname', '0.0.0.0');
+    }
+    if (target === 'dist') {
+      return grunt.task.run(['build', 'connect:dist:keepalive']);
+    }
+
+    grunt.task.run([
+      'connect:photobox',
+      'watch'
+    ]);
+  });
+
   grunt.registerTask('build', [
     'clean:dist',
     'bake:build',
@@ -581,7 +615,9 @@ module.exports = function (grunt) {
     'htmlmin',
     'sitemap',
     'json-minify',
-    'validation'
+    'validation',
+    'connect:screenshot',
+    'photobox'
   ]);
 
   grunt.registerTask('default', [
