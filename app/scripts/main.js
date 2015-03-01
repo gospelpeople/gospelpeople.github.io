@@ -9,7 +9,10 @@ $(document).ready(function () {
     $(document).unbindArrive('#timeline-embed');
   });
   $('#timeline-embed').on('UPDATE', function () {
-    $('#timeline-embed').arrive('.image-popup', function () {
+    $('.image-popup').magnificPopup({
+      type: 'image'
+    });
+    $('#timeline-embed .slider-container').arrive('.image-popup', function () {
       $(this).magnificPopup({
         type: 'image'
       });
