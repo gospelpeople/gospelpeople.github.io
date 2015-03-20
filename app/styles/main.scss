@@ -5,6 +5,7 @@ $navbar-height: 80px;
 $gray-base: #000;
 $gray-lighter: lighten($gray-base, 87%);
 $grid-float-breakpoint: 992px;
+$logo-width: 207px;
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
@@ -110,7 +111,7 @@ footer {
         padding-right: 10px;
     }
     float: left;
-    @media(max-width:396px) {
+    @media(max-width:$logo-width + 223px) {
         display: none;
     }
 }
