@@ -2,6 +2,10 @@
 
 $(document).ready(function () {
 
+  $('.image-popup').magnificPopup({
+    type: 'image'
+  });
+
   $('#timeline-embed').arrive('.vco-main', function () {
     $('.image-popup').magnificPopup({
       type: 'image'

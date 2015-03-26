@@ -8,14 +8,11 @@
 <body>
     <!-- Navigation -->
     <!--(bake /navigation.html)-->
-
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <header class="image-bg-main image-bg-fixed-height">
     </header>
-
     <div id="fb-root"></div>
-
     <!-- Content Section -->
     <div class="container">
         <section>
@@ -35,14 +32,24 @@
                         <h4>Nächste Auftritte</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <h5 itemscope itemtype="http://schema.org/Event">
-                                  <small itemprop="startDate" content="2015-05-09T20:00">09.05.2015 20:00</small>
-                                  <span itemprop="name">Konzert "Now!"</span>
-                                  <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-                                    <span itemprop="name">St.&nbsp;Antonius</span>
-                                    <meta itemprop="address" content="Sankt-Antonius-Weg 13, 46485 Wesel"/>
-                                  </span>
-                                </h5>
+                                <div itemscope itemtype="http://schema.org/Event">
+                                    <div>
+                                        <h5>
+                                          <small itemprop="startDate" content="2015-05-09T20:00">09.05.2015 20:00</small>
+                                          <span itemprop="name">Konzert "Now!"</span>
+                                          <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                                            <span itemprop="name">St.&nbsp;Antonius</span>
+                                            <meta itemprop="address" content="Sankt-Antonius-Weg 13, 46485 Wesel"/>
+                                          </span>
+                                        </h5>
+                                    </div>
+                                    <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+                                        <a href="images/poster/konzert-2015.png" class="image-popup" itemprop="contentUrl">
+                                            <img src="images/poster/thumbnails/konzert-2015.png" alt="Konzert: Now!" class="center-block" itemprop="thumbnailUrl">
+                                            <meta itemprop="name" content="Konzert: Now!" />
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -53,28 +60,28 @@
                 </div>
             </div>
         </section>
-
     </div>
-
     <!-- Footer -->
-    <!--(bake /footer.html)-->
-
+    <!--(bake /footer.html script="true")-->
     <script>
-      window.fbAsyncInit = function() {
+    window.fbAsyncInit = function() {
         FB.init({
-          xfbml      : true,
-          version    : 'v2.1'
+            xfbml: true,
+            version: 'v2.1'
         });
-      };
+    };
 
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.async = true;
-         js.src = "//connect.facebook.net/de_DE/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "//connect.facebook.net/de_DE/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
     </script>
 </body>
 
