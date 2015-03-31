@@ -144,14 +144,23 @@ module.exports = function (grunt) {
         src: '<%= config.app %>/images/cds/*.jpg',
         dest: '<%= config.app %>/images/cds/thumbnails/'
       },
-      resizeHistory: {
+      resizeHistoryThumbnails: {
         options: {
           width: 32,
           height: 32,
           overwrite: true
         },
-        src: '<%= config.app %>/images/history/*.{jpg,gif}',
+        src: '<%= config.app %>/images/history/originals/*.{jpg,png,gif}',
         dest: '<%= config.app %>/images/history/thumbnails/'
+      },
+      resizeHistory: {
+        options: {
+          width: 1920,
+          height: 1080,
+          overwrite: true
+        },
+        src: '<%= config.app %>/images/history/originals/*.{jpg,png,gif}',
+        dest: '<%= config.app %>/images/history/resized/'
       },
     },
 
