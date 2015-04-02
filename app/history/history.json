@@ -4,7 +4,7 @@
     "type": "default",
     "text": "Wir blicken mit den Gospel People auf eine lange Geschichte zurück. Diesen ereignisreichen Weg haben wir auf einem Zeitstrahl dargestellt. Mit dem Pfeil Ihrer Maus haben Sie Gelegenheit den Zeitstrahl zu verschieben. So haben Sie die Möglichkeit, sich einen Überblick zu verschaffen oder auf direktem Wege zu bestimmten Daten zu gelangen.",
     "asset": {
-      "media": "images/history/logo-gross.png"
+      "media": "images/history/resized/logo-gross.png"
     },
     "date": [{
       "startDate": "2014,3,22",
@@ -18,19 +18,19 @@
     }, {
       "startDate": "2014,3,18",
       "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
+      "asset": {
+        "media": "images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg",
+        "thumbnail": "images/history/thumbnails/2014-03-18-presse-vor-konzert-2014.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2014,3,18",
+      "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
       "text": "Die lokale Presse kündigt unser 6. Benefizkonzert für das Frauen-und Kinderhilfeprojekt SEKA in Bosnien an ( http://www.seka-hh.de ). Ein Mitglied unseres Chores ist seit vielen Jahren mit dem Projekt persönlich verbunden und organisiert mit Ihrer Familie die Konzerte. Es findet, wie alle zwei Jahre, im Bühnenhaus der Stadt Wesel statt. Bei diesem Konzert haben wir unseren ersten großen Auftritt mit Stephan Marten als neuen Chorleiter und der neuen Band unter Leitung von Jan Marten. Das bekannte Weseler Gitarrentrio \"Three as 1\" wird für einen Gastauftritt erwartet.",
       "asset": {
         "media": "images/history/resized/2014-03-07-presse-vor-konzert.jpg",
         "thumbnail": "images/history/thumbnails/2014-03-07-presse-vor-konzert.jpg",
         "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-07-presse-vor-konzert.jpg\" target=\"_blank\">Großansicht</a>"
-      }
-    }, {
-      "startDate": "2014,3,18",
-      "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
-      "asset": {
-        "media": "images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg",
-        "thumbnail": "images/history/thumbnails/2014-03-18-presse-vor-konzert-2014.jpg",
-        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg\" target=\"_blank\">Großansicht</a>"
       }
     }, {
       "startDate": "2014,3,8",
@@ -144,16 +144,16 @@
     }, {
       "startDate": "2012,3,31",
       "headline": "20 Jahre Gospel People – Großes Jubiläumskonzert",
-      "text": "Zum 20. Geburtstag unseres Chores starteten wir im städtischen Bühnenhaus Wesel ein mitreißendes Konzert, mit den befreundeten Gospelchören QuintusSense und Confidence Menzelen, zu Gunsten des Frauen-und Kinderhilfeprojektes SEKA (<a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a>)",
       "asset": {
-        "media": "https://www.youtube.com/watch?v=u3oVeJrMM6Y"
+        "media": "images/history/resized/2012-03-31-konzert.png",
+        "thumbnail": "images/history/thumbnails/2012-03-31-konzert.png"
       }
     }, {
       "startDate": "2012,3,31",
       "headline": "20 Jahre Gospel People – Großes Jubiläumskonzert",
+      "text": "Zum 20. Geburtstag unseres Chores starteten wir im städtischen Bühnenhaus Wesel ein mitreißendes Konzert, mit den befreundeten Gospelchören QuintusSense und Confidence Menzelen, zu Gunsten des Frauen-und Kinderhilfeprojektes SEKA (<a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a>)",
       "asset": {
-        "media": "images/history/resized/2012-03-31-konzert.png",
-        "thumbnail": "images/history/thumbnails/2012-03-31-konzert.png"
+        "media": "https://www.youtube.com/watch?v=u3oVeJrMM6Y"
       }
     }, {
       "startDate": "2012,4,4",
@@ -166,7 +166,7 @@
       }
     }, {
       "startDate": "2012,5,19",
-      "headline": "Feierlicher Hochzeitsgottesdienst in Bocholt",
+      "headline": "Feierlicher Hochzeits&shy;gottesdienst in Bocholt",
       "text": "Unsere beiden Chormitglieder Birgit und Ulrich haben heute in der Christuskirche in einem feierlichen und gleichzeitig heiteren Gottesdienst geheiratet. Es war uns ein besonderes Vergnügen für die beiden zu singen.",
       "asset": {
         "media": "images/history/resized/2012-05-19-hochzeit.jpg",
@@ -184,10 +184,9 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop2.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
+        "media": "images/history/resized/2015-03-22-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
       }
     }, {
       "startDate": "2015,3,21",
@@ -201,24 +200,18 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-22-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
+        "media": "images/history/resized/2015-03-21-workshop2.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
     }, {
       "startDate": "2012,9,22",
-      "headline": "Flashmob in Wesel am Gospelday",
+      "headline": "Bundesweiter Gospelday – Singen in der Stadt",
+      "text": "Gerne nahmen wir am Aktionstag der Creativen Kirche gegen Armut und Hunger – dem Gospelday - teil. Zum Abschluss des Gospeldays, sangen wir gemeinsamen mit drei anderen Gospel Chören Open Air auf dem großen Markt. Der Auftritt war in der Weseler Großveranstaltung \"Weseler Kulturnacht\" eingebettet.",
       "asset": {
         "media": "images/history/resized/2012-09-22-gospelday.jpg",
         "thumbnail": "images/history/thumbnails/2012-09-22-gospelday.jpg"
-      }
-    }, {
-      "startDate": "2012,9,22",
-      "headline": "Flashmob in Wesel am Gospelday",
-      "text": "Gerne nahmen wir am bundesweiten Aktionstag der Creativen Kirche gegen Armut und Hunger – dem Gospelday - teil. Mit einem Flashmob überraschten wir mit drei weiteren Gospelchören, mittags um 12.00 Uhr die WeselerInnen in der Fußgängerzone. Viele Menschen blieben stehen, sangen spontan mit und spendeten für konkrete Projekte in Afrika. Der Abschluss des Gospeldays, den wir mit einem gemeinsamen open Air Konzert auf dem großen Markt begannen, war zusätzlich in die Weseler Großveranstaltung \"Weseler Kulturnacht\" eingebettet.",
-      "asset": {
-        "media": "images/history/resized/2012-09-22-flashmob.jpg",
-        "thumbnail": "images/history/thumbnails/2012-09-22-flashmob.jpg"
       }
     }, {
       "startDate": "2012,6,1",
@@ -228,6 +221,30 @@
       "asset": {
         "media": "images/history/resized/2012-06-01-gospelkirchentag.jpg",
         "thumbnail": "images/history/thumbnails/2012-06-01-gospelkirchentag.jpg"
+      }
+    }, {
+      "startDate": "2012,6,1",
+      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
+      "asset": {
+        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
+        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
+      }
+    }, {
+      "startDate": "2012,11,17",
+      "headline": "Feierlichkeiten zum 20. Chorjubiläum",
+      "text": "Mit einem Gospelgottesdienst, einem Konzert und einem großen Fest feierten wir in einem sehr schönen Rahmen unseren 20. Geburtstag. Familie, FreundInnen, ehemalige SängerInnen und Wegbegleiter des Chores sind unserer Einladung gefolgt und verbrachten mit uns bei gutem Essen, Musik und Tanz einen unterhaltsamen Abend.",
+      "asset": {
+        "media": "images/history/resized/2012-11-17-jubilaeumskottesdienst.png",
+        "thumbnail": "images/history/thumbnails/2012-11-17-jubilaeumskottesdienst.png"
+      }
+    }, {
+      "startDate": "2012,11,19",
+      "headline": "Lebhaftes Konzert zum Chorjubliäum",
+      "text": "So sind wir Gospel People: Bunt, fröhlich, lebendig und mit viel Spaß. Es ist immer wieder phantastisch, wenn sich das Publikum anstecken lässt.",
+      "asset": {
+        "media": "images/history/resized/2012-11-19-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2012-11-19-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2012-11-19-presse.jpg\" target=\"_blank\">Großansicht</a>"
       }
     }]
   }
