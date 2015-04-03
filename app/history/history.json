@@ -246,6 +246,22 @@
         "thumbnail": "images/history/thumbnails/2012-11-19-presse.jpg",
         "caption": "<a class=\"image-popup\" href=\"images/history/resized/2012-11-19-presse.jpg\" target=\"_blank\">Großansicht</a>"
       }
+    }, {
+      "startDate": "2012,12,17",
+      "headline": "Musikalische Gestaltung der Weihnachtsfeier",
+      "text": "Auch in diesem Jahr nahmen wir die Einladung der Evangelischen Stiftung Lühlerheim gerne an und übernahmen die musikalische Begleitung der Weihnachtsfeier, bei der der Landrat gespendete Geschenke den Bewohnern überreichte.",
+      "asset": {
+        "media": "images/history/resized/2012-12-17-weihnachtsfeier.png",
+        "thumbnail": "images/history/thumbnails/2012-12-17-weihnachtsfeier.png"
+      }
+    }, {
+      "startDate": "2012,7,1",
+      "headline": "Gospelgottesdienst im Zeichen des Gospelkirchentages im Juni",
+      "text": "Der Rückblick auf den Gospelkirchentag im Juni in Dortmund und das Thema gerechtere Welt prägte den Gottesdienst in der Friedenkirche. Wir begleiteten diesen Gottesdienst musikalisch mit der Gewissheit, dass jeder Einzelne durch sein persönliches Verhalten, z.B. durch den Kauf fair gehandelter Produkte, zu einer gerechteren Welt beitragen kann.",
+      "asset": {
+        "media": "images/history/resized/2012-07-01-gottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2012-07-01-gottesdienst.jpg"
+      }
     }]
   }
 }
