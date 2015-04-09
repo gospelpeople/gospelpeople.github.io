@@ -192,18 +192,18 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
+        "media": "images/history/resized/2015-03-21-workshop2.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
     }, {
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop2.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
       }
     }, {
       "startDate": "2012,9,22",
@@ -261,6 +261,38 @@
       "asset": {
         "media": "images/history/resized/2012-07-01-gottesdienst.jpg",
         "thumbnail": "images/history/thumbnails/2012-07-01-gottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2011,5,7",
+      "headline": "Hochzeits&shy;gottesdienst in der St. Antonius Kirche",
+      "text": "Es ist immer wieder schön den Gottesdienst bei einer Vermählung zu begleiten. So auch in dem feierlichen Gottesdienst von Katrin und Christian.",
+      "asset": {
+        "media": "images/history/resized/2011-05-07-traugottesdienst.png",
+        "thumbnail": "images/history/thumbnails/2011-05-07-traugottesdienst.png"
+      }
+    }, {
+      "startDate": "2011,9,24",
+      "headline": "Gottesdienst zur Silberhochzeit",
+      "text": "Seit vielen Jahren singt Helga in unserem Chor. Es war uns eine Ehre für das Silberpaar in ihrem stimmungsvollen Gottesdienst zu singen.",
+      "asset": {
+        "media": "images/history/resized/2011-09-24-silberhochzeit.jpg",
+        "thumbnail": "images/history/thumbnails/2011-09-24-silberhochzeit.jpg"
+      }
+    }, {
+      "startDate": "2011,9,17",
+      "headline": "Gospelday 2011 in Wesel - Flashmob und Konzert",
+      "text": "Den deutschlandweiten Aktionstag gegen Armut, Hunger und für Klimaschutz der \"Creativen Kirche Witten\" auch nach Wesel zu holen, verdanken wir dem Engagement unseres Chorleiters Peter Schmahl. Auf seine Initiative hin entstanden die Planungen für diesen Tag: Gemeinsam mit anderen Gospelchören ein Flashmob mittags vor dem Kaufhof zu inszenieren und am Abend ein Konzert in der Friedenskirche zu veranstalten.",
+      "asset": {
+        "media": "images/history/resized/2011-09-17-gospelday.jpg",
+        "thumbnail": "images/history/thumbnails/2011-09-17-gospelday.jpg"
+      }
+    }, {
+      "startDate": "2011,9,17",
+      "headline": "Gospelday 2011 in Wesel mit Flashmob und Konzert",
+      "text": "Mit einem Flashmop überraschten wir mit drei weiteren Gospelchören, mittags um 12.00 Uhr die WeselerInnen in der Fußgängerzone. Viele Menschen blieben stehen, sangen spontan mit und spendeten für konkrete Projekte in Afrika. Höhepunkt der Aktion war das Lied: Let us stand, das eigens für den Gospelday von Hans Christian Jochimsen komponiert wurde und auch das Publikum mitgesungen hat. Der Abschluss des Gospelday war ein Konzert, das wir gemeinsam mit den anderen Chören in der Friedenskirche gesungen haben.",
+      "asset": {
+        "media": "images/history/resized/2011-09-17-flashmob.jpg",
+        "thumbnail": "images/history/thumbnails/2011-09-17-flashmob.jpg"
       }
     }]
   }
