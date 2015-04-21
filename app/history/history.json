@@ -151,6 +151,14 @@
     }, {
       "startDate": "2012,3,31",
       "headline": "20 Jahre Gospel People – Großes Jubiläumskonzert",
+      "text": "Das große Finale! Ein gemeinsamer Auftritt mit den zwei Gastchören, bei dem es die Zuschauer nicht mehr auf den Sitzen hielt.",
+      "asset": {
+        "media": "images/history/resized/2012-03-31-finale.jpg",
+        "thumbnail": "images/history/thumbnails/2012-03-31-finale.jpg"
+      }
+    }, {
+      "startDate": "2012,3,31",
+      "headline": "20 Jahre Gospel People – Großes Jubiläumskonzert",
       "text": "Zum 20. Geburtstag unseres Chores starteten wir im städtischen Bühnenhaus Wesel ein mitreißendes Konzert, mit den befreundeten Gospelchören QuintusSense und Confidence Menzelen, zu Gunsten des Frauen-und Kinderhilfeprojektes SEKA (<a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a>)",
       "asset": {
         "media": "https://www.youtube.com/watch?v=u3oVeJrMM6Y"
@@ -192,18 +200,18 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop2.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
       }
     }, {
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
+        "media": "images/history/resized/2015-03-21-workshop2.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
     }, {
       "startDate": "2012,9,22",
@@ -215,19 +223,19 @@
       }
     }, {
       "startDate": "2012,6,1",
+      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
+      "asset": {
+        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
+        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
+      }
+    }, {
+      "startDate": "2012,6,1",
       "endDate": "2012,6,3",
       "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
       "text": "Ein ganzes Wochenende im Zeichen des Gospel! Als einer von 120 Chören sangen wir am Freitagabend im Rahmen der Dortmunder Gospelnacht. Um 23.00 Uhr traten wir in der ev. Auferstehungskirche in Do.-Scharnhorst auf. Belohnt wurde unser Chor von einem sehr wachen Publikum, dass es nicht lange auf ihren Bänken hielt. Am Samstag ließen wir uns durch die Innenstadt treiben, vorbei an 12 großen Konzertbühnen, um abends in der Westfalenhalle das Galakonzert mit internationalen Gospelstars und den Whise Guys zu erleben. Den Abschlussgottesdienst mit allen Künstlern am Sonntag, rundete ein bewegtes Wochenende ab.",
       "asset": {
         "media": "images/history/resized/2012-06-01-gospelkirchentag.jpg",
         "thumbnail": "images/history/thumbnails/2012-06-01-gospelkirchentag.jpg"
-      }
-    }, {
-      "startDate": "2012,6,1",
-      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
-      "asset": {
-        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
-        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
       }
     }, {
       "startDate": "2012,11,17",
@@ -293,6 +301,14 @@
       "asset": {
         "media": "images/history/resized/2011-09-17-flashmob.jpg",
         "thumbnail": "images/history/thumbnails/2011-09-17-flashmob.jpg"
+      }
+    }, {
+      "startDate": "2011,7,9",
+      "headline": "Hochzeits&shy;gottesdienst in der St. Antonius Kirche",
+      "text": "Es hat uns große Freude gemacht die kirchliche Trauung in unserer Heimatgemeinde musikalisch zu begleiten.",
+      "asset": {
+        "media": "images/history/resized/2011-07-09-hochzeitsgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2011-07-09-hochzeitsgottesdienst.jpg"
       }
     }]
   }
