@@ -18,19 +18,19 @@
     }, {
       "startDate": "2014,3,18",
       "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
-      "asset": {
-        "media": "images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg",
-        "thumbnail": "images/history/thumbnails/2014-03-18-presse-vor-konzert-2014.jpg",
-        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg\" target=\"_blank\">Großansicht</a>"
-      }
-    }, {
-      "startDate": "2014,3,18",
-      "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
       "text": "Die lokale Presse kündigt unser 6. Benefizkonzert für das Frauen-und Kinderhilfeprojekt SEKA in Bosnien an ( http://www.seka-hh.de ). Ein Mitglied unseres Chores ist seit vielen Jahren mit dem Projekt persönlich verbunden und organisiert mit Ihrer Familie die Konzerte. Es findet, wie alle zwei Jahre, im Bühnenhaus der Stadt Wesel statt. Bei diesem Konzert haben wir unseren ersten großen Auftritt mit Stephan Marten als neuen Chorleiter und der neuen Band unter Leitung von Jan Marten. Das bekannte Weseler Gitarrentrio \"Three as 1\" wird für einen Gastauftritt erwartet.",
       "asset": {
         "media": "images/history/resized/2014-03-07-presse-vor-konzert.jpg",
         "thumbnail": "images/history/thumbnails/2014-03-07-presse-vor-konzert.jpg",
         "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-07-presse-vor-konzert.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2014,3,18",
+      "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
+      "asset": {
+        "media": "images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg",
+        "thumbnail": "images/history/thumbnails/2014-03-18-presse-vor-konzert-2014.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-18-presse-vor-konzert-2014.jpg\" target=\"_blank\">Großansicht</a>"
       }
     }, {
       "startDate": "2014,3,8",
@@ -192,6 +192,15 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
+      "asset": {
+        "media": "images/history/resized/2015-03-21-workshop2.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
+      }
+    }, {
+      "startDate": "2015,3,21",
+      "endDate": "2015,3,22",
+      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
       "asset": {
         "media": "images/history/resized/2015-03-22-workshop.jpg",
         "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
@@ -203,15 +212,6 @@
       "asset": {
         "media": "images/history/resized/2015-03-21-workshop.jpg",
         "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
-      }
-    }, {
-      "startDate": "2015,3,21",
-      "endDate": "2015,3,22",
-      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
-      "asset": {
-        "media": "images/history/resized/2015-03-21-workshop2.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
     }, {
       "startDate": "2012,9,22",
@@ -309,6 +309,55 @@
       "asset": {
         "media": "images/history/resized/2011-07-09-hochzeitsgottesdienst.jpg",
         "thumbnail": "images/history/thumbnails/2011-07-09-hochzeitsgottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2011,10,15",
+      "headline": "Hochzeits&shy;gottesdienst in der Dorfkirche Gahlen",
+      "text": "Unsere letzte Trauung in diesem Jahr führte uns in die romantische Dorfkirche der evangelischen Gemeinde in Gahlen. Hier begleiteten wir den festlichen Hochzeitsgottesdienst von Silvin und Christian.",
+      "asset": {
+        "media": "images/history/resized/2011-10-15-hochzeitsgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2011-10-15-hochzeitsgottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2011,12,23",
+      "headline": "Weihnachts&shy;gottesdienst im Lühlerheim",
+      "text": "Einen Tag vor dem heiligem Abend gestalteten wir mit unserem Chor den Weihnachtsgottesdienst im Lühlerheim. Trotz der persönlichen Vorbereitungshektik, die jeder vor den Feiertagen hat, war dies eine gute Gelegenheit, sich darüber bewusst zu werden, wie viele Menschen zu Weihnachten sehr einsam sind.",
+      "asset": {
+        "media": "images/history/resized/2011-12-23-weihnachtsgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2011-12-23-weihnachtsgottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2011,04,10",
+      "headline": "Misereor Sonntag 2011: \"Was Ihr dem Geringsten tut\"",
+      "text": "Mehr als 1 Milliarde Menschen leben in Armenviertel der Städte – Tendenz steigend. MISEREOR steht mit seinen Partnern an der Seite dieser Menschen, die auch im Elend versuchen ihr Leben zu meistern.",
+      "asset": {
+        "media": "images/history/resized/2011-04-10-misereor.jpg",
+        "thumbnail": "images/history/thumbnails/2011-04-10-misereor.jpg"
+      }
+    }, {
+      "startDate": "2011,04,10",
+      "headline": "Misereor Sonntag 2011: \"Was Ihr dem Geringsten tut\"",
+      "text": "Es war uns eine Freude den Gottesdienst zum Misereor Sonntag in unserer Gemeinde St. Antonius zu begleiten.",
+      "asset": {
+        "media": "images/history/resized/2011-04-10-misereor2.jpg",
+        "thumbnail": "images/history/thumbnails/2011-04-10-misereor2.jpg"
+      }
+    }, {
+      "startDate": "2011,09,19",
+      "headline": "Positives Resümee zum Gospelday",
+      "text": "Wie schön, dass die Aktionen zum Gospelday so gut ankamen. Uns hat es großen Spaß gemacht.",
+      "asset": {
+        "media": "images/history/resized/2011-09-19-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2011-09-19-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2011-09-19-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2011,10,23",
+      "headline": "Weltmissions&shy;sonntag 2011",
+      "text": "Der Dialog mit den Menschen im Senegal war der Schwerpunkt des diesjährigen Weltmissionssonntages, den wir unserer Heimatgemeinde St. Antonius musikalisch gestalteten.",
+      "asset": {
+        "media": "images/history/resized/2011-10-23-weltmissionssonntag.jpg",
+        "thumbnail": "images/history/thumbnails/2011-10-23-weltmissionssonntag.jpg"
       }
     }]
   }
