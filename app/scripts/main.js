@@ -6,10 +6,12 @@ $(document).ready(function () {
     type: 'image'
   });
 
-  $('#timeline-embed').arrive('.vco-main', function () {
-    $('.image-popup').magnificPopup({
-      type: 'image'
-    });
+  $('#timeline-embed').arrive('.slider-container', function () {
+    setTimeout(function () {
+      $('.image-popup').magnificPopup({
+        type: 'image'
+      });
+    }, 1000);
     $(document).unbindArrive('#timeline-embed');
   });
   $('#timeline-embed').on('UPDATE', function () {
