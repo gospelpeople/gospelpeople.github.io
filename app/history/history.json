@@ -194,6 +194,14 @@
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
       "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
+      }
+    }, {
+      "startDate": "2015,3,21",
+      "endDate": "2015,3,22",
+      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "asset": {
         "media": "images/history/resized/2015-03-21-workshop2.jpg",
         "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
@@ -206,14 +214,6 @@
         "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
       }
     }, {
-      "startDate": "2015,3,21",
-      "endDate": "2015,3,22",
-      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
-      }
-    }, {
       "startDate": "2012,9,22",
       "headline": "Bundesweiter Gospelday – Singen in der Stadt",
       "text": "Gerne nahmen wir am Aktionstag der Creativen Kirche gegen Armut und Hunger – dem Gospelday - teil. Zum Abschluss des Gospeldays, sangen wir gemeinsamen mit drei anderen Gospel Chören Open Air auf dem großen Markt. Der Auftritt war in der Weseler Großveranstaltung \"Weseler Kulturnacht\" eingebettet.",
@@ -223,19 +223,19 @@
       }
     }, {
       "startDate": "2012,6,1",
-      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
-      "asset": {
-        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
-        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
-      }
-    }, {
-      "startDate": "2012,6,1",
       "endDate": "2012,6,3",
       "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
       "text": "Ein ganzes Wochenende im Zeichen des Gospel! Als einer von 120 Chören sangen wir am Freitagabend im Rahmen der Dortmunder Gospelnacht. Um 23.00 Uhr traten wir in der ev. Auferstehungskirche in Do.-Scharnhorst auf. Belohnt wurde unser Chor von einem sehr wachen Publikum, dass es nicht lange auf ihren Bänken hielt. Am Samstag ließen wir uns durch die Innenstadt treiben, vorbei an 12 großen Konzertbühnen, um abends in der Westfalenhalle das Galakonzert mit internationalen Gospelstars und den Whise Guys zu erleben. Den Abschlussgottesdienst mit allen Künstlern am Sonntag, rundete ein bewegtes Wochenende ab.",
       "asset": {
         "media": "images/history/resized/2012-06-01-gospelkirchentag.jpg",
         "thumbnail": "images/history/thumbnails/2012-06-01-gospelkirchentag.jpg"
+      }
+    }, {
+      "startDate": "2012,6,1",
+      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
+      "asset": {
+        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
+        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
       }
     }, {
       "startDate": "2012,11,17",
@@ -358,6 +358,50 @@
       "asset": {
         "media": "images/history/resized/2011-10-23-weltmissionssonntag.jpg",
         "thumbnail": "images/history/thumbnails/2011-10-23-weltmissionssonntag.jpg"
+      }
+    }, {
+      "startDate": "2015,04,29",
+      "headline": "Presse&shy;ankündigung unseres Konzertes \"NOW!\"",
+      "text": "Die lokale Presse unterstützt uns bei der Werbung für unser Konzert am 9. Mai und greift zusätzlich unsere neuen Entwicklungen im Chor auf.",
+      "asset": {
+        "media": "images/history/resized/2015-04-29-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2015-04-29-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-04-29-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2011,09,11",
+      "headline": "Konzert",
+      "text": "Als krönenden Abschluss unseres Workshops mit Joakim Arenius, führten wir in der Kirche St. Antonius ein Konzert auf. Dort präsentierten wir die Songs, die wir an dem Wochenende gemeinsam erarbeitet haben und wurden von einem begeisterten Publikum belohnt.",
+      "asset": {
+        "media": "images/history/resized/2011-09-11-arenius.png",
+        "thumbnail": "images/history/thumbnails/2011-09-11-arenius.png"
+      }
+    }, {
+      "startDate": "2011,09,09",
+      "endDate": "2011,09,11",
+      "headline": "Gospel Workshop mit dem Komponisten Joakim Arenius",
+      "text": "Wir waren sehr glücklich den schwedischen Komponisten Joakim Arenius zu einem Workshop in Wesel zu gewinnen. Es war eine große Bereicherung für uns und hat riesigen Spaß gemacht.",
+      "asset": {
+        "media": "images/history/resized/2011-09-09-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2011-09-09-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2011-09-09-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,11,10",
+      "headline": "Presse&shy;ankündigung zum Konzert des 18. Chorgeburtstages",
+      "text": "Eingeladen sind alle die eine \"Holy Ghost Party\" mitfeiern wollen! Gestartet wird am Samstag in der St. Antonius Kirche.",
+      "asset": {
+        "media": "images/history/resized/2010-11-10-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2010-11-10-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-11-10-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,11,13",
+      "headline": "Gospel People Konzert: \"A Holy Ghost Party\"",
+      "text": "Es gibt immer gute Gründe zu feiern. Zum Beispiel 18 Jahre Gospel People, die Fertigstellung der gleichnamigen CD oder einfach, weil es großartig ist ein Konzert aufzuführen. Wir haben die Kirche gerockt und die Zuschauer ließen sich nicht lange bitten.",
+      "asset": {
+        "media": "images/history/resized/2010-11-13-konzert.png",
+        "thumbnail": "images/history/thumbnails/2010-11-13-konzert.png"
       }
     }]
   }
