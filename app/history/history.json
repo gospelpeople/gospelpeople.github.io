@@ -403,6 +403,48 @@
         "media": "images/history/resized/2010-11-13-konzert.png",
         "thumbnail": "images/history/thumbnails/2010-11-13-konzert.png"
       }
+    }, {
+      "startDate": "2010,9,4",
+      "headline": "Hochzeits&shy;gottesdienst in Bislich",
+      "text": "An einem wunderschönen sonnigen Samstagnachmittag übernahmen wir die musikalische Begleitung der Trauung eines Hochzeitspaares in der katholischen St. Johannes Kirche in Wesel Bislich.",
+      "asset": {
+        "media": "images/history/resized/2010-09-04-hochzeitsgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2010-09-04-hochzeitsgottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2010,9,11",
+      "headline": "Land&shy;gottesdienst der Scheune des Hofes Buchmann",
+      "text": "An diesem Mittwochabend waren wir eingeladen, die musikalische Begleitung eines ökumenischen Gottesdienstes zu übernehmen. Gerne ließen wir unsere regelhafte Chorprobe dafür ausfallen, zumal es sich um etwas besonders handelte, denn in einer Scheune singen wir nicht alle Tage.",
+      "asset": {
+        "media": "images/history/resized/2010-06-11-landgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2010-06-11-landgottesdienst.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-06-11-landgottesdienst.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2015,5,8",
+      "headline": "Ankündigung zu unserem Konzert 2015",
+      "text": "Die Plakatgestaltung hat, in Zusammenarbeit mit einem Designer, eine kleine Gruppe des Chores übernommen. Die gedruckten Plakate und Flyer haben wir in Wesel und Umgebung breit gestreut in der Hoffnung auf eine voll besetzte Kirche. Der Chor und die Band haben sich gut vorbereitet und wir waren alle voller Vorfreude.",
+      "asset": {
+        "media": "images/history/resized/2015-05-08-plakat.png",
+        "thumbnail": "images/history/thumbnails/2015-05-08-plakat.png"
+      }
+    }, {
+      "startDate": "2015,5,9",
+      "headline": "Gelungenes Konzert!",
+      "text": "Die Solisten, die Band und Chor haben ihre Sache richtig gut gemacht. Unser Konzert: NOW! war ein voller Erfolg. Das Publikum klatschte mit, sang und ließ sich mitreißen. Die gute Stimmung übertrug sich wechselseitig, so dass alle Beteiligten mit viel Begeisterung dabei waren. Die Band hat uns hervorragend begleitet. Danke an die Bandleitung Jan Marten. Unser Chorleiter Stephan Marten konnte sich das Schmunzeln nicht verkneifen, wenn er immer wieder lang anhaltenden Applaus abwarten musste, ehe er fortfahren konnte. Danke Stephan für dein Engagement und deine Geduld mit uns.",
+      "asset": {
+        "media": "images/history/resized/2015-05-09-konzert.jpg",
+        "thumbnail": "images/history/thumbnails/2015-05-09-konzert.jpg"
+      }
+    }, {
+      "startDate": "2015,5,11",
+      "headline": "Positive Resonanz der Presse",
+      "text": "...und natürlich haben wir uns sehr über die positiven Rückmeldungen gefreut – auch von der Presse.",
+      "asset": {
+        "media": "images/history/resized/2015-05-11-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2015-05-11-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-05-11-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
     }]
   }
 }
