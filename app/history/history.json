@@ -192,15 +192,6 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
-      "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
-      }
-    }, {
-      "startDate": "2015,3,21",
-      "endDate": "2015,3,22",
-      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
       "asset": {
         "media": "images/history/resized/2015-03-21-workshop2.jpg",
         "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
@@ -212,6 +203,15 @@
       "asset": {
         "media": "images/history/resized/2015-03-22-workshop.jpg",
         "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
+      }
+    }, {
+      "startDate": "2015,3,21",
+      "endDate": "2015,3,22",
+      "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
+      "asset": {
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
       }
     }, {
       "startDate": "2012,9,22",
@@ -412,7 +412,7 @@
         "thumbnail": "images/history/thumbnails/2010-09-04-hochzeitsgottesdienst.jpg"
       }
     }, {
-      "startDate": "2010,9,11",
+      "startDate": "2010,6,11",
       "headline": "Land&shy;gottesdienst der Scheune des Hofes Buchmann",
       "text": "An diesem Mittwochabend waren wir eingeladen, die musikalische Begleitung eines ökumenischen Gottesdienstes zu übernehmen. Gerne ließen wir unsere regelhafte Chorprobe dafür ausfallen, zumal es sich um etwas besonders handelte, denn in einer Scheune singen wir nicht alle Tage.",
       "asset": {
@@ -444,6 +444,14 @@
         "media": "images/history/resized/2015-05-11-presse.jpg",
         "thumbnail": "images/history/thumbnails/2015-05-11-presse.jpg",
         "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-05-11-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,6,9",
+      "headline": "Land&shy;gottesdienst der Scheune des Hofes Buchmann",
+      "text": "An diesem Mittwochabend waren wir eingeladen, die musikalische Begleitung eines ökumenischen Gottesdienstes zu übernehmen. Gerne ließen wir unsere regelhafte Chorprobe dafür ausfallen, zumal es sich um etwas besonders handelte, denn in einer Scheune singen wir nicht alle Tage.",
+      "asset": {
+        "media": "images/history/resized/2010-06-09-landgottesdienst.jpg",
+        "thumbnail": "images/history/thumbnails/2010-06-09-landgottesdienst.jpg"
       }
     }]
   }
