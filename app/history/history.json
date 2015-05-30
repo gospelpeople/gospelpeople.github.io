@@ -18,7 +18,7 @@
     }, {
       "startDate": "2014,3,18",
       "headline": "Presse&shy;ankündigungen zum Konzert am 22. März 2014",
-      "text": "Die lokale Presse kündigt unser 6. Benefizkonzert für das Frauen-und Kinderhilfeprojekt SEKA in Bosnien an ( http://www.seka-hh.de ). Ein Mitglied unseres Chores ist seit vielen Jahren mit dem Projekt persönlich verbunden und organisiert mit Ihrer Familie die Konzerte. Es findet, wie alle zwei Jahre, im Bühnenhaus der Stadt Wesel statt. Bei diesem Konzert haben wir unseren ersten großen Auftritt mit Stephan Marten als neuen Chorleiter und der neuen Band unter Leitung von Jan Marten. Das bekannte Weseler Gitarrentrio \"Three as 1\" wird für einen Gastauftritt erwartet.",
+      "text": "Die lokale Presse kündigt unser 6. Benefizkonzert für das Frauen-und Kinderhilfeprojekt SEKA in Bosnien an ( <a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a> ). Ein Mitglied unseres Chores ist seit vielen Jahren mit dem Projekt persönlich verbunden und organisiert mit Ihrer Familie die Konzerte. Es findet, wie alle zwei Jahre, im Bühnenhaus der Stadt Wesel statt. Bei diesem Konzert haben wir unseren ersten großen Auftritt mit Stephan Marten als neuen Chorleiter und der neuen Band unter Leitung von Jan Marten. Das bekannte Weseler Gitarrentrio \"Three as 1\" wird für einen Gastauftritt erwartet.",
       "asset": {
         "media": "images/history/resized/2014-03-07-presse-vor-konzert.jpg",
         "thumbnail": "images/history/thumbnails/2014-03-07-presse-vor-konzert.jpg",
@@ -200,18 +200,18 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-22-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
       }
     }, {
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
+        "media": "images/history/resized/2015-03-22-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-22-workshop.jpg"
       }
     }, {
       "startDate": "2012,9,22",
@@ -223,19 +223,19 @@
       }
     }, {
       "startDate": "2012,6,1",
+      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
+      "asset": {
+        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
+        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
+      }
+    }, {
+      "startDate": "2012,6,1",
       "endDate": "2012,6,3",
       "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
       "text": "Ein ganzes Wochenende im Zeichen des Gospel! Als einer von 120 Chören sangen wir am Freitagabend im Rahmen der Dortmunder Gospelnacht. Um 23.00 Uhr traten wir in der ev. Auferstehungskirche in Do.-Scharnhorst auf. Belohnt wurde unser Chor von einem sehr wachen Publikum, dass es nicht lange auf ihren Bänken hielt. Am Samstag ließen wir uns durch die Innenstadt treiben, vorbei an 12 großen Konzertbühnen, um abends in der Westfalenhalle das Galakonzert mit internationalen Gospelstars und den Whise Guys zu erleben. Den Abschlussgottesdienst mit allen Künstlern am Sonntag, rundete ein bewegtes Wochenende ab.",
       "asset": {
         "media": "images/history/resized/2012-06-01-gospelkirchentag.jpg",
         "thumbnail": "images/history/thumbnails/2012-06-01-gospelkirchentag.jpg"
-      }
-    }, {
-      "startDate": "2012,6,1",
-      "headline": "Teilnahme am internationalen Gospelkirchentag in Dortmund",
-      "asset": {
-        "media": "images/history/resized/2012-06-01-gospelirchentag-auftritt.jpg",
-        "thumbnail": "images/history/thumbnails/2012-06-01-gospelirchentag-auftritt.jpg"
       }
     }, {
       "startDate": "2012,11,17",
@@ -452,6 +452,58 @@
       "asset": {
         "media": "images/history/resized/2010-06-09-landgottesdienst.jpg",
         "thumbnail": "images/history/thumbnails/2010-06-09-landgottesdienst.jpg"
+      }
+    }, {
+      "startDate": "2010,3,5",
+      "headline": "Dynamisches Mitmach-Konzert im Bühnenhaus",
+      "text": "Das war ein großartiges Erlebnis.",
+      "asset": {
+        "media": "images/history/resized/2010-03-05-konzert.jpg",
+        "thumbnail": "images/history/thumbnails/2010-03-05-konzert.jpg"
+      }
+    }, {
+      "startDate": "2010,3,8",
+      "headline": "Ein schwungvolles Konzert- viel Geld für SEKA",
+      "text": "Alle Beteiligten konnten diesen wunderbaren Abend genießen. Außerdem freute sich die SEKA Gruppe Wesel ( <a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a> ) über ein hohes Spendenergebnis.",
+      "asset": {
+        "media": "images/history/resized/2010-03-08-presse2.jpg",
+        "thumbnail": "images/history/thumbnails/2010-03-08-presse2.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-03-08-presse2.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,3,8",
+      "headline": "Ein schwungvolles Konzert- viel Geld für SEKA",
+      "asset": {
+        "media": "images/history/resized/2010-03-08-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2010-03-08-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-03-08-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,3,17",
+      "headline": "Ermutigender Konzerterfolg für SEKA",
+      "text": "Volles Bühnenhaus, ausgezeichnete Band, temperamentvoller Chor, hervorragender Chorleiter, ausgelassene Stimmung – was wollen wir mehr? Natürlich eine hohe Spendensumme für SEKA: Auch das haben wir geschafft. Was für ein gelungener Abend!",
+      "asset": {
+        "media": "images/history/resized/2010-03-17-presse.jpg",
+        "thumbnail": "images/history/thumbnails/2010-03-17-presse.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-03-17-presse.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,2,12",
+      "headline": "Presse&shy;ankündigungen in verschiedenen Zeitungen",
+      "text": "Die Vorbereitungen zu unserem Benefizkonzert für das bosnische Frauen-und Kinderhilfe Projekt SEKA ( <a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a> ) findet viel öffentliche Aufmerksamkeit.",
+      "asset": {
+        "media": "images/history/resized/2010-02-12-konzertankuendigung.jpg",
+        "thumbnail": "images/history/thumbnails/2010-02-12-konzertankuendigung.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-02-12-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2010,2,13",
+      "headline": "Lokale Presse rührt die Werbetrommel",
+      "text": "Wie jedes Jahr ist die lokale Presse bei der Ankündigung unseres Benefizkonzertes für das bosnische Frauen-und Kinderhilfe Projekt SEKA ( <a href=\"http://www.seka-hh.de\" target=\"_blank\">seka-hh.de</a> ) behilflich.",
+      "asset": {
+        "media": "images/history/resized/2010-02-13-konzertankuendigung.jpg",
+        "thumbnail": "images/history/thumbnails/2010-02-13-konzertankuendigung.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-02-13-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
       }
     }]
   }
