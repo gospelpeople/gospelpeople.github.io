@@ -192,18 +192,18 @@
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
+      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop2.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
+        "media": "images/history/resized/2015-03-21-workshop.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
       }
     }, {
       "startDate": "2015,3,21",
       "endDate": "2015,3,22",
       "headline": "Workshop in Vorbereitung auf unser Konzert am 9. Mai 2015",
-      "text": "Bei einem Probenwochenende im Gästehaus Mariengarden im westfälischen Burlo bereiteten sich der Chor und die Band auf das bevorstehende Konzert am 9. Mai in der Antoniuskirche vor. Es waren schöne Tage, die wir gemeinsam verbracht haben, geprägt von intensiver gemeinsamer Arbeit und viel Spaß.",
       "asset": {
-        "media": "images/history/resized/2015-03-21-workshop.jpg",
-        "thumbnail": "images/history/thumbnails/2015-03-21-workshop.jpg"
+        "media": "images/history/resized/2015-03-21-workshop2.jpg",
+        "thumbnail": "images/history/thumbnails/2015-03-21-workshop2.jpg"
       }
     }, {
       "startDate": "2015,3,21",
@@ -504,6 +504,15 @@
         "media": "images/history/resized/2010-02-13-konzertankuendigung.jpg",
         "thumbnail": "images/history/thumbnails/2010-02-13-konzertankuendigung.jpg",
         "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-02-13-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
+      }
+    }, {
+      "startDate": "2015,6,20",
+      "headline": "Open Air Auftritt in Wesel-Blumenkamp",
+      "text": "Bei unserem letzten Auftritt vor der Sommerpause standen wir beim Stadtteilfest in Blumenkamp auf der Bühne. Bei trockenem Wetter und frischen Temperaturen trugen wir zur Unterhaltung der Gäste bei.",
+      "asset": {
+        "media": "images/history/resized/2015-06-20-stadteilfest-blumenkamp.jpg",
+        "thumbnail": "images/history/thumbnails/2015-06-20-stadteilfest-blumenkamp.jpg",
+        "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-06-20-stadteilfest-blumenkamp.jpg\" target=\"_blank\">Großansicht</a>"
       }
     }]
   }
