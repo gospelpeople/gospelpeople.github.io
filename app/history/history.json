@@ -529,6 +529,22 @@
         "media": "images/history/resized/2015-09-15-fahrradtour2.jpg",
         "thumbnail": "images/history/thumbnails/2015-09-15-fahrradtour2.jpg"
       }
+    }, {
+      "startDate": "2015,5,2",
+      "headline": "Hochzeitsgottesdienst im Karmeliterkloster in Marienthal",
+      "text": "Es ist schön, dass wir als Chor das Glück habe, live begleitet zu werden. Auch wenn die Platzverhältnisse bei Auftritten nicht immer perfekt sind, macht unsere Band stets das Beste daraus.",
+      "asset": {
+        "media": "images/history/resized/2015-05-02-hochzeit-band.jpg",
+        "thumbnail": "images/history/thumbnails/2015-05-02-hochzeit-band.jpg"
+      }
+    }, {
+      "startDate": "2015,5,2",
+      "headline": "Hochzeitsgottesdienst im Karmeliterkloster in Marienthal",
+      "text": "Es war ein sonniger Samstag in feierliche Stimmung, als wir von der Empore aus in der romantischen Klosterkirche den Hochzeitsgottesdienst des Brautpaares begleiteten.",
+      "asset": {
+        "media": "images/history/resized/2015-05-02-hochzeit-chor.jpg",
+        "thumbnail": "images/history/thumbnails/2015-05-02-hochzeit-chor.jpg"
+      }
     }]
   }
 }
