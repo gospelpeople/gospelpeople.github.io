@@ -180,3 +180,8 @@ footer {
 #success:target .contact-success {
   display: inherit;
 }
+@media (max-width: $screen-lg-min) and (min-width: $screen-sm) {
+    .hidden-mid-menu {
+        display: none !important;
+    }
+}
