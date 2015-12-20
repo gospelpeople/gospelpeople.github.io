@@ -499,7 +499,10 @@ module.exports = function (grunt) {
         stoponerror: true,
         reset: true,
         path: '.tmp/validation-status.json',
-        reportpath: '.tmp/validation-report.json'
+        reportpath: '.tmp/validation-report.json',
+        relaxerror: ['The Content-Type was .*. Using the HTML parser.',
+             'Using the schema for HTML with .*'],
+        errorHTMLRootDir: '.tmp'
       },
       files: {
         src: '<%= config.dist %>/*.html'
