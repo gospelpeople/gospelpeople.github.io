@@ -284,10 +284,7 @@ module.exports = function (grunt) {
         src: ['<%= config.app %>/includes/*.html'],
         exclude: [
           'bower_components/bootstrap/dist/js/bootstrap.js',
-          'bower_components/bootstrap/dist/css/bootstrap.css',
-          'bower_components/TimelineJS/build/js/storyjs-embed-generator.js',
-          'bower_components/TimelineJS/build/js/storyjs-embed-cdn.js',
-          'bower_components/TimelineJS/build/js/timeline.js'
+          'bower_components/bootstrap/dist/css/bootstrap.css'
         ]
       },
       sass: {
@@ -439,7 +436,7 @@ module.exports = function (grunt) {
           expand: true,
           dot: true,
           cwd: '.',
-          src: 'bower_components/TimelineJS/build/{js,css}/**/*',
+          src: 'bower_components/TimelineJS3/compiled/{js,css}/**/*',
           dest: '<%= config.dist %>'
         }, {
           expand: true,
