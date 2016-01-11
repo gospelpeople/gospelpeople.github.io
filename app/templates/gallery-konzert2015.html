@@ -2,12 +2,12 @@
 <html class="no-js">
 
 <head>
-    <!--(bake ../includes/header.html title="Galerie - Konzert 2014 &middot; Gospel People St. Antonius")-->
+    @@include('../includes/header.html', {"title":"Galerie - Konzert 2014 &middot; Gospel People St. Antonius"})
 </head>
 
 <body>
     <!-- Navigation -->
-    <!--(bake ../includes/navigation.html navgallery="gallery.html")-->
+    @@include('../includes/navigation.html', {"navgallery": true})
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <header class="image-bg-gallery image-bg-fixed-height">
@@ -201,9 +201,9 @@
             </div>
         </section>
     </div>
-    <!--(bake ../includes/gallery.html)-->
+    @@include('../includes/gallery.html')
     <!-- Footer -->
-    <!--(bake ../includes/footer.html)-->
+    @@include('../includes/footer.html')
 </body>
 
 </html>

@@ -2,12 +2,12 @@
 <html class="no-js">
 
 <head>
-    <!--(bake ../includes/header.html title="Seite nicht gefunden &middot; Gospel People St. Antonius")-->
+    @@include('../includes/header.html', {"title":"Seite nicht gefunden &middot; Gospel People St. Antonius"})
 </head>
 
 <body>
     <!-- Navigation -->
-    <!--(bake ../includes/navigation.html)-->
+    @@include('../includes/navigation.html')
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
     <header class="image-bg-imprint image-bg-fixed-height">
@@ -24,7 +24,7 @@
         </section>
     </div>
     <!-- Footer -->
-    <!--(bake ../includes/footer.html history="true")-->
+    @@include('../includes/footer.html')
 </body>
 
 </html>

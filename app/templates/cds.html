@@ -2,12 +2,12 @@
 <html class="no-js">
 
 <head>
-    <!--(bake ../includes/header.html title="CDs & DVDs &middot; Gospel People St. Antonius")-->
+    @@include('../includes/header.html', {"title":"CDs & DVDs &middot; Gospel People St. Antonius"})
 </head>
 
 <body>
     <!-- Navigation -->
-    <!--(bake ../includes/navigation.html navcds="cds.html")-->
+    @@include('../includes/navigation.html', {"navcds":true})
 
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
@@ -127,7 +127,7 @@
     </div>
 
     <!-- Footer -->
-    <!--(bake ../includes/footer.html)-->
+    @@include('../includes/footer.html')
 </body>
 
 </html>

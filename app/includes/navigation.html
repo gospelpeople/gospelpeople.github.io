@@ -21,44 +21,44 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <!--(bake-start _if="navsongs")-->
+                @@if (typeof navsongs != 'undefined' && navsongs === true) {
                 <li class="active">
-                <!--(bake-end)-->
-                <!--(bake-start _if="!navsongs")-->
+                }
+                @@if (typeof navsongs == 'undefined' || navsongs !== true) {
                 <li>
-                <!--(bake-end)-->
+                }
                     <a href="songs.html">Repertoire<span class="hidden-mid-menu"> &amp; Hörproben</span></a>
                 </li>
-                <!--(bake-start _if="navgallery")-->
+                @@if (typeof navgallery != 'undefined' && navgallery === true) {
                 <li class="active">
-                <!--(bake-end)-->
-                <!--(bake-start _if="!navgallery")-->
+                }
+                @@if (typeof navgallery == 'undefined' || navgallery !== true) {
                 <li>
-                <!--(bake-end)-->
+                }
                     <a href="gallery.html">Galerie</a>
                 </li>
-                <!--(bake-start _if="navhistory")-->
+                @@if (typeof navhistory != 'undefined' && navhistory === true) {
                 <li class="active">
-                <!--(bake-end)-->
-                <!--(bake-start _if="!navhistory")-->
+                }
+                @@if (typeof navhistory == 'undefined' || navhistory !== true) {
                 <li>
-                <!--(bake-end)-->
+                }
                     <a href="history.html">Chorchronik</a>
                 </li>
-                <!--(bake-start _if="navcds")-->
+                @@if (typeof navcds != 'undefined' && navcds === true) {
                 <li class="active">
-                <!--(bake-end)-->
-                <!--(bake-start _if="!navcds")-->
+                }
+                @@if (typeof navcds == 'undefined' || navcds !== true) {
                 <li>
-                <!--(bake-end)-->
+                }
                     <a href="cds.html">CDs<span class="hidden-mid-menu"> &amp; DVDs</span></a>
                 </li>
-                <!--(bake-start _if="navcontact")-->
+                @@if (typeof navcontact != 'undefined' && navcontact === true) {
                 <li class="active">
-                <!--(bake-end)-->
-                <!--(bake-start _if="!navcontact")-->
+                }
+                @@if (typeof navcontact == 'undefined' || navcontact !== true) {
                 <li>
-                <!--(bake-end)-->
+                }
                     <a href="contact.html">Kontakt</a>
                 </li>
             </ul>

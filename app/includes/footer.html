@@ -29,12 +29,12 @@
 <!-- endbower -->
 <script src="bower_components/blueimp-gallery/js/jquery.blueimp-gallery.js"></script>
 <!-- endbuild -->
-<!--(bake-start _if="history")-->
+@@if (typeof history != 'undefined' && history === true) {
 <script src="bower_components/TimelineJS3/compiled/js/timeline-min.js"></script>
-<!--(bake-end)-->
+}
 
-<!--(bake-start _if="script")-->
+@@if (typeof script != 'undefined' && script === true) {
 <!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
-<!--(bake-end)-->
+}

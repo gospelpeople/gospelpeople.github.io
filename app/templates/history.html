@@ -2,13 +2,13 @@
 <html class="no-js">
 
 <head>
-    <!--(bake ../includes/header.html title="Chorchronik &middot; Gospel People St. Antonius")-->
+    @@include('../includes/header.html', {"title":"Chorchronik &middot; Gospel People St. Antonius"})
     <link rel="stylesheet" href="bower_components/TimelineJS3/compiled/css/timeline.css" />
 </head>
 
 <body>
     <!-- Navigation -->
-    <!--(bake ../includes/navigation.html navhistory="history.html")-->
+    @@include('../includes/navigation.html', {"navhistory": true})
 
     <!-- Full Width Image Header with Logo -->
     <!-- Image backgrounds are set within the full-width-pics.css file. -->
@@ -18,7 +18,7 @@
     <!-- Content Section -->
     <div style="width: 100%; height: 800px" id="timeline-embed"></div>
     <!-- Footer -->
-    <!--(bake ../includes/footer.html history="true" script="true")-->
+    @@include('../includes/footer.html' ,{"history":true, "script": true})
     <script type="text/javascript">
     var timeline_config = {
         start_at_end: "true",
