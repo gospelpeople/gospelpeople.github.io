@@ -58,60 +58,60 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
 
 gulp.task('image-resize-gallery-thumbnails', () => {
   return gulp.src('app/images/gallery/originals/**/*.{jpg,png}')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     height: 180
   }))
-  .pipe(gulp.dest('app/images/gallery/thumbnails'));
+  .pipe(gulp.dest('app/images/gallery/thumbnails')));
 });
 
 gulp.task('image-resize-poster', () => {
   return gulp.src('app/images/poster/**/*.{jpg,png}')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     height: 180
   }))
-  .pipe(gulp.dest('app/images/poster/thumbnails'));
+  .pipe(gulp.dest('app/images/poster/thumbnails')));
 });
 
 gulp.task('image-resize-gallery', () => {
   return gulp.src('app/images/gallery/originals/**/*.{jpg,png}')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     width: 1920,
     height: 1080
   }))
-  .pipe(gulp.dest('app/images/gallery/resized'));
+  .pipe(gulp.dest('app/images/gallery/resized')));
 });
 
 gulp.task('image-resize-cds', () => {
   return gulp.src('app/images/cds/*.jpg')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     height: 180
   }))
-  .pipe(gulp.dest('app/images/cds/thumbnails'));
+  .pipe(gulp.dest('app/images/cds/thumbnails')));
 });
 
 gulp.task('image-resize-history-thumbnails', () => {
   return gulp.src('app/images/history/originals/*.{jpg,png,gif}')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     height: 32,
     width: 32
   }))
-  .pipe(gulp.dest('app/images/history/thumbnails'));
+  .pipe(gulp.dest('app/images/history/thumbnails')));
 });
 
 gulp.task('image-resize-history', () => {
   return gulp.src('app/images/history/originals/*.{jpg,png,gif}')
-  .pipe($.imageResize({
+  .pipe($.cache($.imageResize({
     width: 1920,
     height: 1080
   }))
-  .pipe(gulp.dest('app/images/history/resized'));
+  .pipe(gulp.dest('app/images/history/resized')));
 });
 
 gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-poster',
-  'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails']);
+  'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails', 'image-resize-history']);
 
-gulp.task('images', () => {
-  return gulp.src('app/images/**/*')
+gulp.task('images', ['image-resize'], () => {
+  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
     .pipe($.if($.if.isFile, $.cache($.imagemin({
       progressive: true,
       interlaced: true,
