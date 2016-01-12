@@ -58,7 +58,17 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.cssnano()))
-    .pipe($.if('*.html', $.htmlmin()))
+    .pipe($.if('*.html', $.htmlmin({
+          collapseBooleanAttributes: true,
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          removeAttributeQuotes: true,
+          removeCommentsFromCDATA: true,
+          removeEmptyAttributes: true,
+          removeOptionalTags: true,
+          removeRedundantAttributes: true,
+          useShortDoctype: true
+        })))
     .pipe(gulp.dest('dist'));
 });
 
