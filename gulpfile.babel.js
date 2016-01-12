@@ -142,8 +142,12 @@ gulp.task('extras', () => {
   }).pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', del.bind(null, ['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
-  'app/images/**/resized/*']));
+gulp.task('clean', () => {
+  del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
+    'app/images/**/resized/*']);
+  $.cache.clearAll();
+});
+
 
 gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
   browserSync({
