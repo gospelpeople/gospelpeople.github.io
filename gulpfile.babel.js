@@ -145,7 +145,7 @@ gulp.task('extras', () => {
 gulp.task('clean', del.bind(null, ['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
   'app/images/**/resized/*']));
 
-gulp.task('serve', ['styles', 'fonts', 'htmlinclude'], () => {
+gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
   browserSync({
     notify: false,
     port: 9000,
