@@ -148,6 +148,11 @@ gulp.task('clean', () => {
   $.cache.clearAll();
 });
 
+gulp.task('json-minify', () => {
+  return gulp.src('app/history/*.json')
+    .pipe($.jsonminify())
+    .pipe(gulp.dest('dist/history/'));
+});
 
 gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
   browserSync({
