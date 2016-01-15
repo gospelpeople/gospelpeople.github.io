@@ -162,6 +162,7 @@ gulp.task('fonts', () => {
 gulp.task('extras', () => {
   gulp.src([
     'app/*.*',
+    'app/CNAME',
     '!app/*.html',
     '!**/Thumbs.db'
   ], {
