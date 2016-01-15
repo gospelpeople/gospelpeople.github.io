@@ -273,3 +273,8 @@ gulp.task('validate', () => {
 gulp.task('default', ['clean'], () => {
   gulp.start('build');
 });
+
+gulp.task('deploy', function() {
+  return gulp.src('/dist/**/*')
+    .pipe($.ghPages({push: false, branch: 'master'}));
+});
