@@ -271,9 +271,7 @@ gulp.task('validate', () => {
   gulp.src('dist/*.html').pipe($.htmlValidator()).pipe(gulp.dest('.tmp/validate'));
 });
 
-gulp.task('default', ['clean'], () => {
-  gulp.start('build');
-});
+gulp.task('default', $.sequence('clean','build'));
 
 gulp.task('deploy', function() {
   return gulp.src('/dist/**/*')

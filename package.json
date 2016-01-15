@@ -26,6 +26,7 @@
     "gulp-plumber": "^1.0.1",
     "gulp-rev-all": "^0.8.22",
     "gulp-sass": "^2.0.0",
+    "gulp-sequence": "^0.4.4",
     "gulp-sitemap": "^2.2.0",
     "gulp-size": "^1.2.1",
     "gulp-sourcemaps": "^1.5.0",
