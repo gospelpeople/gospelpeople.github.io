@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.3.6",
-    "blueimp-gallery": "~2.15.2",
+    "blueimp-gallery": "~2.17.0",
     "css-social-buttons": "~1.1.1",
     "magnific-popup": "~1.0.1",
     "arrive": "~2.3.0",
