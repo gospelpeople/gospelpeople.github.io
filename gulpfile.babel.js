@@ -153,12 +153,17 @@ gulp.task('fonts', () => {
 });
 
 gulp.task('extras', () => {
-  return gulp.src([
-    'app/*.*',
-    '!app/*.html'
+  gulp.src([
+    'app/{history/,}*.*',
+    '!app/*.html',
+    '!**/Thumbs.db'
   ], {
     dot: true
   }).pipe(gulp.dest('dist'));
+  gulp.src('node_modules/apache-server-configs/dist/.htaccess')
+    .pipe(gulp.dest('dist'));
+  return gulp.src('bower_components/TimelineJS3/compiled/{js,css}/**/*', {base: '.'})
+    .pipe(gulp.dest('dist'));
 });
 
 gulp.task('clean', () => {
