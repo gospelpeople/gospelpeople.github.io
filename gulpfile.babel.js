@@ -161,7 +161,7 @@ gulp.task('fonts', () => {
 
 gulp.task('extras', () => {
   gulp.src([
-    'app/{history/,}*.*',
+    'app/*.*',
     '!app/*.html',
     '!**/Thumbs.db'
   ], {
@@ -262,7 +262,7 @@ gulp.task('sitemap', ['rev'], () => {
     .pipe(gulp.dest('dist'));
 })
 
-gulp.task('build', ['lint', 'rev', 'extras', 'sitemap'], () => {
+gulp.task('build', ['lint', 'rev', 'extras', 'sitemap', 'json-minify'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
