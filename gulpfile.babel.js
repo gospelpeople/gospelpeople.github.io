@@ -266,6 +266,10 @@ gulp.task('build', ['lint', 'rev', 'extras', 'sitemap', 'json-minify'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
+gulp.task('validate', () => {
+  gulp.src('dist/*.html').pipe($.htmlValidator()).pipe(gulp.dest('.tmp/validate'));
+});
+
 gulp.task('default', ['clean'], () => {
   gulp.start('build');
 });
