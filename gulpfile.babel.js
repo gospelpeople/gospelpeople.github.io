@@ -174,10 +174,10 @@ gulp.task('extras', () => {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', () => {
-  del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
-    'app/images/**/resized/*']);
+gulp.task('clean', (cb) => {
   $.cache.clearAll();
+  del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
+    'app/images/**/resized/*'], cb);
 });
 
 gulp.task('json-minify', () => {
