@@ -253,7 +253,16 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'rev', 'extras'], () => {
+gulp.task('sitemap', ['rev'], () => {
+  return gulp.src(['dist/*.html', '!dist/imprint.html'])
+    .pipe($.sitemap({
+      siteUrl: 'http://www.gospel-people.de',
+      changefreq: 'weekly'
+    }))
+    .pipe(gulp.dest('dist'));
+})
+
+gulp.task('build', ['lint', 'rev', 'extras', 'sitemap'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
