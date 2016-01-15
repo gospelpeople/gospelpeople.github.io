@@ -69,6 +69,13 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
           removeRedundantAttributes: true,
           useShortDoctype: true
         })))
+    .pipe(gulp.dest('.tmp/dist'));
+});
+
+gulp.task('rev', ['html', 'images', 'fonts'], () => {
+  var revAll = new $.revAll({dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g ], dontUpdateReference: ['.html']});
+  return gulp.src(['.tmp/dist/**', '!**/Thumbs.db'])
+    .pipe(revAll.revision())
     .pipe(gulp.dest('dist'));
 });
 
@@ -142,14 +149,14 @@ gulp.task('images', ['image-resize'], () => {
       console.log(err);
       this.end();
     })))
-    .pipe(gulp.dest('dist/images'));
+    .pipe(gulp.dest('.tmp/dist/images'));
 });
 
 gulp.task('fonts', () => {
   return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
     .concat('app/fonts/**/*'))
     .pipe(gulp.dest('.tmp/fonts'))
-    .pipe(gulp.dest('dist/fonts'));
+    .pipe(gulp.dest('.tmp/dist/fonts'));
 });
 
 gulp.task('extras', () => {
@@ -246,7 +253,7 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['lint', 'rev', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
