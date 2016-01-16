@@ -275,5 +275,5 @@ gulp.task('default', $.sequence('clean','build'));
 
 gulp.task('deploy', ['default'], () => {
   return gulp.src('dist/**/*')
-    .pipe($.ghPages({push: false, branch: 'master'}));
+    .pipe($.ghPages({branch: 'master'}));
 });
