@@ -57,7 +57,7 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
   return gulp.src('app/*.html')
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify()))
-    .pipe($.if('*.css', $.cssnano()))
+    .pipe($.if('*.css', $.cssnano({discardComments: {removeAll: true}, safe: true})))
     .pipe($.if('*.html', $.htmlmin({
           collapseBooleanAttributes: true,
           collapseWhitespace: true,
