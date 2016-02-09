@@ -37,7 +37,8 @@
       "url": "images/history/resized/2014-03-07-presse-vor-konzert.jpg",
       "thumbnail": "images/history/thumbnails/2014-03-07-presse-vor-konzert.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2014-03-07-presse-vor-konzert.jpg\" target=\"_blank\">Großansicht</a>"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2014,
@@ -296,7 +297,8 @@
     },
     "media": {
       "url": "https://www.youtube.com/watch?v=u3oVeJrMM6Y"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2012,
@@ -311,7 +313,8 @@
       "url": "images/history/resized/2012-04-04-presse.jpg",
       "thumbnail": "images/history/thumbnails/2012-04-04-presse.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2012-04-04-presse.jpg\" target=\"_blank\">Großansicht</a>"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2012,
@@ -845,7 +848,8 @@
       "url": "images/history/resized/2010-03-08-presse2.jpg",
       "thumbnail": "images/history/thumbnails/2010-03-08-presse2.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2015-03-08-presse2.jpg\" target=\"_blank\">Großansicht</a>"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2010,
@@ -889,7 +893,8 @@
       "url": "images/history/resized/2010-02-12-konzertankuendigung.jpg",
       "thumbnail": "images/history/thumbnails/2010-02-12-konzertankuendigung.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-02-12-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2010,
@@ -904,7 +909,8 @@
       "url": "images/history/resized/2010-02-13-konzertankuendigung.jpg",
       "thumbnail": "images/history/thumbnails/2010-02-13-konzertankuendigung.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2010-02-13-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
-    }
+    },
+    "autolink": false
   }, {
     "start_date": {
       "year": 2015,
