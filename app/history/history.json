@@ -1110,6 +1110,22 @@
       "thumbnail": "images/history/thumbnails/2016-02-27-konzert.png"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 2,
+      "day": 17
+    },
+    "text": {
+      "headline": "Konzertankündigung in der Lokalzeitung",
+      "text": "Wir freuen uns auf die Resonanz der Presse und auf ein gut besuchtes Haus."
+    },
+    "media": {
+      "url": "images/history/resized/2016-02-17-presse.jpg",
+      "thumbnail": "images/history/thumbnails/2016-02-17-presse.jpg",
+      "caption": "<a class=\"image-popup\" href=\"images/history/resized/2016-02-17-presse.jpg\" target=\"_blank\">Großansicht</a>"
+    },
+    "autolink": false
   }]
 }
 
