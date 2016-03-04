@@ -198,6 +198,8 @@ gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
     }
   });
 
+  gulp.watch('app/templates/*.html', ['htmlinclude']);
+
   gulp.watch([
     'app/*.html',
     'app/scripts/**/*.js',
