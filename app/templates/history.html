@@ -32,6 +32,18 @@
     }
     var json = $.getJSON('history/history.json', function(data) {
         var timeline = new TL.Timeline('timeline-embed', data, timeline_config);
+        timeline.on('loaded', function(data) {
+            setTimeout(function() {
+                $('.image-popup').magnificPopup({
+                    type: 'image'
+                });
+            }, 1000);
+        });
+        setTimeout(function() {
+                $('.image-popup').magnificPopup({
+                    type: 'image'
+                });
+            }, 3000);
         timeline.on('change', function(data) {
             $('.image-popup').magnificPopup({
                 type: 'image'
@@ -42,13 +54,6 @@
                 });
                 $(document).unbindArrive('#' + data.unique_id + ' .tl-media');
             });
-        });
-        timeline.on('loaded', function() {
-            setTimeout(function() {
-                $('.image-popup').magnificPopup({
-                    type: 'image'
-                });
-            }, 1000);
         });
     });
     </script>
