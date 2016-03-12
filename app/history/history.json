@@ -1134,13 +1134,28 @@
       "day": 29
     },
     "text": {
-      "headline": "Rekordergebnis beim Benefizkonzert im Bühnenhaus",
-      "text": "<p>Das war ein gelungenes Konzert!</p><p>Gute Musik, stimmgewaltige Chöre, tolle Stimmung im Saal und auf der Bühne und ein großartiges Spendenergebnis für das SEKA Projekt in Bosnien und der Flüchtlingshilfe in Wesel.</p>"
+      "headline": "Große Resonanz beim Publikum und in der Presse (RP)"
     },
     "media": {
       "url": "images/history/resized/2016-02-29-presse.jpg",
       "thumbnail": "images/history/thumbnails/2016-02-29-presse.jpg",
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2016-02-29-presse.jpg\" target=\"_blank\">Großansicht</a>"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 2,
+      "day": 29
+    },
+    "text": {
+      "headline": "Rekordergebnis beim Benefizkonzert im Bühnenhaus",
+      "text": "<p>Das war ein gelungenes Konzert!</p><p>Gute Musik, stimmgewaltige Chöre, tolle Stimmung im Saal und auf der Bühne und ein großartiges Spendenergebnis für das SEKA Projekt in Bosnien und der Flüchtlingshilfe in Wesel.</p>"
+    },
+    "media": {
+      "url": "images/history/resized/2016-03-02-presse.jpg",
+      "thumbnail": "images/history/thumbnails/2016-03-02-presse.jpg",
+      "caption": "<a class=\"image-popup\" href=\"images/history/resized/2016-03-02-presse.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
   }]
