@@ -1165,12 +1165,27 @@
       "day": 13
     },
     "text": {
-      "headline": "Misereor  Sonntag in St. Antonius",
+      "headline": "Misereor Sonntag in St. Antonius",
       "text": "<h3>\"Das Recht ströme wie Wasser\"</h3><p>Das ist das Leitwort der Misereor Fastenaktion 2016 und stellt damit die Sorge für das Recht, für Gerechtigkeit und Menschenwürde am Beispiel Brasiliens in den Vordergrund. Das Hungertuch, entworfen vom chinesischen Künstler Dao Zi, <q>Gott und Gold – Wie viel ist genug?</q> symbolisiert die Aktion während der Fastenwochen. Unsere musikalische Begleitung zum Misereor Sonntag fiel, zur Freude der Gottesdienstbesucher, sehr kraftvoll aus."
     },
     "media": {
       "url": "images/history/resized/2016-03-13-hungertuch.jpg",
       "thumbnail": "images/history/thumbnails/2016-03-13-hungertuch.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 5,
+      "day": 14
+    },
+    "text": {
+      "headline": "Standesamtliche Hochzeit in der Zitadelle",
+      "text": "Es hat uns viel Spaß gemacht unserer langjährigen Chorkollegin und ihrem Mann nach der standesamtlichen Trauung mit einem Minikonzert eine Freude zu machen."
+    },
+    "media": {
+      "url": "images/history/resized/2016-05-14-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2016-05-14-hochzeit.jpg"
     },
     "autolink": false
   }]
