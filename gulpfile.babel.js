@@ -176,7 +176,7 @@ gulp.task('extras', () => {
 
 gulp.task('clean', (cb) => {
   $.cache.clearAll();
-  del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
+  return del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
     'app/images/**/resized/*'], cb);
 });
 
