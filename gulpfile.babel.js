@@ -39,9 +39,9 @@ const testLintOptions = {
 };
 
 const lintOptions = {
-  globals: {
-    '$': true
-  }
+  globals: [
+    '$'
+  ]
 }
 
 gulp.task('lint', lint('app/scripts/**/*.js', lintOptions));
