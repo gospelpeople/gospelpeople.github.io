@@ -1188,6 +1188,21 @@
       "thumbnail": "images/history/thumbnails/2016-05-14-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 9,
+      "day": 17
+    },
+    "text": {
+      "headline": "Benefizkonzert für die Cassiopeia Stiftung",
+      "text": "Das Benefizkonzert für die Cassiopeia Stiftung findet in der Kulturscheune Dinslaken statt. Das wird eine stimmgewaltige Gospel Party in einer tollen Location. Wir freuen uns."
+    },
+    "media": {
+      "url": "images/history/resized/2016-09-17-konzert-cassiopeia.jpg",
+      "thumbnail": "images/history/thumbnails/2016-09-17-konzert-cassiopeia.jpg"
+    },
+    "autolink": false
   }]
 }
 
