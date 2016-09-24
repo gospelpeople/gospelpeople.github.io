@@ -73,9 +73,8 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
 });
 
 gulp.task('rev', ['html', 'images', 'fonts'], () => {
-  var revAll = new $.revAll({dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g ], dontUpdateReference: ['.html']});
   return gulp.src(['.tmp/dist/**', '!**/Thumbs.db'])
-    .pipe(revAll.revision())
+    .pipe($.revAll.revision({dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g ], dontUpdateReference: ['.html']}))
     .pipe(gulp.dest('dist'));
 });
 
