@@ -1195,12 +1195,26 @@
       "day": 17
     },
     "text": {
-      "headline": "Benefizkonzert für die Cassiopeia Stiftung",
-      "text": "Das Benefizkonzert für die Cassiopeia Stiftung findet in der Kulturscheune Dinslaken statt. Das wird eine stimmgewaltige Gospel Party in einer tollen Location. Wir freuen uns."
+      "headline": "Benefizkonzert für die Cassiopeia Stiftung"
     },
     "media": {
       "url": "images/history/resized/2016-09-17-konzert-cassiopeia.jpg",
       "thumbnail": "images/history/thumbnails/2016-09-17-konzert-cassiopeia.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 9,
+      "day": 17
+    },
+    "text": {
+      "headline": "Benefizkonzert für die Cassiopeia Stiftung",
+      "text": "<p>Unser Benefizkonzert für die Cassiopeia Stiftung war ein voller Erfolg. Der stimmgewaltige Chor und die Band verbreiteten in kurzer Zeit  gute Stimmung, das Publikum ließ sich nicht lange bitten und mit Begeisterung dabei war.</p><p>Die Kuhlmanns Kulturscheune in Dinslaken war eine ungewöhnliche Location, es hat uns viel Spaß gemacht dort für den guten Zweck aufzutreten.</p>"
+    },
+    "media": {
+      "url": "images/history/resized/2016-09-17-konzert-cassiopeia2.jpg",
+      "thumbnail": "images/history/thumbnails/2016-09-17-konzert-cassiopeia2.jpg"
     },
     "autolink": false
   }]
