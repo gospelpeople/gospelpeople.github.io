@@ -1217,6 +1217,21 @@
       "thumbnail": "images/history/thumbnails/2016-09-17-konzert-cassiopeia2.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 10,
+      "day": 1
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in Bislich am Rhein",
+      "text": "In der katholischen Kirche St. Johannes begleiteten wir den Hochzeitsgottesdienst von Isabel und Kai, die wir zuvor schon kennengelernt haben, als sie uns bei unseren wöchentlichen Proben besuchten."
+    },
+    "media": {
+      "url": "images/history/resized/2016-10-01-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2016-10-01-hochzeit.jpg"
+    },
+    "autolink": false
   }]
 }
 
