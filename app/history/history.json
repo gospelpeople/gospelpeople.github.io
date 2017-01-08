@@ -1232,6 +1232,21 @@
       "thumbnail": "images/history/thumbnails/2016-10-01-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 12,
+      "day": 10
+    },
+    "text": {
+      "headline": "Open-Air-Konzert im Winter",
+      "text": "Der Weihnachtsmarkt am Wasserschloss Haus Voerde bot eine schöne Kulisse für unseren Auftritt und dem ungemütlichen Wetter zum Trotz, konnten wir das letzte Konzert des Jahres vor einem großen Publikum singen."
+    },
+    "media": {
+      "url": "images/history/resized/2016-12-10-weihnachtsmarkt.jpg",
+      "thumbnail": "images/history/thumbnails/2016-12-10-weihnachtsmarkt.jpg"
+    },
+    "autolink": false
   }]
 }
 
