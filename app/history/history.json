@@ -1247,6 +1247,21 @@
       "thumbnail": "images/history/thumbnails/2016-12-10-weihnachtsmarkt.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 5,
+      "day": 21
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in Bislich",
+      "text": "Eine unserer Sängerinnen, die schon seit ihrer Jugend Mitglied in unserem Chor ist, hat heute ihrem Mann das Jawort gegeben.<br> Sehr gerne haben wir diesen feierlichen Gottesdienst musikalisch begleitet."
+    },
+    "media": {
+      "url": "images/history/resized/2016-05-21-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2016-05-21-hochzeit.jpg"
+    },
+    "autolink": false
   }]
 }
 
