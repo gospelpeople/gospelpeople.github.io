@@ -1262,6 +1262,21 @@
       "thumbnail": "images/history/thumbnails/2016-05-21-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 7,
+      "day": 16
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in Bislich",
+      "text": "Das war eine sehr romantische Sommerhochzeit, die wir in der Dorfkirche am Rhein musikalisch begleitet haben."
+    },
+    "media": {
+      "url": "images/history/resized/2016-07-16-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2016-07-16-hochzeit.jpg"
+    },
+    "autolink": false
   }]
 }
 
