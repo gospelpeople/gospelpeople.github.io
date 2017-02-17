@@ -1254,8 +1254,8 @@
       "day": 21
     },
     "text": {
-      "headline": "Hochzeitsgottesdienst in Bislich",
-      "text": "Eine unserer Sängerinnen, die schon seit ihrer Jugend Mitglied in unserem Chor ist, hat heute ihrem Mann das Jawort gegeben.<br> Sehr gerne haben wir diesen feierlichen Gottesdienst musikalisch begleitet."
+      "headline": "Hochzeitsgottesdienst",
+      "text": "Eine unserer langjährigen Chorkolleginnen gab in der katholischen Kirche St. Peter in Wesel-Büderich ihr Jawort. Sehr gerne haben wir für sie und ihren Mann ihre persönlichen Lieblingslieder gespielt und gesungen."
     },
     "media": {
       "url": "images/history/resized/2016-05-21-hochzeit.jpg",
@@ -1275,6 +1275,21 @@
     "media": {
       "url": "images/history/resized/2016-07-16-hochzeit.jpg",
       "thumbnail": "images/history/thumbnails/2016-07-16-hochzeit.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
+      "month": 6,
+      "day": 18
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in St. Antonius",
+      "text": "Die dritte im Bunde. <br/>In diesem Jahr haben drei unserer Chorkolleginnen geheiratet. Den feierlichen und sehr persönlichen Hochzeitsgottesdienst haben wir sehr gerne musikalisch begleitet."
+    },
+    "media": {
+      "url": "images/history/resized/2016-06-18-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2016-06-18-hochzeit.jpg"
     },
     "autolink": false
   }]
