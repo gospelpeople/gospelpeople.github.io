@@ -2,62 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://www.gospel-people.de/cds.html</loc>
-        <lastmod>2017-02-17T19:31:09.127Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.885Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/contact.html</loc>
-        <lastmod>2017-02-17T19:31:09.141Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.900Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2006.html</loc>
-        <lastmod>2017-02-17T19:31:09.154Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.914Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2008.html</loc>
-        <lastmod>2017-02-17T19:31:09.168Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.929Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2012.html</loc>
-        <lastmod>2017-02-17T19:31:09.182Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.943Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2014.html</loc>
-        <lastmod>2017-02-17T19:31:09.196Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.958Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2015.html</loc>
-        <lastmod>2017-02-17T19:31:09.209Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.971Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery-konzert2016.html</loc>
-        <lastmod>2017-02-17T19:31:09.223Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.985Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/gallery.html</loc>
-        <lastmod>2017-02-17T19:31:09.236Z</lastmod>
+        <lastmod>2017-02-17T19:50:41.999Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/history.html</loc>
-        <lastmod>2017-02-17T19:31:09.258Z</lastmod>
+        <lastmod>2017-02-17T19:50:42.020Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/</loc>
-        <lastmod>2017-02-17T19:31:09.315Z</lastmod>
+        <lastmod>2017-02-17T19:50:42.076Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.gospel-people.de/songs.html</loc>
-        <lastmod>2017-02-17T19:31:09.328Z</lastmod>
+        <lastmod>2017-02-17T19:50:42.088Z</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.gospel-people.de/ticket.html</loc>
+        <lastmod>2017-02-17T19:50:42.100Z</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
