@@ -189,3 +189,8 @@ footer {
   position: relative;
   top: 31px;
 }
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
