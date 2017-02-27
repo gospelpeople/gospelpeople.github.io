@@ -56,7 +56,13 @@ body {
     background-position: center 18%;
 }
 .image-bg-fixed-height {
-    height: 400px;
+    height: 200px;
+    @media(min-width:$screen-sm-min) {
+      height: 300px;
+    }
+    @media(min-width:$screen-md-min) {
+      height: 400px;
+    }
 }
 .img-center {
     margin: 0 auto;
