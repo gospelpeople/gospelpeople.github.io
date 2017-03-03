@@ -40,14 +40,21 @@
                         <h4>Künftige Auftritte</h4>
                         <ul class="list-unstyled">
                             <li>
-                                <div itemscope itemtype="http://schema.org/Event">
+                                <div>
                                       <script type="application/ld+json">{
                                          "@context":"http://schema.org/",
-                                         "@type":"Event",
+                                         "@type":"MusicEvent",
                                          "name":"Konzert in der St. Antonius Kirche",
+                                         "url":"http://www.gospel-people.de",
                                          "startDate":"2017-04-01T20:00",
+                                         "endDate":"2017-04-01T23:00",
+                                         "image":{
+                                           "@type":"ImageObject",
+                                           "url":"http://www.gospel-people.de/images/poster/konzert-2017.png",
+                                           "thumbnailUrl":"http://www.gospel-people.de/images/poster/thumbnails/konzert-2017.png"
+                                         },
                                          "location":{
-                                            "@type":"Place",
+                                            "@type":"PlaceOfWorship",
                                             "name":"St. Antonius Kirche",
                                             "address":{
                                                "@type":"PostalAddress",
@@ -59,39 +66,51 @@
                                          "performer":{
                                             "@type":"MusicGroup",
                                             "name":"Gospel People St. Antonius"
-                                         }
+                                         },
+                                         "description":"ES IST WIEDER SOWEIT!\nWir geben unser nächstes Konzert, diesmal unter dem Namen \"Rejoice\" in der St. Antonius Kirche in Wesel Obrighoven!\n\nLasst euch von unseren modernen Gospelliedern verzaubern, und genießt einen tollen Abend mit Gesang, Tanz und viel Spaß!\n\nEgal ob groß und klein, jung oder alt: Alle Altersklassen sind herzlich eingeladen!",
+                                         "eventStatus":"http://schema.org/EventScheduled",
+                                         "offers": {
+                                            "@type": "Offer",
+                                            "url": "http://www.gospel-people.de/ticket.html",
+                                            "price": "8",
+                                            "priceCurrency": "EUR",
+                                            "availability": "http://schema.org/InStock",
+                                            "availabilityStarts":"2017-03-01T08:00",
+                                            "inventoryLevel":250
+                                          }
                                       }
                                       </script>
                                     <div>
                                         <h5>
-                                            <small itemprop="startDate" content="2017-04-01T20:00">01.04.2017 20:00</small>
+                                            <small>01.04.2017 20:00</small>
                                             <a href="ticket.html">
-                                                <span itemprop="name">Konzert: Rejoice</span>
-                                                <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-                                                  <span itemprop="name">St. Antonius Kirche</span>
-                                                  <meta itemprop="address" content="St. Antonius Kirche"/>
+                                                <span>Konzert: Rejoice</span>
+                                                <span>
+                                                  <span>St. Antonius Kirche</span>
                                                 </span>
                                             </a>
                                         </h5>
                                     </div>
-                                    <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-                                        <a href="images/poster/konzert-2017.png" class="image-popup" itemprop="contentUrl">
-                                            <img src="images/poster/thumbnails/konzert-2017.png" alt="Rejoice" class="center-block" itemprop="thumbnailUrl">
-                                            <meta itemprop="name" content="Rejoice" />
+                                    <div>
+                                        <a href="images/poster/konzert-2017.png" class="image-popup" title="Rejoice">
+                                            <img src="images/poster/thumbnails/konzert-2017.png" alt="Rejoice" class="center-block">
                                         </a>
                                     </div>
 
                                 </div>
                             </li>
                             <li>
-                                <div itemscope itemtype="http://schema.org/Event">
+                                <div>
                                       <script type="application/ld+json">{
                                          "@context":"http://schema.org/",
                                          "@type":"Event",
-                                         "name":"Gottesdienst in der St. Antonius Kirche",
+                                         "name":"Gottesdienst",
+                                         "description":"Gottesdienst in der St. Antonius Kirche",
                                          "startDate":"2017-04-29T18:30",
+                                         "endDate":"2017-04-29T19:30",
+                                         "url":"http://www.gospel-people.de",
                                          "location":{
-                                            "@type":"Place",
+                                            "@type":"PlaceOfWorship",
                                             "name":"St. Antonius Kirche",
                                             "address":{
                                                "@type":"PostalAddress",
@@ -103,30 +122,33 @@
                                          "performer":{
                                             "@type":"MusicGroup",
                                             "name":"Gospel People St. Antonius"
-                                         }
+                                         },
+                                         "eventStatus":"http://schema.org/EventScheduled"
                                       }
                                       </script>
                                     <div>
                                         <h5>
-                                            <small itemprop="startDate" content="2017-04-29T18:30">29.04.2017 18:30</small>
-                                            <span itemprop="name">Gottesdienst</span>
-                                            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-                                              <span itemprop="name">St. Antonius Kirche</span>
-                                              <meta itemprop="address" content="St. Antonius Kirche"/>
+                                            <small>29.04.2017 18:30</small>
+                                            <span>Gottesdienst</span>
+                                            <span>
+                                              <span>St. Antonius Kirche</span>
                                             </span>
                                         </h5>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div itemscope itemtype="http://schema.org/Event">
+                                <div>
                                       <script type="application/ld+json">{
                                          "@context":"http://schema.org/",
                                          "@type":"Event",
-                                         "name":"Hochzeitsgottesdienst in der Schloßkirche, Wesel-Diersfordt",
+                                         "name":"Hochzeitsgottesdienst",
+                                         "description":"Hochzeitsgottesdienst in der Schloßkirche, Wesel-Diersfordt",
                                          "startDate":"2017-06-03T15:30",
+                                         "endDate":"2017-06-03T16:30",
+                                         "url":"http://www.gospel-people.de",
                                          "location":{
-                                            "@type":"Place",
+                                            "@type":"PlaceOfWorship",
                                             "name":"Schloßkirche, Wesel-Diersfordt",
                                             "address":{
                                                "@type":"PostalAddress",
@@ -138,30 +160,33 @@
                                          "performer":{
                                             "@type":"MusicGroup",
                                             "name":"Gospel People St. Antonius"
-                                         }
+                                         },
+                                         "eventStatus":"http://schema.org/EventScheduled"
                                       }
                                       </script>
                                     <div>
                                         <h5>
-                                            <small itemprop="startDate" content="2017-06-03T15:30">03.06.2017 15:30</small>
-                                            <span itemprop="name">Hochzeitsgottesdienst</span>
-                                            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-                                              <span itemprop="name">Schloßkirche, Wesel-Diersfordt</span>
-                                              <meta itemprop="address" content="Schloßkirche, Wesel-Diersfordt"/>
+                                            <small>03.06.2017 15:30</small>
+                                            <span>Hochzeitsgottesdienst</span>
+                                            <span>
+                                              <span>Schloßkirche, Wesel-Diersfordt</span>
                                             </span>
                                         </h5>
                                     </div>
                                 </div>
                             </li>
                             <li>
-                                <div itemscope itemtype="http://schema.org/Event">
+                                <div>
                                       <script type="application/ld+json">{
                                          "@context":"http://schema.org/",
                                          "@type":"Event",
-                                         "name":"Ökumenischer Gottesdienst in der St. Antonius Kirche",
+                                         "name":"Ökumenischer Gottesdienst",
+                                         "description":"Ökumenischer Gottesdienst in der St. Antonius Kirche",
                                          "startDate":"2017-06-05T10:30",
+                                         "endDate":"2017-06-05T11:30",
+                                         "url":"http://www.gospel-people.de",
                                          "location":{
-                                            "@type":"Place",
+                                            "@type":"PlaceOfWorship",
                                             "name":"St. Antonius Kirche",
                                             "address":{
                                                "@type":"PostalAddress",
@@ -173,16 +198,16 @@
                                          "performer":{
                                             "@type":"MusicGroup",
                                             "name":"Gospel People St. Antonius"
-                                         }
+                                         },
+                                         "eventStatus":"http://schema.org/EventScheduled"
                                       }
                                       </script>
                                     <div>
                                         <h5>
-                                            <small itemprop="startDate" content="2017-06-05T10:30">05.06.2017 10:30</small>
-                                            <span itemprop="name">Ökumenischer Gottesdienst</span>
-                                            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-                                              <span itemprop="name">St. Antonius Kirche</span>
-                                              <meta itemprop="address" content="St. Antonius Kirche"/>
+                                            <small>05.06.2017 10:30</small>
+                                            <span>Ökumenischer Gottesdienst</span>
+                                            <span>
+                                              <span>St. Antonius Kirche</span>
                                             </span>
                                         </h5>
                                     </div>
