@@ -56,11 +56,13 @@ gulp.task('htmlinclude', () => {
 gulp.task('html', ['styles', 'htmlinclude'], () => {
   return gulp.src('app/*.html')
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
-    .pipe($.if('*.js', $.uglify()))
+    .pipe($.if('*.js', $.uglify({compress: {drop_console: true}})))
     .pipe($.if('*.css', $.cssnano({discardComments: {removeAll: true}, safe: true})))
     .pipe($.if('*.html', $.htmlmin({
           collapseBooleanAttributes: true,
           collapseWhitespace: true,
+          minifyCSS: true,
+          minifyJS: {compress: {drop_console: true}},
           conservativeCollapse: true,
           removeAttributeQuotes: true,
           removeCommentsFromCDATA: true,
@@ -137,12 +139,12 @@ gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-post
 
 gulp.task('images', ['image-resize'], () => {
   return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
-    .pipe($.imagemin([
+    .pipe($.cache($.imagemin([
       $.imagemin.jpegtran({progressive: true}),
       $.imagemin.optipng({optimizationLevel: 5})
       ], {
         verbose: true
-      }))
+      })))
     .pipe(gulp.dest('.tmp/dist/images'));
 });
 
@@ -164,6 +166,8 @@ gulp.task('extras', () => {
   }).pipe(gulp.dest('dist'));
   gulp.src('node_modules/apache-server-configs/dist/.htaccess')
     .pipe(gulp.dest('dist'));
+  gulp.src('bower_components/blueimp-gallery/img/*.*')
+    .pipe(gulp.dest('dist/img'));
   return gulp.src('bower_components/TimelineJS3/compiled/{js,css}/**/*', {base: '.'})
     .pipe(gulp.dest('dist'));
 });
