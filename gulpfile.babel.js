@@ -137,17 +137,12 @@ gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-post
 
 gulp.task('images', ['image-resize'], () => {
   return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
-    .pipe($.if($.if.isFile, $.cache($.imagemin({
-      progressive: true,
-      interlaced: true,
-      // don't remove IDs from SVGs, they are often used
-      // as hooks for embedding and styling
-      svgoPlugins: [{cleanupIDs: false}]
-    }))
-    .on('error', function (err) {
-      console.log(err);
-      this.end();
-    })))
+    .pipe($.imagemin([
+      $.imagemin.jpegtran({progressive: true}),
+      $.imagemin.optipng({optimizationLevel: 5})
+      ], {
+        verbose: true
+      }))
     .pipe(gulp.dest('.tmp/dist/images'));
 });
 
