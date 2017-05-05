@@ -1292,6 +1292,36 @@
       "thumbnail": "images/history/thumbnails/2016-06-18-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 4,
+      "day": 1
+    },
+    "text": {
+      "headline": "Erfolgreiches Konzert in der Antonius Kirche",
+      "text": "Einer langen Tradition folgend, findet alle zwei Jahre in der Heimatgemeinde ein Konzert statt.<br/>In diesem Jahr war es mal wieder soweit. Mit großer Begeisterung und Leidenschaft wurde dem Publikum das neue Repertoire präsentiert. Der Chor, die Band und die Videos im Hintergrund waren gut aufeinander abgestimmt und die Zuschauer folgten der Aufforderung zum Mitmachen nur zu gerne."
+    },
+    "media": {
+      "url": "images/history/resized/2017-04-01-konzert.jpg",
+      "thumbnail": "images/history/thumbnails/2017-04-01-konzert.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 4,
+      "day": 4
+    },
+    "text": {
+      "headline": "Resonanz in der Presse"
+    },
+    "media": {
+      "url": "images/history/resized/2017-04-04-presse.jpg",
+      "thumbnail": "images/history/thumbnails/2017-04-04-presse.jpg",
+      "caption": "<a class=\"image-popup\" href=\"images/history/resized/2017-04-04-presse.jpg\" target=\"_blank\">Großansicht</a>"
+    },
+    "autolink": false
   }]
 }
 
