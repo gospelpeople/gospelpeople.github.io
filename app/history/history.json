@@ -1336,6 +1336,65 @@
       "caption": "<a class=\"image-popup\" href=\"images/history/resized/2017-04-04-presse.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 6,
+      "day": 5
+    },
+    "text": {
+      "headline": "Gottesdienst am Pfingstmontag",
+      "text": "Gospelige Klänge rundeten den ökumenischen Gottesdienst in der St. Antoniuskirche ab, an dem unter anderem auch der Superintendent Thomas Brödenfeld teilnahm."
+    },
+    "media": {
+      "url": "images/history/resized/2017-06-05-gottesdienst.jpg",
+      "thumbnail": "images/history/thumbnails/2017-06-05-gottesdienst.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 5,
+      "day": 20
+    },
+    "text": {
+      "headline": "Chorausflug nach Köln",
+      "text": "<p>Schon wieder ein Jahr vorbei? Tatsächlich!</p><p>Der jährliche Ausflug unseres Chores führte uns nach Köln. Die professionelle  Führung durch den WDR öffnete uns die Türen des großes Sendesaals, des legendären Studio B, aber auch die Heimstatt des Presseclubs. Ein besonderes Highlight war der Besuch bei Steffi Neu, die uns während ihrer Moderation der Livesendung im Studio empfing.</p><p>Mit einer traditionellen Schifffahrt über den Rhein endete ein erlebnisreicher und gut gelaunter Tag.</p>"
+    },
+    "media": {
+      "url": "images/history/resized/2017-05-20-ausflug.jpg",
+      "thumbnail": "images/history/thumbnails/2017-05-20-ausflug.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 6,
+      "day": 3
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in der Schlosskirche",
+      "text": "In der romantischen Rokoko Kirche der Schlossanlage in Wesel-Diersfordt spielten und sangen wir nach den Wünschen des Brautpaares. Bei ihrem Besuch einer unserer Proben konnten wir die persönlichen Vorlieben abstimmen."
+    },
+    "media": {
+      "url": "images/history/resized/2017-06-03-hochzeit1.jpg",
+      "thumbnail": "images/history/thumbnails/2017-06-03-hochzeit1.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 6,
+      "day": 3
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst in der Schlosskirche"
+    },
+    "media": {
+      "url": "images/history/resized/2017-06-03-hochzeit2.jpg",
+      "thumbnail": "images/history/thumbnails/2017-06-03-hochzeit2.jpg"
+    },
+    "autolink": false
   }]
 }
 
