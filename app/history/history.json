@@ -1265,6 +1265,20 @@
   }, {
     "start_date": {
       "year": 2016,
+      "month": 5,
+      "day": 21
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst"
+    },
+    "media": {
+      "url": "images/history/resized/2016-05-21-hochzeit2.jpg",
+      "thumbnail": "images/history/thumbnails/2016-05-21-hochzeit2.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2016,
       "month": 7,
       "day": 16
     },
