@@ -3,6 +3,9 @@
   "engines": {
     "node": ">=4"
   },
+  "scripts": {
+    "start": "gulp serve"
+  },
   "devDependencies": {
     "apache-server-configs": "^2.14.0",
     "babel-core": "^6.24.1",
