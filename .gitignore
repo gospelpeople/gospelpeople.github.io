@@ -17,3 +17,6 @@ app/images/history/thumbnails/
 Thumbs.db
 photobox/
 app/images/history/resized/
+*.iml
+.idea
+.publish
