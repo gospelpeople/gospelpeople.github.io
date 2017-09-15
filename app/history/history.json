@@ -1409,6 +1409,21 @@
       "thumbnail": "images/history/thumbnails/2017-06-03-hochzeit2.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 8,
+      "day": 18
+    },
+    "text": {
+      "headline": "Hochzeitsgottesdienst",
+      "text": "Im Rahmen der Hochzeitsvorbereitung suchte sich das Brautpaar, für die Trauung in Wesel Bislich, aus unserem Repertoire die individuellen Favoriten aus. Es hat uns großen Spaß gemacht diesen schwungvollen Gottesdienst zu begleiten."
+    },
+    "media": {
+      "url": "images/history/resized/2017-08-18-hochzeit.jpg",
+      "thumbnail": "images/history/thumbnails/2017-08-18-hochzeit.jpg"
+    },
+    "autolink": false
   }]
 }
 
