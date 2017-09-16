@@ -42,7 +42,7 @@ const lintOptions = {
   globals: [
     '$'
   ]
-}
+};
 
 gulp.task('lint', lint('app/scripts/**/*.js', lintOptions));
 gulp.task('lint:test', lint('test/spec/**/*.js', testLintOptions));
@@ -168,6 +168,8 @@ gulp.task('extras', () => {
     .pipe(gulp.dest('dist'));
   gulp.src('bower_components/blueimp-gallery/img/*.*')
     .pipe(gulp.dest('dist/img'));
+  gulp.src('app/images/poster/workshop*.pdf')
+    .pipe(gulp.dest('dist/images/poster'));
   return gulp.src('bower_components/TimelineJS3/compiled/{js,css}/**/*', {base: '.'})
     .pipe(gulp.dest('dist'));
 });
@@ -261,7 +263,7 @@ gulp.task('sitemap', ['rev'], () => {
       changefreq: 'weekly'
     }))
     .pipe(gulp.dest('dist'));
-})
+});
 
 gulp.task('build', ['lint', 'rev', 'extras', 'sitemap', 'json-minify'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
