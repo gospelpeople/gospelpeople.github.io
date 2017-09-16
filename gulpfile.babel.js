@@ -69,7 +69,8 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
           removeEmptyAttributes: true,
           removeOptionalTags: true,
           removeRedundantAttributes: true,
-          useShortDoctype: true
+          useShortDoctype: true,
+          processScripts: ['application/ld+json']
         })))
     .pipe(gulp.dest('.tmp/dist'));
 });
