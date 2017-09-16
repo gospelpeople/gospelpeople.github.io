@@ -76,7 +76,13 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
 
 gulp.task('rev', ['html', 'images', 'fonts'], () => {
   return gulp.src(['.tmp/dist/**', '!**/Thumbs.db'])
-    .pipe($.revAll.revision({dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g,'/images/logo.png' ], dontUpdateReference: ['.html', '/images/logo.png']}))
+    .pipe($.revAll.revision({
+      dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g,'/images/logo.png' ],
+      dontUpdateReference: ['.html', '/images/logo.png'],
+      transformPath: rev => {
+        return '/' + rev;
+      }
+    }))
     .pipe(gulp.dest('dist'));
 });
 
