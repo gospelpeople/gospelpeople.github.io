@@ -70,7 +70,8 @@ gulp.task('html', ['styles', 'htmlinclude'], () => {
           removeOptionalTags: true,
           removeRedundantAttributes: true,
           useShortDoctype: true,
-          processScripts: ['application/ld+json']
+          processScripts: ['application/ld+json'],
+          removeComments: true
         })))
     .pipe(gulp.dest('.tmp/dist'));
 });
