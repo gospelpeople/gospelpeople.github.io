@@ -32,6 +32,7 @@ function lint(files, options) {
       .pipe($.if(!browserSync.active, $.eslint.failAfterError()));
   };
 }
+
 const testLintOptions = {
   env: {
     mocha: true
@@ -48,40 +49,43 @@ gulp.task('lint', lint('app/scripts/**/*.js', lintOptions));
 gulp.task('lint:test', lint('test/spec/**/*.js', testLintOptions));
 
 gulp.task('htmlinclude', () => {
-  return gulp.src('app/templates/*.html')
+  return gulp.src('app/templates/**/*.html')
     .pipe($.fileInclude({}))
     .pipe(gulp.dest('app'));
 });
 
 gulp.task('html', ['styles', 'htmlinclude'], () => {
-  return gulp.src('app/*.html')
+  return gulp.src(['app/**/*.html', '!app/templates/*.html', '!app/includes/*.html'])
     .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
     .pipe($.if('*.js', $.uglify({compress: {drop_console: true}})))
     .pipe($.if('*.css', $.cssnano({discardComments: {removeAll: true}, safe: true})))
     .pipe($.if('*.html', $.htmlmin({
-          collapseBooleanAttributes: true,
-          collapseWhitespace: true,
-          minifyCSS: true,
-          minifyJS: {compress: {drop_console: true}},
-          conservativeCollapse: true,
-          removeAttributeQuotes: true,
-          removeCommentsFromCDATA: true,
-          removeEmptyAttributes: true,
-          removeOptionalTags: true,
-          removeRedundantAttributes: true,
-          useShortDoctype: true,
-          processScripts: ['application/ld+json'],
-          removeComments: true
-        })))
+      collapseBooleanAttributes: true,
+      collapseWhitespace: true,
+      minifyCSS: true,
+      minifyJS: {compress: {drop_console: true}},
+      conservativeCollapse: true,
+      removeAttributeQuotes: true,
+      removeCommentsFromCDATA: true,
+      removeEmptyAttributes: true,
+      removeOptionalTags: true,
+      removeRedundantAttributes: true,
+      useShortDoctype: true,
+      processScripts: ['application/ld+json'],
+      removeComments: true
+    })))
     .pipe(gulp.dest('.tmp/dist'));
 });
 
 gulp.task('rev', ['html', 'images', 'fonts'], () => {
   return gulp.src(['.tmp/dist/**', '!**/Thumbs.db'])
     .pipe($.revAll.revision({
-      dontRenameFile: ['.html',/^\/favicon\..*$/g,'history.json', /^.*\/history\/.*$/g,'/images/logo.png' ],
+      dontRenameFile: ['.html', /^\/favicon\..*$/g, 'history.json', /^.*\/history\/.*$/g, '/images/logo.png'],
       dontUpdateReference: ['.html', '/images/logo.png'],
       transformPath: rev => {
+        if (rev.startsWith('/')) {
+          return rev;
+        }
         return '/' + rev;
       }
     }))
@@ -150,14 +154,15 @@ gulp.task('images', ['image-resize'], () => {
     .pipe($.cache($.imagemin([
       $.imagemin.jpegtran({progressive: true}),
       $.imagemin.optipng({optimizationLevel: 5})
-      ], {
-        verbose: true
-      })))
+    ], {
+      verbose: true
+    })))
     .pipe(gulp.dest('.tmp/dist/images'));
 });
 
 gulp.task('fonts', () => {
-  return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
+  return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {
+  })
     .concat('app/fonts/**/*'))
     .pipe(gulp.dest('.tmp/fonts'))
     .pipe(gulp.dest('.tmp/dist/fonts'));
@@ -185,7 +190,8 @@ gulp.task('extras', () => {
 gulp.task('clean', (cb) => {
   $.cache.clearAll();
   return del(['.tmp', 'dist', 'app/*.html', 'app/images/**/thumbnails/*',
-    'app/images/**/resized/*'], cb);
+    'app/images/**/resized/*', 'app/cds/*.html', 'app/contact/*.html', 'app/gallery/*.html',
+    'app/history/*.html', 'app/imprint/*.html', 'app/songs/*.html'], cb);
 });
 
 gulp.task('json-minify', () => {
@@ -206,7 +212,7 @@ gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
     }
   });
 
-  gulp.watch('app/templates/*.html', ['htmlinclude']);
+  gulp.watch('app/templates/**/*.html', ['htmlinclude']);
 
   gulp.watch([
     'app/*.html',
@@ -256,7 +262,7 @@ gulp.task('wiredep', () => {
     }))
     .pipe(gulp.dest('app/styles'));
 
-  gulp.src('app/*.html')
+  gulp.src('app/**/*.html')
     .pipe(wiredep({
       exclude: ['bootstrap-sass'],
       ignorePath: /^(\.\.\/)*\.\./
@@ -265,7 +271,8 @@ gulp.task('wiredep', () => {
 });
 
 gulp.task('sitemap', ['rev'], () => {
-  return gulp.src(['dist/*.html', '!dist/imprint.html'])
+  return gulp.src(['dist/**/*.html', '!dist/imprint/**', '!dist/templates/**', '!dist/includes/**',
+    '!dist/bower_components/**', '!dist/{cds,contact,gallery,history,songs,imprint}.html'])
     .pipe($.sitemap({
       siteUrl: 'http://www.gospel-people.de',
       changefreq: 'weekly'
@@ -281,7 +288,7 @@ gulp.task('validate', () => {
   gulp.src('dist/*.html').pipe($.htmlValidator()).pipe(gulp.dest('.tmp/validate'));
 });
 
-gulp.task('default', $.sequence('clean','build'));
+gulp.task('default', $.sequence('clean', 'build'));
 
 gulp.task('deploy', ['default'], () => {
   return gulp.src('dist/**/*')

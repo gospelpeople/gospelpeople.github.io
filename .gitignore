@@ -20,3 +20,9 @@ app/images/history/resized/
 *.iml
 .idea
 .publish
+/app/cds/index.html
+/app/contact/index.html
+/app/history/index.html
+/app/gallery/*.html
+/app/imprint/index.html
+/app/songs/index.html
