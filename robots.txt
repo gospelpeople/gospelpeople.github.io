@@ -1,5 +1,11 @@
 User-agent: *
+Disallow: /imprint/
 Disallow: /imprint.html
+Disallow: /cds.html
+Disallow: /contact.html
+Disallow: /gallery.html
+Disallow: /history.html
+Disallow: /songs.html
 Disallow: /404.html
 
 Sitemap: http://www.gospel-people.de/sitemap.xml
