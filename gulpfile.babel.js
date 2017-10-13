@@ -4,6 +4,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
 import del from 'del';
 import {stream as wiredep} from 'wiredep';
+import imageminMozjpeg from 'imagemin-mozjpeg';
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
@@ -152,7 +153,7 @@ gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-post
 gulp.task('images', ['image-resize'], () => {
   return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
     .pipe($.cache($.imagemin([
-      $.imagemin.jpegtran({progressive: true}),
+      imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
     ], {
       verbose: true
