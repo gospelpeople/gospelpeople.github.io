@@ -10,191 +10,265 @@ $logo-width: 207px;
 @import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 .browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
+
 body {
-    margin-top: 50px;
-    /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  margin-top: 50px;
+  /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+
 .image-bg-fluid-height, .image-bg-fixed-height {
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
 .image-bg-main {
-    background-image: url('../images/brueckestartseite.jpg');
-    background-position: 60% 18%;
+  background-image: url('../images/background/brueckestartseite-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/brueckestartseite-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/brueckestartseite-400px.jpg');
+  }
 }
+
 .image-bg-cds {
-    background-image: url('../images/chor2008.jpg');
-    background-position: center center;
+  background-image: url('../images/background/chor2008-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/chor2008-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/chor2008-400px.jpg');
+  }
 }
+
 .image-bg-gallery {
-    background-image: url('../images/sopran.jpg');
-    background-position: center center;
+  background-image: url('../images/background/sopran-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/sopran-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/sopran-400px.jpg');
+  }
 }
+
 .image-bg-history {
-    background-image: url('../images/gospelpeople.jpg');
-    background-position: center 28%;
-    height: 350px !important;
+  background-image: url('../images/background/gospelpeople-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/gospelpeople-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/gospelpeople-400px.jpg');
+  }
 }
+
 .image-bg-songs {
-    background-image: url('../images/tor.jpg');
-    background-position: center 65%;
+  background-image: url('../images/background/tor-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/tor-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/tor-400px.jpg');
+  }
 }
+
 .image-bg-contact {
-    background-image: url('../images/wiese.jpg');
-    background-position: center 38%;
+  background-image: url('../images/background/wiese-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/wiese-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/wiese-400px.jpg');
+  }
 }
+
 .image-bg-imprint {
-    background-image: url('../images/chorstartseite.jpg');
-    background-position: center 18%;
+  background-image: url('../images/background/chorstartseite-200px.jpg');
+  @media(min-width: $screen-sm-min) {
+    background-image: url('../images/background/chorstartseite-300px.jpg');
+  }
+  @media(min-width: $screen-md-min) {
+    background-image: url('../images/background/chorstartseite-400px.jpg');
+  }
 }
+
 .image-bg-fixed-height {
-    height: 200px;
-    @media(min-width:$screen-sm-min) {
-      height: 300px;
+  height: 200px;
+  @media(min-width: $screen-sm-min) {
+    height: 300px;
+  }
+  @media(min-width: $screen-md-min) {
+    height: 400px;
+  }
+  &.image-bg-history {
+    @media(min-width: $screen-md-min) {
+      height: 350px;
     }
-    @media(min-width:$screen-md-min) {
-      height: 400px;
-    }
+  }
 }
+
 .img-center {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 section {
-    padding: 30px 0;
+  padding: 30px 0;
 }
+
 .section-heading {
-    margin: 30px 0;
-    font-size: 4em;
+  margin: 30px 0;
+  font-size: 4em;
 }
+
 .section-lead {
-    margin: 30px 0;
+  margin: 30px 0;
 }
+
 .section-paragraph {
-    margin: 20px 0;
+  margin: 20px 0;
 }
+
 footer {
-    margin: 50px 0;
-    text-align: center;
+  margin: 50px 0;
+  text-align: center;
 }
-@media(max-width:$screen-sm-min) {
-    section {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-    .section-heading {
-        font-size: 2em;
-    }
+
+@media(max-width: $screen-sm-min) {
+  section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
 }
+
 .zocial:hover, .zocial:active, .zocial:visited, .zocial:focus {
-    color: white;
-    text-decoration: initial;
+  color: white;
+  text-decoration: initial;
 }
+
 .zocial {
   min-width: 277px;
 }
+
 .cds {
-    img {
-        max-height: 180px;
-    }
+  img {
+    max-height: 180px;
+  }
 }
+
 .songs {
-    a {
-        font-weight: bold;
-    }
+  a {
+    font-weight: bold;
+  }
 }
+
 .navbar-logo {
-    img {
-        height: 70px;
-        padding-top: 5px;
-        padding-right: 10px;
-    }
-    float: left;
-    @media(max-width:$logo-width + 223px) {
-        display: none;
-    }
+  img {
+    height: 70px;
+    padding-top: 5px;
+    padding-right: 10px;
+  }
+  float: left;
+  @media(max-width: $logo-width + 223px) {
+    display: none;
+  }
 }
+
 .gallery-links {
-    a:hover, a:focus, a:visited {
-        text-decoration: none;
-    }
-    h3 {
-        text-align: center;
-    }
+  a:hover, a:focus, a:visited {
+    text-decoration: none;
+  }
+  h3 {
+    text-align: center;
+  }
 }
+
 .gallery-thumbnails {
-    .row {
-        @media(min-width: $screen-md-min) {
-            .col-md-3:nth-child(4n+1) {
-                clear: both;
-            }
-        }
-        @media(max-width:$screen-md-min) {
-            .col-xs-6:nth-child(2n+1) {
-                clear: both;
-            }
-        }
+  .row {
+    @media(min-width: $screen-md-min) {
+      .col-md-3:nth-child(4n+1) {
+        clear: both;
+      }
     }
+    @media(max-width: $screen-md-min) {
+      .col-xs-6:nth-child(2n+1) {
+        clear: both;
+      }
+    }
+  }
 }
+
 .fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] {
-    width: 100% !important;
+  width: 100% !important;
 }
+
 .embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-    border: none;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  border: none;
 }
+
 .embed-container {
-    border: none;
+  border: none;
 }
+
 .embed-container iframe, .embed-container object, .embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 .sound-embed {
-    iframe {
-        width: 100%;
-        height: 80px;
-        border: none;
-    }
+  iframe {
+    width: 100%;
+    height: 80px;
+    border: none;
+  }
 }
+
 .mfp-zoom-out-cur {
-    .mfp-image-holder {
-        .mfp-close {
-            cursor: pointer;
-        }
+  .mfp-image-holder {
+    .mfp-close {
+      cursor: pointer;
     }
-    cursor: auto;
+  }
+  cursor: auto;
 }
+
 .contact-success {
-    padding: 15px;
-    display:none;
+  padding: 15px;
+  display: none;
 }
+
 #success:target .contact-success {
   display: inherit;
 }
+
 @media (max-width: $screen-lg-min) and (min-width: $screen-sm) {
-    .hidden-mid-menu {
-        display: none !important;
-    }
+  .hidden-mid-menu {
+    display: none !important;
+  }
 }
+
 .ticket-iframe {
   position: relative;
   top: 31px;
 }
+
 a {
   &:hover {
     text-decoration: none;

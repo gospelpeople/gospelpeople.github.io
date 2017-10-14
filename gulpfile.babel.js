@@ -147,11 +147,29 @@ gulp.task('image-resize-history', () => {
     .pipe(gulp.dest('app/images/history/resized'));
 });
 
+gulp.task('image-resize-background-images', () => {
+  return gulp.src('app/images/background/*.jpg',)
+    .pipe($.responsive({
+      '*.jpg': [{
+        height: 300,
+        rename: {suffix: '-300px'},
+      }, {
+        height: 200,
+        rename: {suffix: '-200px'},
+      }, {
+        rename: {suffix: '-400px'}
+      }]
+    }))
+    .pipe(gulp.dest('.tmp/dist/images/background'));
+});
+
 gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-poster',
-  'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails', 'image-resize-history']);
+  'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails', 'image-resize-history',
+  'image-resize-background-images']);
 
 gulp.task('images', ['image-resize'], () => {
-  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
+  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*',
+    '!app/images/background/**', '.tmp/dist/images/**/*.{jpg,png,gif,jpeg}'])
     .pipe($.cache($.imagemin([
       imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
@@ -206,7 +224,7 @@ gulp.task('serve', ['styles', 'fonts', 'htmlinclude', 'image-resize'], () => {
     notify: false,
     port: 9000,
     server: {
-      baseDir: ['.tmp', 'app'],
+      baseDir: ['.tmp', 'app', '.tmp/dist'],
       routes: {
         '/bower_components': 'bower_components'
       }
