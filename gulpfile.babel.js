@@ -156,7 +156,6 @@ gulp.task('images', ['image-resize'], () => {
       imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
     ], {
-      verbose: true
     })))
     .pipe(gulp.dest('.tmp/dist/images'));
 });
