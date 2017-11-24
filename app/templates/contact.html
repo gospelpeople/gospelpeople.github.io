@@ -1,8 +1,56 @@
-<html>
+<!doctype html>
+<html class="no-js" lang="de" dir="ltr">
+
 <head>
-  <link rel="canonical" href="http://www.gospel-people.de/contact/">
-  <meta http-equiv="refresh" content="0;URL='/contact/'"/>
+  @@include('../includes/header.html', {"title":"Kontakt &middot; Gospel People St. Antonius"})
 </head>
+
 <body>
+<!-- Navigation -->
+@@include('../includes/navigation.html', {"navcontact":true})
+<!-- Full Width Image Header with Logo -->
+<!-- Image backgrounds are set within the full-width-pics.css file. -->
+<header class="image-bg-contact image-bg-fixed-height" role="banner">
+</header>
+<!-- Content Section -->
+<main class="container" id="success" role="main">
+  <section>
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="section-heading">Kontakt</h1>
+        <h3>Der Vorsitzende</h3>
+        <h4>Günter Harmeling</h4>
+        <p class="contact-success bg-success">Nachricht erfolgreich verschickt!</p>
+        <form action="https://getsimpleform.com/messages?form_api_token=54d09efe083fce51d669b3cdae97731e" method="post" role="form">
+          <div class="form-group">
+            <label for="formname">Name</label>
+            <input id="formname" type="text" name="name" placeholder="Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="formemail">Email</label>
+            <input id="formemail" type="email" name="email" placeholder="Email" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="formmessage">Nachricht</label>
+            <textarea class="form-control" id="formmessage" name="message" rows="5" placeholder="Nachricht"></textarea>
+          </div>
+          <input type="hidden" name="redirect_to" value="http://www.gospel-people.de/contact.html#success" />
+          <button type="submit" class="btn btn-default">Abschicken</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          <br />
+          <small>Oder per E-Mail an: gospel-people@web.de</small>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Footer -->
+@@include('../includes/footer.html')
 </body>
+
 </html>
