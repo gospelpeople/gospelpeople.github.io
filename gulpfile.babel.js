@@ -272,7 +272,7 @@ gulp.task('wiredep', () => {
 
 gulp.task('sitemap', ['rev'], () => {
   return gulp.src(['dist/**/*.html', '!dist/imprint/**', '!dist/templates/**', '!dist/includes/**',
-    '!dist/bower_components/**', '!dist/{cds,contact,gallery,history,songs,imprint}.html'])
+    '!dist/bower_components/**', '!dist/{contact,imprint}.html'])
     .pipe($.sitemap({
       siteUrl: 'https://www.gospel-people.de',
       changefreq: 'weekly',
