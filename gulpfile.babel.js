@@ -274,7 +274,7 @@ gulp.task('sitemap', ['rev'], () => {
   return gulp.src(['dist/**/*.html', '!dist/imprint/**', '!dist/templates/**', '!dist/includes/**',
     '!dist/bower_components/**', '!dist/{cds,contact,gallery,history,songs,imprint}.html'])
     .pipe($.sitemap({
-      siteUrl: 'http://www.gospel-people.de',
+      siteUrl: 'https://www.gospel-people.de',
       changefreq: 'weekly',
       getLoc: function(siteUrl, loc, entry) {
         return loc.replace(/(.*)\.html/, '$1');

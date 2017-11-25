@@ -14,4 +14,4 @@ Disallow: /songs
 Disallow: /404.html
 Disallow: /404
 
-Sitemap: http://www.gospel-people.de/sitemap.xml
+Sitemap: https://www.gospel-people.de/sitemap.xml
