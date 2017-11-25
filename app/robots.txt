@@ -1,16 +1,8 @@
 User-agent: *
 Disallow: /imprint
 Disallow: /imprint.html
-Disallow: /cds.html
-Disallow: /cds
 Disallow: /contact.html
 Disallow: /contact
-Disallow: /gallery.html
-Disallow: /gallery
-Disallow: /history.html
-Disallow: /history
-Disallow: /songs.html
-Disallow: /songs
 Disallow: /404.html
 Disallow: /404
 
