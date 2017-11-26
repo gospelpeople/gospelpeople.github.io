@@ -21,7 +21,11 @@
         <h3>Der Vorsitzende</h3>
         <h4>Günter Harmeling</h4>
         <p class="contact-success bg-success">Nachricht erfolgreich verschickt!</p>
-        <form action="https://getsimpleform.com/messages?form_api_token=54d09efe083fce51d669b3cdae97731e" method="post" role="form">
+        <form action="/contact.html#success" method="post" role="form" data-netlify="true" netlify-honeypot="bot-hp">
+          <div class="hidden">
+            <label for="bot-hp">Nicht ausfüllen</label>
+            <input id="bot-hp" type="text" name="bot-hp">
+          </div>
           <div class="form-group">
             <label for="formname">Name</label>
             <input id="formname" type="text" name="name" placeholder="Name" class="form-control">
@@ -34,7 +38,6 @@
             <label for="formmessage">Nachricht</label>
             <textarea class="form-control" id="formmessage" name="message" rows="5" placeholder="Nachricht"></textarea>
           </div>
-          <input type="hidden" name="redirect_to" value="https://www.gospel-people.de/contact.html#success" />
           <button type="submit" class="btn btn-default">Abschicken</button>
         </form>
       </div>
