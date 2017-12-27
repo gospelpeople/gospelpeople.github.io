@@ -172,6 +172,7 @@ gulp.task('extras', () => {
   gulp.src([
     'app/*.*',
     'app/CNAME',
+    'app/_redirects',
     '!app/*.html',
     '!**/Thumbs.db'
   ], {
