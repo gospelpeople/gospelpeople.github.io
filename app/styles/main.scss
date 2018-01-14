@@ -29,33 +29,47 @@ body {
   -o-background-size: cover;
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-main {
-  background: url('../images/brueckestartseite.jpg') 60% 18%;
+  background-position: 60% 18%;
+  background-image: url('../images/brueckestartseite.jpg');
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-cds {
-  background: url('../images/chor2008.jpg') center center;
+  background-position: center;
+  background-image: url('../images/chor2008.jpg');
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-gallery {
-  background: url('../images/sopran.jpg') center center;
+  background-position: center;
+  background-image: url('../images/sopran.jpg');
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-history {
-  background: url('../images/gospelpeople.jpg') center 28%;
+  background-position: center 28%;
+  background-image: url('../images/gospelpeople.jpg');
   height: 350px !important;
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-songs {
-  background: url('../images/tor.jpg') center 65%;
+  background-position: center 65%;
+  background-image: url('../images/tor.jpg');
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-contact {
-  background: url('../images/wiese.jpg') center 38%;
+  background-position: center 38%;
+  background-image: url('../images/wiese.jpg');
 }
 
+//noinspection CssOptimizeSimilarProperties
 .image-bg-imprint {
-  background: url('../images/chorstartseite.jpg') center 18%;
+  background-position: center 18%;
+  background-image: url('../images/chorstartseite.jpg');
 }
 
 .image-bg-fixed-height {
