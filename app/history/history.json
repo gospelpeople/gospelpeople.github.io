@@ -1469,6 +1469,35 @@
       "thumbnail": "/images/history/thumbnails/2017-11-30-martinistift.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 12,
+      "day": 16
+    },
+    "text": {
+      "headline": "Konzert am Wasserschloss",
+      "text": "<p>In vorweihnachtlicher Atmosphäre fand das letzte Konzert des Jahres auf dem Weihnachtsmarkt am Wasserschloss Haus Voerde statt.</p><p>Bei winterlichen Temperaturen sangen wir uns auf der großen Veranstaltungsbühne warm und freuten uns über das interessierte Publikum.</P>"
+    },
+    "media": {
+      "url": "/images/history/resized/2017-12-16-weihnachtsmarkt1.jpg",
+      "thumbnail": "/images/history/thumbnails/2017-12-16-weihnachtsmarkt1.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2017,
+      "month": 12,
+      "day": 16
+    },
+    "text": {
+      "headline": "Konzert am Wasserschloss"
+    },
+    "media": {
+      "url": "/images/history/resized/2017-12-16-weihnachtsmarkt2.jpg",
+      "thumbnail": "/images/history/thumbnails/2017-12-16-weihnachtsmarkt2.jpg"
+    },
+    "autolink": false
   }]
 }
 
