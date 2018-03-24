@@ -2,6 +2,12 @@
 <title>@@title</title>
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+@@if (typeof robots === 'undefined') {
+<meta name="robots" content="index,follow">
+}
+@@if (typeof robots !== 'undefined') {
+<meta name="robots" content="@@robots">
+}
 <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico">
 <!--[if IE]><link rel="shortcut icon" href="/favicon.ico"><![endif]-->
 
