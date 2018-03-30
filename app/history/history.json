@@ -1510,7 +1510,8 @@
     },
     "media": {
       "url": "/images/history/resized/2018-02-27-workshop.jpg",
-      "thumbnail": "/images/history/thumbnails/2018-02-27-workshop.jpg"
+      "thumbnail": "/images/history/thumbnails/2018-02-27-workshop.jpg",
+      "caption": "<a class=\"image-popup\" href=\"/images/history/resized/2018-02-27-workshop.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
   }, {
