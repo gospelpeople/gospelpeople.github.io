@@ -1559,6 +1559,21 @@
       "caption": "<a class=\"image-popup\" href=\"/images/history/resized/2018-03-21-presse.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2018,
+      "month": 5,
+      "day": 21
+    },
+    "text": {
+      "headline": "Ökumenischer Gottesdienst am Pfingstmontag",
+      "text": "Seit 15 Jahren lädt Pfarrer Robert Mertens der katholischen Antoniuskirche in Wesel Obrighoven zum ökumenischen Gottesdienst ein. Gerne wird das Angebot von der evangelischen Gemeinde angenommen und auch in diesem Jahre durften wir den gemeinsamen Gottesdienst musikalisch gestalten."
+    },
+    "media": {
+      "url": "/images/history/resized/2018-05-21-gottesdienst.gif",
+      "thumbnail": "/images/history/thumbnails/2018-05-21-gottesdienst.gif"
+    },
+    "autolink": false
   }]
 }
 
