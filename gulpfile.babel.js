@@ -9,6 +9,8 @@ const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 const mainNPMFiles = require('npmfiles');
 
+const CACHE_DIR = 'node_modules/.cache';
+
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
     .pipe($.plumber())
@@ -93,68 +95,74 @@ gulp.task('rev', ['html', 'images'], () => {
 
 gulp.task('image-resize-gallery-thumbnails', () => {
   return gulp.src('app/images/gallery/originals/**/*.{jpg,png}')
-    .pipe($.changed('app/images/gallery/thumbnails'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/gallery/thumbnails'))
     .pipe($.imageResize({
       height: 180
     }))
-    .pipe(gulp.dest('app/images/gallery/thumbnails'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/gallery/thumbnails'));
 });
 
 gulp.task('image-resize-poster', () => {
   return gulp.src('app/images/poster/**/*.{jpg,png}')
-    .pipe($.changed('app/images/poster/thumbnails'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/poster/thumbnails'))
     .pipe($.imageResize({
       height: 180
     }))
-    .pipe(gulp.dest('app/images/poster/thumbnails'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/poster/thumbnails'));
 });
 
 gulp.task('image-resize-gallery', () => {
   return gulp.src('app/images/gallery/originals/**/*.{jpg,png}')
-    .pipe($.changed('app/images/gallery/resized'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/gallery/resized'))
     .pipe($.imageResize({
       width: 1920,
       height: 1080
     }))
-    .pipe(gulp.dest('app/images/gallery/resized'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/gallery/resized'));
 });
 
 gulp.task('image-resize-cds', () => {
   return gulp.src('app/images/cds/*.jpg')
-    .pipe($.changed('app/images/cds/thumbnails'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/cds/thumbnails'))
     .pipe($.imageResize({
       height: 180
     }))
-    .pipe(gulp.dest('app/images/cds/thumbnails'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/cds/thumbnails'));
 });
 
 gulp.task('image-resize-history-thumbnails', () => {
   return gulp.src('app/images/history/originals/*.{jpg,png,gif}')
-    .pipe($.changed('app/images/history/thumbnails'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/history/thumbnails'))
     .pipe($.imageResize({height: 32, width: 32}))
-    .pipe(gulp.dest('app/images/history/thumbnails'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/history/thumbnails'));
 });
 
 gulp.task('image-resize-history', () => {
   return gulp.src('app/images/history/originals/*.{jpg,png,gif}')
-    .pipe($.changed('app/images/history/resized'))
+    .pipe($.changed(CACHE_DIR + '/images-resize/images/history/resized'))
     .pipe($.imageResize({
       width: 1920,
       height: 1080
     }))
-    .pipe(gulp.dest('app/images/history/resized'));
+    .pipe(gulp.dest(CACHE_DIR + '/images-resize/images/history/resized'));
 });
 
 gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-poster',
   'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails', 'image-resize-history']);
 
-gulp.task('images', ['image-resize'], () => {
-  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
+gulp.task('imagemin', ['image-resize'], () => {
+  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', CACHE_DIR + '/images-resize/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
+    .pipe($.changed(CACHE_DIR + '/images-min'))
     .pipe($.cache($.imagemin([
       imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
     ], {
     })))
+    .pipe(gulp.dest(CACHE_DIR + '/images-min'));
+});
+
+gulp.task('images', ['imagemin'], () => {
+  return gulp.src(CACHE_DIR + '/images-min/**')
     .pipe(gulp.dest('.tmp/dist/images'));
 });
 
