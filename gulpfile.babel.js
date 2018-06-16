@@ -8,8 +8,10 @@ import imageminMozjpeg from 'imagemin-mozjpeg';
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 const mainNPMFiles = require('npmfiles');
+const path = require('path');
 
-const CACHE_DIR = 'node_modules/.cache';
+const PRODUCTION = process.env.CONTEXT === 'production';
+const CACHE_DIR = PRODUCTION ? path.join('/', 'opt', 'build', 'cache', 'imagescache') : path.resolve(__dirname, 'node_modules/.cache');
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
@@ -156,8 +158,7 @@ gulp.task('imagemin', ['image-resize'], () => {
     .pipe($.cache($.imagemin([
       imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
-    ], {
-    })))
+    ], {})))
     .pipe(gulp.dest(CACHE_DIR + '/images-min'));
 });
 
@@ -273,7 +274,7 @@ gulp.task('sitemap', ['rev'], () => {
     .pipe($.sitemap({
       siteUrl: 'https://www.gospel-people.de',
       changefreq: 'weekly',
-      getLoc: function(siteUrl, loc, entry) {
+      getLoc: function (siteUrl, loc, entry) {
         return loc.replace(/(.*)\.html/, '$1');
       }
     }))
