@@ -156,7 +156,7 @@ gulp.task('imagemin', ['image-resize'], () => {
   return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', CACHE_DIR + '/images-resize/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
     .pipe($.changed(CACHE_DIR + '/images-min'))
     .pipe($.cache($.imagemin([
-      imageminMozjpeg({progressive: true, quality: 80}),
+      $.imagemin.jpegtran({progressive: true}),
       $.imagemin.optipng({optimizationLevel: 5})
     ], {})))
     .pipe(gulp.dest(CACHE_DIR + '/images-min'));
