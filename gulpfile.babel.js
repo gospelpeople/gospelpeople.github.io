@@ -281,8 +281,9 @@ gulp.task('sitemap', ['rev'], () => {
     .pipe(gulp.dest('dist'));
 });
 
+console.log('Cache-Dir: ' + CACHE_DIR);
+
 gulp.task('build', ['lint', 'rev', 'extras', 'sitemap', 'json-minify'], () => {
-  console.log('Cache-Dir: ' + CACHE_DIR);
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
