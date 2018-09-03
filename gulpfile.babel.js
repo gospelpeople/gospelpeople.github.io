@@ -11,7 +11,7 @@ const mainNPMFiles = require('npmfiles');
 const path = require('path');
 
 const PRODUCTION = process.env.CONTEXT === 'production';
-const CACHE_DIR = PRODUCTION ? path.join('/', 'opt', 'build', 'cache', 'imagescache') : path.resolve(__dirname, 'node_modules/.cache');
+const CACHE_DIR = PRODUCTION ? path.resolve(process.env.NETLIFY_BUILD_BASE, 'cache', 'imagescache') : path.resolve(__dirname, 'node_modules/.cache');
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
