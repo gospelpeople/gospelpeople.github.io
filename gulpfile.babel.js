@@ -131,7 +131,7 @@ gulp.task('image-resize-cds', () => {
 gulp.task('image-resize-history-thumbnails', () => {
   return gulp.src('app/images/history/originals/*.{jpg,png,gif}')
     .pipe($.imageResize({height: 32, width: 32}))
-    .pipe(gulp.dest('app/images/history/history/thumbnails'));
+    .pipe(gulp.dest('app/images/history/thumbnails'));
 });
 
 gulp.task('image-resize-history', () => {
