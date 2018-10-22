@@ -1589,6 +1589,35 @@
       "thumbnail": "/images/history/thumbnails/2018-07-20-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2018,
+      "month": 10,
+      "day": 5
+    },
+    "text": {
+      "headline": "Konzert auf dem Weseler Kornmarkt",
+      "text": "Es ist nicht immer Blasmusik. Musik im Oktober im Zelt kann auch Gospel sein. Mit einem Konzert, auf dem Kornmarkt in der Weseler Innenstadt, läuteten wir den 13. Hanse City Lauf ein. Das sportliche Großereignis findet jährlich statt und wurde zum ersten Mal musikalisch am Vorabend eröffnet. Zur großen Freude des Chores ließ sich das Publikum mitreißen und trug somit zur ausgezeichneten Stimmung des Abends bei."
+    },
+    "media": {
+      "url": "/images/history/resized/2018-10-05-kornmarkt.jpg",
+      "thumbnail": "/images/history/thumbnails/2018-10-05-kornmarkt.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2018,
+      "month": 10,
+      "day": 5
+    },
+    "text": {
+      "headline": "Konzert auf dem Weseler Kornmarkt"
+    },
+    "media": {
+      "url": "/images/history/resized/2018-10-05-kornmarkt2.jpg",
+      "thumbnail": "/images/history/thumbnails/2018-10-05-kornmarkt2.jpg"
+    },
+    "autolink": false
   }]
 }
 
