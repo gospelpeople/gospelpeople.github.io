@@ -76,36 +76,49 @@
                         <ul class="list-unstyled">
                           <li>
                             <div>
-                              <script type="application/ld+json">{
-                                "@context":"http://schema.org/",
-                                "@type":"MusicEvent",
-                                "name":"Konzert",
-                                "description":"Konzert auf dem Weihnachtsmarkt am Wasserschloss Haus Voerde",
-                                "startDate":"2018-12-15T15:30",
-                                "endDate":"2017-12-15T17:00",
-                                "url":"http://www.gospel-people.de",
-                                "location":{
-                                  "@type":"Place",
-                                  "name":"Wasserschloss Haus Voerde",
-                                  "address":{
-                                    "@type":"PostalAddress",
-                                    "addressLocality":"Voerde (Niederrhein)",
-                                    "postalCode":"46562",
-                                    "streetAddress":"Allee 65"
-                                  }
-                                },
-                                "performer":{
-                                  "@type":"MusicGroup",
-                                  "name":"Gospel People St. Antonius"
-                                },
-                                "eventStatus":"http://schema.org/EventScheduled"
-                              }
+                              <script type="application/ld+json">
+                                {
+                                  "@context": "http://schema.org",
+                                  "@type": "Event",
+                                  "name": "Konzert",
+                                  "startDate": "2019-03-31T19:00",
+                                  "endDate": "2019-03-31T22:00",
+                                  "performer": {
+                                    "@type": "MusicGroup",
+                                    "name": "Gospel People St. Antonius"
+                                  },
+                                  "location": {
+                                    "@type": "Place",
+                                    "name": "SCALA Kulturspielhaus",
+                                    "address": {
+                                      "@type": "PostalAddress",
+                                      "streetAddress": "Wilhelmstraße 8-10",
+                                      "addressLocality": "Wesel",
+                                      "postalCode": "46483",
+                                      "addressCountry": "DE"
+                                    }
+                                  },
+                                  "offers": [{
+                                    "@type": "Offer",
+                                    "name": "Vorverkauf",
+                                    "price": "9",
+                                    "priceCurrency": "EUR",
+                                    "availability": "http://schema.org/PreOrder"
+                                  },{
+                                    "@type": "Offer",
+                                    "name": "Abendkasse",
+                                    "price": "10",
+                                    "priceCurrency": "EUR",
+                                    "validFrom": "2019-03-31T18:00",
+                                    "availability": "http://schema.org/InStock"
+                                  }]
+                                }
                               </script>
                               <div>
                                 <h5>
-                                  <small>15.12.2018 15:30</small>
+                                  <small>31.03.2019 19:00</small>
                                   <span>Konzert</span><br />
-                                  <span>Weihnachtsmarkt am Wasserschloss Haus Voerde</span>
+                                  <span>SCALA Kulturspielhaus</span>
                                 </h5>
                               </div>
                             </div>
