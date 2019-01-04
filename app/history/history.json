@@ -1618,6 +1618,35 @@
       "thumbnail": "/images/history/thumbnails/2018-10-05-kornmarkt2.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2018,
+      "month": 12,
+      "day": 15
+    },
+    "text": {
+      "headline": "Konzert bei stimmungsvoller Atmosphäre",
+      "text": "Die festliche Stimmung auf dem Weihnachtsmarkt am Wasserschloss Haus Voerde ist jedes Jahr besonders schön. Bei klirrender Kälte haben wir uns bei unserem Konzert viel Spaß und Bewegung warm gesungen. Für zwei Songs war es eine Premiere, umso größer war unsere Freude, dass sie beim Publikum gut angekommen sind."
+    },
+    "media": {
+      "url": "/images/history/resized/2018-12-15-weihnachtsmarkt1.jpg",
+      "thumbnail": "/images/history/thumbnails/2018-12-15-weihnachtsmarkt1.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2018,
+      "month": 10,
+      "day": 5
+    },
+    "text": {
+      "headline": "Konzert auf dem Weseler Kornmarkt"
+    },
+    "media": {
+      "url": "/images/history/resized/2018-12-15-weihnachtsmarkt2.jpg",
+      "thumbnail": "/images/history/thumbnails/2018-12-15-weihnachtsmarkt2.jpg"
+    },
+    "autolink": false
   }]
 }
 
