@@ -104,7 +104,7 @@ gulp.task('image-resize-gallery-thumbnails', () => {
 });
 
 gulp.task('image-resize-poster', () => {
-  return gulp.src('app/images/poster/**/*.{jpg,png}')
+  return gulp.src('app/images/poster/*.{jpg,png}')
     .pipe($.imageResize({
       height: 180
     }))
@@ -112,7 +112,7 @@ gulp.task('image-resize-poster', () => {
 });
 
 gulp.task('image-resize-gallery', () => {
-  return gulp.src('app/images/gallery/originals/**/*.{jpg,png}')
+  return gulp.src('app/images/gallery/originals/*/*.{jpg,png}')
     .pipe($.imageResize({
       width: 1920,
       height: 1080
