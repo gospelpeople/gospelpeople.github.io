@@ -193,7 +193,7 @@ gulp.task('json-minify', () => {
     .pipe(gulp.dest('dist/history/'));
 });
 
-gulp.task('serve', ['styles', 'htmlinclude', 'image-resize'], () => {
+gulp.task('serve', ['styles', 'htmlinclude'], () => {
   browserSync({
     notify: false,
     port: 9000,
