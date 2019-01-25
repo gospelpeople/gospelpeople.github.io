@@ -21,6 +21,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
+              @@if (typeof navticket != 'undefined' && navticket === true) {
+              <li class="active">
+                }
+                @@if (typeof navticket == 'undefined' || navticket !== true) {
+              <li>
+                }
+                <a href="https://www.eventim-light.com/de/a/5c3e1dadfb8098000100b7b2/e/5c475aed8aecbe000124ba12?lang=de" target="_blank" rel="noopener">Tickets</a>
+              </li>
                 @@if (typeof navsongs != 'undefined' && navsongs === true) {
                 <li class="active">
                 }
