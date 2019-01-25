@@ -147,7 +147,7 @@ gulp.task('image-resize', ['image-resize-gallery-thumbnails', 'image-resize-post
   'image-resize-gallery', 'image-resize-cds', 'image-resize-history-thumbnails', 'image-resize-history']);
 
 gulp.task('imagemin', ['image-resize'], () => {
-  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*'])
+  return gulp.src(['app/images/**/*.{jpg,png,gif,jpeg}', '!app/images/{gallery,history}/originals/**/*.*', '!app/images/images-min/**/*.*'])
     .pipe($.imagemin([
       imageminMozjpeg({progressive: true, quality: 80}),
       $.imagemin.optipng({optimizationLevel: 5})
