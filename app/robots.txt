@@ -5,5 +5,7 @@ Disallow: /contact.html
 Disallow: /contact
 Disallow: /404.html
 Disallow: /404
+Disallow: /bower_components/
+Disallow: /history/
 
 Sitemap: https://www.gospel-people.de/sitemap.xml
