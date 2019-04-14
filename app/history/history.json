@@ -1647,6 +1647,51 @@
       "thumbnail": "/images/history/thumbnails/2018-12-15-weihnachtsmarkt2.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2019,
+      "month": 3,
+      "day": 12
+    },
+    "text": {
+      "headline": "Presseankündigung für das Konzert am 31.3.2019",
+      "text": "Bis heute sorgt das ehemalige Kino mit seinem Charme für eine besondere Atmosphäre, die wir für unser Konzert mit dem Titel \"Lights\" nutzen wollen. Neue Songs, Bühnen- und Lichteffekte und natürlich eine gute Stimmung sollen das Publikum durch eine zweistündige Show begleiten."
+    },
+    "media": {
+      "url": "/images/history/resized/2019-03-12-presse.jpg",
+      "thumbnail": "/images/history/thumbnails/2019-03-12-presse.jpg",
+      "caption": "<a class=\"image-popup\" href=\"/images/history/resized/2019-03-12-presse.jpg\" target=\"_blank\">Großansicht</a>"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2019,
+      "month": 3,
+      "day": 31
+    },
+    "text": {
+      "headline": "Voller Erfolg bei ausverkauftem Haus",
+      "text": "Alles hat gepasst: Die Songs sind beim Publikum sehr gut angekommen, die Band war klasse; die Lichteffekte und Videoclips, die Ballons und nicht zuletzt die silbernen Luftschlangen, die mit dem Schlussakkord von der Decke regneten, sorgten für gelungene Überraschungen. Die ausgelassene Stimmung auf der Bühne übertrug sich schnell auf die Zuschauer, die ließen sich nicht lange bitten und waren \"voll dabei\". Alle Beteiligen gingen nach einem wunderbaren Abend glücklich nach Hause."
+    },
+    "media": {
+      "url": "/images/history/resized/2019-03-31-konzert.jpg",
+      "thumbnail": "/images/history/thumbnails/2019-03-31-konzert.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2019,
+      "month": 3,
+      "day": 31
+    },
+    "text": {
+      "headline": "Voller Erfolg bei ausverkauftem Haus"
+    },
+    "media": {
+      "url": "/images/history/resized/2019-03-31-konzert2.jpg",
+      "thumbnail": "/images/history/thumbnails/2019-03-31-konzert2.jpg"
+    },
+    "autolink": false
   }]
 }
 
