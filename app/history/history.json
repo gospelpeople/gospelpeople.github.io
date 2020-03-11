@@ -1722,6 +1722,35 @@
       "thumbnail": "/images/history/thumbnails/2019-05-11-hochzeit.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2019,
+      "month": 12,
+      "day": 15
+    },
+    "text": {
+      "headline": "Konzert auf dem Weihnachtsmarkt",
+      "text": "Zum Jahresabschluss singen wir auf der Bühne des Weihnachtsmarktes am Wasserschloss in Voerde\nzum wiederholten Male unser Open-Air-Konzert. Gegen die Kälte dick eingepackt wurden bekannte\nund neue Songs den zahlreichen Zuschauern präsentiert.\nAuf dem vollen Platz ließ sich das Publikum nicht lange bitten und war begeistert dabei."
+    },
+    "media": {
+      "url": "/images/history/resized/2019-12-15-weihnachtsmarkt-1.jpg",
+      "thumbnail": "/images/history/thumbnails/2019-12-15-weihnachtsmarkt-1.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2019,
+      "month": 12,
+      "day": 15
+    },
+    "text": {
+      "headline": "Konzert auf dem Weihnachtsmarkt"
+    },
+    "media": {
+      "url": "/images/history/resized/2019-12-15-weihnachtsmarkt-2.jpg",
+      "thumbnail": "/images/history/thumbnails/2019-12-15-weihnachtsmarkt-2.jpg"
+    },
+    "autolink": false
   }]
 }
 
