@@ -1751,6 +1751,20 @@
       "thumbnail": "/images/history/thumbnails/2019-12-15-weihnachtsmarkt-2.jpg"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2020,
+      "month": 3,
+      "day": 11
+    },
+    "text": {
+      "headline": "Presseankündigung für das Konzert am 11.3.2020"
+    },
+    "media": {
+      "url": "/images/history/resized/2020-03-11-konzertankuendigung.jpg",
+      "thumbnail": "/images/history/thumbnails/2020-03-11-konzertankuendigung.jpg"
+    },
+    "autolink": false
   }]
 }
 
