@@ -1762,7 +1762,8 @@
     },
     "media": {
       "url": "/images/history/resized/2020-03-11-konzertankuendigung.jpg",
-      "thumbnail": "/images/history/thumbnails/2020-03-11-konzertankuendigung.jpg"
+      "thumbnail": "/images/history/thumbnails/2020-03-11-konzertankuendigung.jpg",
+      "caption": "<a class=\"image-popup\" href=\"/images/history/resized/2020-03-11-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
   }]
