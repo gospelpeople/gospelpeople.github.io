@@ -1766,6 +1766,35 @@
       "caption": "<a class=\"image-popup\" href=\"/images/history/resized/2020-03-11-konzertankuendigung.jpg\" target=\"_blank\">Großansicht</a>"
     },
     "autolink": false
+  }, {
+    "start_date": {
+      "year": 2021,
+      "month": 9,
+      "day": 25
+    },
+    "text": {
+      "headline": "Fahrradausflug am Niederrhein",
+      "text": "Nachdem der Chorausflug 2020 wegen der Corona Pandemie ausfallen musste, freuten uns umso mehr auf unseren gemeinsamen Ausflug. Mit dem Fahrrad ging es nach Rhede, wo für die wohlverdienten Pause Kaffee und Kuchen bereitstanden. Beim nächsten Stopp nahm uns der NABU mit in die beeindruckende Welt der Greifvögel. In der Schillkaserne wird eine Pflege- und Auswilderungsstation für Greifvögel betrieben, die sich um verletzte Tiere kümmert und später auswildert. Mit guter Stimmung und gemütlichen Grillen endete ein schöner Tag, den wir nach langer Zeit alle genossen haben."
+    },
+    "media": {
+      "url": "/images/history/resized/2021-10-25-ausflug1.jpg",
+      "thumbnail": "/images/history/thumbnails/2021-10-25-ausflug1.jpg"
+    },
+    "autolink": false
+  }, {
+    "start_date": {
+      "year": 2021,
+      "month": 9,
+      "day": 25
+    },
+    "text": {
+      "headline": "Fahrradausflug am Niederrhein"
+    },
+    "media": {
+      "url": "/images/history/resized/2021-10-25-ausflug2.jpg",
+      "thumbnail": "/images/history/thumbnails/2021-10-25-ausflug2.jpg"
+    },
+    "autolink": false
   }]
 }
 
